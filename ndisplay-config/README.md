@@ -90,7 +90,7 @@ Since our resolution is less than a 4K screen we can use a single cluster node t
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-You can leave th e
+You can leave the the node named
 
 ![alt_text](images/node0Settings.png)
 
