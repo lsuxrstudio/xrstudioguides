@@ -49,9 +49,9 @@ Now the only other special thing is that we have calibrated world 0,0 in our spa
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Select the **Stages** folder. Press the green <kbd>Add/Import<\kbd> button and 
+Select the **Stages** folder. Press the green <kbd>Add/Import<\kbd> button and add a **nDisplay | nDisplay Config** file to the folder.
 
-![alt_text](images/nDisplayConfig.png)
+![add nDisplay Config to project](images/nDisplayConfig.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
