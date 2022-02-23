@@ -15,7 +15,7 @@ How to create an Unreal project from scratch in Unreal 4.27 for an in camera vir
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-Run the **Epic Games Launcher** and run the latest version of Unreal. Selet the **Film** project category.  Press the <kbd>Next</kbd> button. Select a **Blank** template. Press the <kbd>Next</kbd> button.
+Run the **Epic Games Launcher** and run the latest version of Unreal. Selet the **Film, Television, and Live Events** project category.  Press the <kbd>Next</kbd> button. Select a **Blank** template. Press the <kbd>Next</kbd> button.
 
 ![alt_text](images/SelectNewProject.png)
 
