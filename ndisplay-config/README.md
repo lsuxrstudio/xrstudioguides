@@ -59,19 +59,24 @@ Select the **Stages** folder. Press the green <kbd>Add/Import<\kbd> button and a
 
 Open up the **LSUnDisplayConfig** file.  Press the green <kbd>Add Component</kbd> button and add an **ICVFX Camera** and a **Static Mesh**.
 
+
 ![add two components icvx camera and static mesh](images/addCamAndStaticMesh.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Click on the **StaticMesh** component and add the **LSU_LED_Wall** to the mesh in the **Details** panel.
+
+![add lsu_led_wall to static mesh component](images/staticMeshWall.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Rotate the mesh so it is in the front of the stage.  The letters should be right side up if we are looking at the screen.
+
+![rotate mesh to front of room](images/rotateMesh.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
