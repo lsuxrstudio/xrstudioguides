@@ -83,7 +83,8 @@ Rotate the mesh so it is in the front of the stage.  The letters should be right
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Since our resolution is less than a 4K screen we can use a single cluster node to power the screen.  Right click on **Cluster** and select 
-![alt_text](images/clusterNode.png.png)
+
+![alt_text](images/clusterNode.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
