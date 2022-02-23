@@ -49,7 +49,7 @@ Now the only other special thing is that we have calibrated world 0,0 in our spa
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Select the **Stages** folder. Press the green <kbd>Add/Import<\kbd> button and add a **nDisplay | nDisplay Config** file to the folder.
+Select the **Stages** folder. Press the green <kbd>Add/Import<\kbd> button and add a **nDisplay | nDisplay Config** file to the folder. Call this file `LSUnDisplayConfig`.
 
 ![add nDisplay Config to project](images/nDisplayConfig.png)
 
@@ -57,7 +57,9 @@ Select the **Stages** folder. Press the green <kbd>Add/Import<\kbd> button and a
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-![add two components](images/addCamAndStaticMesh.png)
+Open up the **LSUnDisplayConfig** file.  Press the green <kbd>Add Component</kbd> button and add an **ICVFX Camera** and a **Static Mesh**.
+
+![add two components icvx camera and static mesh](images/addCamAndStaticMesh.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
