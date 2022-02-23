@@ -9,6 +9,10 @@
 * [UE3 Single Camera From Scratch](unreal-base-setup/README.md)
 * 
 
+## Unreal Operator Checklist
+* Make sure P4V is running
+* Make sure SwitchboardListerner.exe is running
+
 ## Notes
 - cineCamera needs LiveLinkComponentController
 
