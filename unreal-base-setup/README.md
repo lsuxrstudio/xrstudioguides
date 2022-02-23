@@ -1,12 +1,12 @@
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-### Add Title
+### Setting Up
 
 <sub>[previous](../) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-How to create an Unreal project from scratch in Unreal 4.27 for an in camera virual production using LSU's equipment. UE5 is still in Beta and has not ported over the virutal production capablities from UE4 yet.
+How to create an Unreal project from scratch in Unreal 4.27 for an in-camera virual production using LSU's equipment in their XR lab in room 1001 at the DMC. UE5 is still in Beta and has not ported over the virutal production capablities from UE4 yet.
 
 <br>
 
@@ -64,9 +64,9 @@ OK, we need to quit Unreal and set up a **Perforce Depot** (Project).  Either ad
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to add this new depot to the workspace (it does not know it is there). Right lick on the **Workspaces** in **P4V**.
+Now we need to add this new depot to the workspace (it does not know it is there). Right lick on the **Workspaces** in **P4V**. Right click on the workspace and select **Edit Workspace 'name of workspace'**. Then a window pops up and select **Include Tree**. Then select <kbd>Get Latest</kbd> button.
 
-![alt_text](images/SetDepotToWorkspace.png)
+![add depot to workspace](images/SetDepotToWorkspace.png)
 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
@@ -77,36 +77,42 @@ Create a directory in your workspace drive (mine is D:\perforce) with the exact 
 
 ![create new changelist](images/newChangelist.png)
 
-Now drag **readme.txt** to the changelist and submit it to the server. 
 
-![alt_text](images/addToChangelist.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
- Now you should see the new Depot in the **Depot** tab.
+Now drag **readme.txt** to the changelist and submit it to the server. 
 
-![alt_text](images/.png)
+![alt_text](images/addToChangelist.png)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-![alt_text](images/.png)
+ Now you should see the new **Templates** depot in the **Depot** tab with the single text file.
+
+![template depot](images/templateDepot.png)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now drag the entire Unreal folder you created into this new folder. Right click and include **Binaries, Config, Content, Source and MyProject folder**.  The Source folder is created to store source assets that are used in Unreal where all your raw art and audio files go.  Press the **Add** button and then **Submit** them to the repot.
+
+![include all key folders and add and submit](images/addKeyFolders.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now launch the game from **P4V** by double clicking an launching Unreal from the interface and not from the explorer or through Epics tools.
+
+![launch game from P4V](images/runGameFromP4V.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 

@@ -6,7 +6,7 @@
 * How to get LSU template for single camera LED wall shoot
 
 ### Unreal
-* [UE3 Single Camera From Scratch](unreal-base-setup/README.md)
+* [UE3 Single Camera From Scratch](unreal-base-setup/README.md#setting-up)
 * 
 
 ## Unreal Operator Checklist
