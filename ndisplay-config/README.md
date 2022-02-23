@@ -90,7 +90,7 @@ Since our resolution is less than a 4K screen we can use a single cluster node t
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-You can leave the the node named
+You can leave the the node named **Node_0**). Make sure the **Parent** is set **Cluster**. The **ip** of our main machine is `230.39.92.193`.  **Enable Sound** and enable **Full Screen**.  Set the **W** of the screen to 3840 pixels 176 pixels square per panel.
 
 ![alt_text](images/node0Settings.png)
 
