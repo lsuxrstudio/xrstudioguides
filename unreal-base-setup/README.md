@@ -50,7 +50,7 @@ Make sure **SwitchBoardListener is running**.  You can find it in **C:\Program F
 
 Now you know if it working by making sure the terminal does not display any errors.  This looks good.
 
-![switchboard running](images/switchBoardRunning.png)
+![switchboard running](images/switchBoardRunning.PNG)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
