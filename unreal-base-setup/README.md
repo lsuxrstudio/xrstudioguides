@@ -135,12 +135,15 @@ Now you will create two folders `Stage` and `Scenes`.  The stage folder will hav
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
 Now when you go to save, if you have not checked out the file you will be prompted to 
+**Check out Selected**. NEVER select **Make Writable**.  This should never be used.  The only reason a file can't be checked out is if someone else is using it.  Just ask that person to check it back in so you can access it. In this case select **Check Out Selected** (any time you try and save an existing non-checked out asset).
 
 ![check out or save locally](images/checkoutSelected.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+
 
 ![alt_text](images/.png)
 
