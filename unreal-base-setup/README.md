@@ -31,7 +31,7 @@ Select whether you want starter content or not and whether you want to enable or
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **Edit | Plugins** and in the **Virtual Reality** section turn off **SteamVR**, **Oculus** and the three **OpenXR** plugins.
+Open up **Edit | Plugins** and in the **Virtual Reality** section turn off **SteamVR**, **Oculus** and the three **OpenXR** plugins. You will need to restart the engine for this to take place.
 
 ![disable vr and open xr plugins](images/undoPlugins.png)
 
@@ -56,7 +56,9 @@ Now you know if it working by making sure the terminal does not display any erro
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+OK, we need to quit Unreal and set up a **Perforce Depot** (Project).  Either add to an existing Depot or create a new one in the **Admin** interface.  I called mine `Templates`. 
+
+![new Templates depot](images/createDepotP4.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
