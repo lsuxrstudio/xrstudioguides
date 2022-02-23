@@ -17,13 +17,15 @@ The heart of how the multi view system works in Unreal is through a plugin calle
 
 First we need a 3-D representation of our wall in exact dimesions.  Download the static mesh [LSU_LED_Wall.FBX](images/LSU_LED_Wall.FBX).
 
-![download static mesh](images/.png)
+![download static mesh](images/downloadFBXWall.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Drag the fbx you downloaded above into Unreal and accept the default settings for importing FBXs.
+
+![import lsu_led_wall.fbx](images/dragSceenToStage.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
