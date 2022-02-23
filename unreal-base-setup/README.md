@@ -17,7 +17,7 @@ How to create an Unreal project from scratch in Unreal 4.27 for an in camera vir
 
 Run the **Epic Games Launcher** and run the latest version of Unreal. Selet the **Film, Television, and Live Events** project category.  Press the <kbd>Next</kbd> button. Select a **Blank** template. Press the <kbd>Next</kbd> button.
 
-![alt_text](images/SelectNewProject.png)
+![start game launger and create blank film template](images/SelectNewProject.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -25,7 +25,7 @@ Run the **Epic Games Launcher** and run the latest version of Unreal. Selet the 
 
 Select whether you want starter content or not and whether you want to enable or disable Raytracing.  Please remember that you need an RTX or similar GPU that supports RayTracing. Name your project and select the <kbd>Create Project</kbd> button.
 
-![alt_text](images/.png)
+![select config and name project](images/nameProject.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
