@@ -56,7 +56,7 @@ Now you know if it working by making sure the terminal does not display any erro
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-OK, we need to quit Unreal and set up a **Perforce Depot** (Project).  Either add to an existing Depot or create a new one in the **Admin** interface.  I called mine `Templates`. 
+OK, we need to quit Unreal and set up a **Perforce Depot** (Project).  Either add to an existing Depot or create a new one in the **Admin** interface.  Use a normal **Local** depot. I called mine `Templates`. 
 
 ![new Templates depot](images/createDepotP4.png)
 
@@ -64,17 +64,28 @@ OK, we need to quit Unreal and set up a **Perforce Depot** (Project).  Either ad
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we need to add this new depot to the workspace (it does not know it is there). Right lick on the **Workspaces** in **P4V**.
+
+![alt_text](images/SetDepotToWorkspace.png)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Create a directory in your workspace drive (mine is D:\perforce) with the exact same name including caps as the depot.  So I have a new folder called `Templates`.  I added a `readme.txt` file with the name of the project in it. I then opened **P4V** and selected the **Pending** tab and right clicked and selected a **New Pending Changelist**.
+
+![create new changelist](images/newChangelist.png)
+
+Now drag **readme.txt** to the changelist and submit it to the server. 
+
+![alt_text](images/addToChangelist.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+ Now you should see the new Depot in the **Depot** tab.
 
 ![alt_text](images/.png)
 
