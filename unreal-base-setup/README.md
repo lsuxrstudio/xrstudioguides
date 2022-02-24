@@ -31,7 +31,7 @@ Select whether you want starter content or not and whether you want to enable or
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **Edit | Plugins** and in the **Virtual Reality** section turn off **SteamVR**, **Oculus** and the three **OpenXR** plugins. You will need to restart the engine for this to take place.
+Open up **Edit | Plugins** and in the **Virtual Reality** section turn off **SteamVR**, **Oculus** and the three **OpenXR** plugins. You will need to restart the engine for this to take place. Make sure you you have **nDisplay**, **nDisplay Support for Level Snapshots**, **Live Link**, **Live Link Over nDisplay**, **Multi-User Editing**, **Virutal Production Utilities**, **Media Framework Utilities**, **Blackmagic Media Player**. **Camera Calibration**, **Color Correct Regions**, **ICVFX**, **Level Snapshots**, **Live Link XR**, **Multi-User Editing**, **OpenColorIO**, **OSC**, **REmote Control API**, **Remote Control Web Interface**, **Switchboard**, **Time Data Monitor**.
 
 ![disable vr and open xr plugins](images/undoPlugins.png)
 
