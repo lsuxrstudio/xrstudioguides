@@ -40,14 +40,19 @@ Open up the static mesh and it is an exact replica of our screen.  It contains t
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+The only chnage we need to make to this static mesh is to set **Full Precision UVs** to `true`. This uses greater floating point accuracy when calculating the UV's (I believe).
+
+![use full precision UVs](images/fullPrecisionUvs.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 5.`\|`BTS`| :small_orange_diamond:
+
 Now the only other special thing is that we have calibrated world 0,0 in our space about 10 feet in front of the center of our screen.  That is where we calibrate all of our 3-D systems.
 
 ![pivot point in engine](images/pivotPoint.png)
 ![00 in stage](images/pivotPoint2.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
 Select the **Stages** folder. Press the green <kbd>Add/Import<\kbd> button and add a **nDisplay | nDisplay Config** file to the folder. Call this file `LSUnDisplayConfig`.
 
@@ -98,7 +103,7 @@ You can leave the the node named **Node_0**). Make sure the **Parent** is set **
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-Now you can move the ICVFX camera around and the frustum should move as well.  We have a single GPU 
+Now you can move the ICVFX camera around and the frustum should move as well.  We have a single GPU so we leave the **GPU Index** at -1 (which means a single GPU).
 
 ![inner frustum](images/gpuSettings.png)
 
