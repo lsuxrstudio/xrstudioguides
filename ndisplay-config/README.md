@@ -125,7 +125,7 @@ Now you can move the ICVFX camera around and the frustum should move as well.  W
 
 Add **CineCamera** actor to our **Main** level. Also add one copy of the **LSUnDisplayConfig** to the level as well. Make sure the **Z** is at `0` as we don't want to alter the ground position.  The setup can be moved to wherever in a future level you want to place it.  But we want the **Actor** ground level to be `0`, which is what we calibrated our camera to be starting at on **Z**.
 
-![alt_text](images/.png)
+![add cinecamera and lsundisplayconfig to level](images/addCineConfigToLvl.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -133,7 +133,7 @@ Add **CineCamera** actor to our **Main** level. Also add one copy of the **LSUnD
 
 Place the **CineCamera** actor in the **World Outliner** to be a child of **LSUnDisplayConfig**.  This way when we move the entire panel the cine camera moves with it.  Make sure the **CineCamera** is at `0,0,0` so we do not offset it.  The position will be given to the camera by the **OptiTrack** system. Name the camera `Red Komodo`.
 
-![alt_text](images/.png)
+![make camera child of nDisplay](images/makeCamChild.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -147,9 +147,19 @@ Go to the **LSUnDisplayConfig** and click on the **ICVX Camera** component and s
 
 ##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Go to **Project | Settings** and turn off camera preview window which gets in the way.
 
-Adjust the camera settings (focal length etc...).  Canon EF 16mm - 35mm 2.8.
-![alt_text](images/.png)
+![camera preview gets in way of scene](images/turnOffCameraPreview.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Adjust the camera settings.  Our **Red Komodo** has a **Sensor Width** of `27.03` mm, a **Sensor Height** of `14.26` mm.
+
+The current lens on the camera today is a Canon EF 16mm - 35mm 2.8. These values need to change for each lens. It has a **Min Focal Length** of `16.0` mm, a **Max Focal Length** of `355` mm, a **MinFStop** of `2.8`, a **Max FStop** of `22.6` and a **Diaphragm Blade Count** of `8`.
+
+![Red Komodo and Canon lens settings](images/cameraAndLens.png)
 
 Get rid of camera preview
 
