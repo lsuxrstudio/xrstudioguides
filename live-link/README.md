@@ -63,13 +63,15 @@ Now we can open up the **LiveLink** window again and select the **ActivePuck_CH2
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now this just adds it to this tracking machine.  We also need to add it to the project configuraiton so that all the other machines can get this offset as well.  Open up the **File | Plugins** folder and select **Default Role Settings**.  Open up the little **triangle** to display the options.
-
-![live link plugin screen](images/liveLinkPlugin.png)
+Now select **Presets** and choose `Save Preset`.  Save it to the **Stage** folder and call it `LiveLinkPreset`.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now this just adds it to this tracking machine.  We also need to add it to the project configuraiton so that all the other machines can get this offset as well.  Open up the **File | Plugins** folder and select **Live Link** plugin settings.  Assign `LiveLinkPreset` to **Default Live Link Preset**.  Open up the little **triangle** next to **Default Role Settings**.
+
+![live link plugin screen](images/liveLinkPlugin.png)
 
 Now you can set the **Role** to a `LiveLinkTransformRole`. 
 
