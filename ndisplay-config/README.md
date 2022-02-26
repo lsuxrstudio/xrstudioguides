@@ -40,7 +40,7 @@ Open up the static mesh and it is an exact replica of our screen.  It contains t
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-The only chnage we need to make to this static mesh is to set **Use Full Precision UVs** to `true`. This uses greater floating point accuracy when calculating the UV's (I believe).
+The only change we need to make to this static mesh is to set **Use Full Precision UVs** to `true`. This uses greater floating point accuracy when calculating the UV's (I believe).
 
 ![use full precision UVs](images/fullPrecisionUvs.png)
 
