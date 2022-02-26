@@ -34,6 +34,8 @@ Start-Up Procedure for Operator 1
 
 - [ ] Launch game on all machines
 
+<br><br>
+
 | [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
 |---|
 
