@@ -28,7 +28,9 @@ Start-Up Procedure for Operator 1
 
 - [ ] Wait until the **Compositing** and **Motion Caputure** operators are up and running
 
-- [ ] Connect to all machines in config file
+- [ ] Connect to all machines in **Switchboard**
+
+- [ ] Make sure you are connected to **Perforce**
 
 - [ ] Push correct **changelist** to all machines
 
