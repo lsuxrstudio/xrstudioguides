@@ -90,13 +90,22 @@ Rotate the mesh so it is in the front of the stage.  The letters should be right
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
+Now zero out the **Transform** on the static mesh for the screen and the screen does not start on the floor. It is 
+
+![lift the screen off the ground](images/LiftScreen.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
+
 Since our resolution is less than a 4K screen we can use a single cluster node to power the screen.  Right click on **Cluster** and select **Add New Cluster Node**.
 
 ![add new cluster node](images/clusterNode.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
+
+##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 You can leave the the node named **Node_0**). Make sure the **Parent** is set **Cluster**. The **ip** of our main machine is `230.39.92.193`.  **Enable Sound** and enable **Full Screen**.  Set the **W** of the screen to `2464` abd **H** of `1046`.  The Roe panels are pixels 176 pixels square per panel. We have a grid of 14 tiles wide by 6 tiles tall, thus giving us a resolution between 2K and 3K. Press the <kbd>Add</kbd> key.
 
@@ -104,8 +113,7 @@ You can leave the the node named **Node_0**). Make sure the **Parent** is set **
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-
-##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now you can move the ICVFX camera around and the frustum should move as well.  We have a single GPU so we leave the **GPU Index** at -1 (which means a single GPU).
 
@@ -113,7 +121,7 @@ Now you can move the ICVFX camera around and the frustum should move as well.  W
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Add **CineCamera** actor to our **Main** level. Also add one copy of the **LSUnDisplayConfig** to the level as well. Make sure the **Z** is at `0` as we don't want to alter the ground position.  The setup can be moved to wherever in a future level you want to place it.  But we want the **Actor** ground level to be `0`, which is what we calibrated our camera to be starting at on **Z**.
 
@@ -121,7 +129,7 @@ Add **CineCamera** actor to our **Main** level. Also add one copy of the **LSUnD
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
 Place the **CineCamera** actor in the **World Outliner** to be a child of **LSUnDisplayConfig**.  This way when we move the entire panel the cine camera moves with it.  Make sure the **CineCamera** is at `0,0,0` so we do not offset it.  The position will be given to the camera by the **OptiTrack** system. Name the camera `Red Komodo`.
 
@@ -129,7 +137,7 @@ Place the **CineCamera** actor in the **World Outliner** to be a child of **LSUn
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Go to the **LSUnDisplayConfig** and click on the **ICVX Camera** component and set the reference to the above **Red Komodo** camera.
 
@@ -137,10 +145,13 @@ Go to the **LSUnDisplayConfig** and click on the **ICVX Camera** component and s
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Adjust the camera settings (focal length etc...).  
+
+Adjust the camera settings (focal length etc...).  Canon EF 16mm - 35mm 2.8.
 ![alt_text](images/.png)
+
+Get rid of camera preview
 
 ___
 
