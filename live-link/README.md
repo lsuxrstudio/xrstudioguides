@@ -47,7 +47,7 @@ Call this new blueprint `BP_OptiTrack_Offset`.  Double click it.  It will either
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Sometimes the blueprint will open up in the full editor and you can make the adjustments in the **Details** panel.
+Sometimes the blueprint will open up in the full editor and you can make the same adjustments in the **Details** panel.
 
 ![full bp editor](images/otherModeBP.png)
 
@@ -55,21 +55,25 @@ Sometimes the blueprint will open up in the full editor and you can make the adj
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
+Now we can open up the **LiveLink** window again and select the **ActivePuck_CH20_ID1** camera tracker in the **Subject Name** window.  Now in the **Pre Processor** press the **+** key and assign the **BP_Optitrack_Offset** blueprint in preprocessor slot `0`.
 
-
-![alt_text](images/.png)
+![add offset to pre processor](images/trackCamOpti.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now this just adds it to this tracking machine.  We also need to add it to the project configuraiton so that all the other machines can get this offset as well.  Open up the **File | Plugins** folder and select **Default Role Settings**.  Open up the little **triangle** to display the options.
+
+![live link plugin screen](images/liveLinkPlugin.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now you can set the **Role** to a `LiveLinkTransformRole`. 
+
+![change role to LiveLinkTransformRole](images/liveLinkPIRole.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
