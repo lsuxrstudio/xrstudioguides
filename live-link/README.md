@@ -118,7 +118,9 @@ Now select the **Subject Representatino** in the **Live Link Controller** and pi
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now you should see in game that the camera pops up to the position of where it is tracking in **OptiTrack Motive**.
+
+ADD VIDEO
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
