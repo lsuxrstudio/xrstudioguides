@@ -18,4 +18,16 @@ Start-Up Procedure for Operator 1
 
 - [ ] Log into **P4V** and make sure you have pulled the latest from **Perforce**.
 
-- [ ] Boot up ?????
+- [ ] If Project has no **Switchboard** config then create one
+
+- [ ] Launch Switchboard
+
+- [ ] Make sure the lens settings are correct on the in game **CineCamera Actor** by running the game locally.  Update **Perforce** 
+
+- [ ] Wait until the **Compositing** and **Motion Caputure** operators are up and running
+
+- [ ] Connect to all machines in config file
+
+- [ ] Push correct **changelist** to all machines
+
+- [ ] Launch game on all machines
