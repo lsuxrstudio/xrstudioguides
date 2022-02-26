@@ -3,19 +3,17 @@
 ## Unreal
 
 ### TLDR
-* How to get LSU template for single camera LED wall shoot
+
+The TLDR's are for students and faculty already trained on the system for a quick reminder for all the steps in the various roles to get up and running on your shoot.
+
+* [UE4 Template for Single Camera LED Wall Shoot]()
+
 * [Operator 1 Start-Up Checklist](op1-startup/README.md)
 
 ### Unreal
-* [UE4.27 Single Camera From Scratch](unreal-base-setup/README.md#setting-up)
-* 
+* [Create a UE4.27 Single Camera UE4 4.27 Project From Scratch](unreal-base-setup/README.md#setting-up)
 
-## Unreal Operator Checklist
-* Make sure P4V is running
-* Make sure SwitchboardListerner.exe is running
 
-## Notes
-- cineCamera needs LiveLinkComponentController
 
 </p>
 </details>
