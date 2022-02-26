@@ -15,7 +15,7 @@ Now we have the base nDisplay config set up.  We need to add camera tracking int
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-Lets get livelink setup to bring in Mocap data from the **OptiTrack**.  Make sure the motion capture system is turned on, has streaming enabled and has a static mesh tracking the camera on set.  Go to **Window | Live Link** and add a 
+Lets get livelink setup to bring in Mocap data from the **OptiTrack**.  Make sure the motion capture system is turned on, has streaming enabled and has a static mesh tracking the camera on set.  Go to **Window | Live Link** and add a **OptiTrack** tracker.
 
 ![alt_text](images/.png)
 
@@ -23,7 +23,7 @@ Lets get livelink setup to bring in Mocap data from the **OptiTrack**.  Make sur
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-Add an **Opti Track** source
+Make sure your tracker has a green (not yellow or red) light and the name of the static mesh is the same as the one on the tracker. In our case it is called **ActivePuck_CH20_ID1**. Make sure that **Rebroadcast Subject** is set to `true`.
 
 ![alt_text](images/.png)
 
@@ -31,31 +31,31 @@ Add an **Opti Track** source
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Opti track should be green and showing the same name as the static mesh is called in Motive.
+Now the orientation of the axis in OptiTrack is not the same as what **Unreal** expects.  The camera would not mimic the movement on set correctly.  We need to select the **Stage** folder and press the <kbd>Add/Import</kbd> button.  Select **Blueprint** and this time we will search for the `LiveLinkTransformAxisSwitchPreProcessor(TransformAxisSwitch).
 
-![alt_text](images/.png)
+![create a axis transform blueprint](images/liveLinkTransformBP.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add to the **Red Komodo** camera a **live link controller** component. Assign the camera that is being broadcast by **Opti Track** in the details panel.
+Call this new blueprint `BP_OptiTrack_Offset`.  Double click it.  It will either look like a normal blueprint or come in a reduced form.  In either case you want to set the **Front Axis** (what Unreal thinks of facing forward or **X**) as `-Y-axis` coming from **OptiTrack** (inverting the Y axis as the positive direction is wrong).  Set the **Right Axis** to the `X-Axis`.
 
-![alt_text](images/.png)
+![set front -Y and side to X](images/callTheBlueprint.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Now you should see the camera is mapped to the scene
+Sometimes the blueprint will open up in the full editor and you can make the adjustments in the **Details** panel.
 
-![alt_text](images/.png)
+![full bp editor](images/otherModeBP.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-We need to offset the x and y axis and invert the x axis as the data from the motion capture system is not in the same realtive coordinate system that Unreal is expecting. Create a new **Blueprint** called `bp_optiTrackOffset` of type ****.
+
 
 ![alt_text](images/.png)
 
