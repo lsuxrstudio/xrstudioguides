@@ -1,12 +1,12 @@
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-### Add Title
+### OptiTrack Live Link
 
 <sub>[previous](../) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Now we have the base nDisplay config set up.  We need to add camera tracking into our **Template**.  We do this the **Live Link**.  Lets get started.
+Now we have the base nDisplay config set up.  We need to add camera tracking into our **Template**.  We have an **OptiTrack** motion capture system that will track the cameras. We do this in **Unreal** using the **Live Link** plugin.  Lets get started.
 
 <br>
 
@@ -93,12 +93,17 @@ Now we also need to alter the orientation and add the pre processor. Press the *
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Assign **BP_OptiTrack_Offset** to this pre processor.
+
+![add BP_OptiTrack_Offset to preprocessor](images/bpOffset.png)
+
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
 
 ![alt_text](images/.png)
 
