@@ -31,7 +31,7 @@ Make sure your tracker has a green (not yellow or red) light and the name of the
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now the orientation of the axis in OptiTrack is not the same as what **Unreal** expects.  The camera would not mimic the movement on set correctly.  We need to select the **Stage** folder and press the <kbd>Add/Import</kbd> button.  Select **Blueprint** and this time we will search for the `LiveLinkTransformAxisSwitchPreProcessor(TransformAxisSwitch).
+Now the orientation of the axis in OptiTrack is not the same as what **Unreal** expects.  The camera would not mimic the movement on set correctly.  We need to select the **Stage** folder and press the <kbd>Add/Import</kbd> button.  Select **Blueprint** and this time we will search for the `LiveLinkTransformAxisSwitchPreProcessor(TransformAxisSwitch)`.
 
 ![create a axis transform blueprint](images/liveLinkTransformBP.png)
 
