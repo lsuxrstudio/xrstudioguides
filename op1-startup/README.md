@@ -33,3 +33,7 @@ Start-Up Procedure for Operator 1
 - [ ] Push correct **changelist** to all machines
 
 - [ ] Launch game on all machines
+
+| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
+|---|
+
