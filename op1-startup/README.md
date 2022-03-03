@@ -46,6 +46,8 @@ Start-Up Procedure for Operator 1
 
 - [ ] Go to LiveLink tab and make sure the puck is being recognized and is green in color (orange and red mean no connection).
 
+- [ ] Confirm camera is tracking correctly
+
 <br><br>
 
 | [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
