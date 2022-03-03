@@ -18,6 +18,10 @@ Start-Up Procedure for Operator 1
 
 - [ ] Turn on Operator 1 computer work station
 
+- [ ] Load Tessera Remote and connect to the Brompton
+
+- [ ] If Tessera cannot find processor, power cycle the Brompton
+
 - [ ] Log into **P4V** and make sure you have pulled the latest from **Perforce**.
 
 - [ ] If Project has no **Switchboard** config then create one
