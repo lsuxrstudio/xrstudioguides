@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+The LED wall wants to receive a linear HDR signal.  Unreal has been built to output **sRGB** for computer monitors for playing games. There are a few extra steps in configuring the project to output in the correct color space. The monitor uses a **PQ** signal. We need to convert the color to **Linear PQ**.  Please note this will look wrong in your monitor viewing the project, but will look correct on the LED panels.
 
 <br>
 
@@ -14,6 +14,8 @@ Chapter introduction here.
 
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
+
+Make sure the **OCIO** plugin is enabled.
 
 ![alt_text](images/.png)
 
