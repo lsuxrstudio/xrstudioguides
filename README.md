@@ -9,6 +9,7 @@ The TLDR's are for students and faculty already trained on the system for a quic
 * [UE4 Template for Single Camera LED Wall Shoot]()
 * [Create new Config for Switchboard]()
 * [Operator 1 Start-Up Checklist](op1-startup/README.md)
+* [Camera Tracking Info]()
 
 ### Unreal
 * [Create a UE4.27 Single Camera UE4 4.27 Project From Scratch](unreal-base-setup/README.md#setting-up)
@@ -23,3 +24,4 @@ The TLDR's are for students and faculty already trained on the system for a quic
 make git m="add commit message"
 </details>
 
+[Indiemark lense encoder instructions](https://loledvirtual.com/documentation/docs/indiemarkusingencoder/)
