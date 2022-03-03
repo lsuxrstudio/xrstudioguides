@@ -26,6 +26,8 @@ Start-Up Procedure for Operator 1
 
 - [ ] If Project has no **Switchboard** config then create one
 
+- [ ] Log into our main render node machine
+
 - [ ] Launch Switchboard
 
 - [ ] Make sure the lens settings are correct on the in game **CineCamera Actor** by running the game locally.  Update **Perforce** 
