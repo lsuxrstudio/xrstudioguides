@@ -40,6 +40,8 @@ Start-Up Procedure for Operator 1
 
 - [ ] Push correct **changelist** to all machines
 
+- [ ] Change multi-user session to unique id
+
 - [ ] Launch game on all machines
 
 <br><br>
