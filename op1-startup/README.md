@@ -48,6 +48,8 @@ Start-Up Procedure for Operator 1
 
 - [ ] Confirm camera is tracking correctly
 
+- [ ] Confirm focus is tracking correctly
+
 <br><br>
 
 | [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
