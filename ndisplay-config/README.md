@@ -148,7 +148,7 @@ GET SCREENSHOT FOR THIS
 
 ##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to **Project | Settings** and turn off camera preview window which gets in the way. FINISH THIS
+Go to **Edit | Editor Preferences** and go to Level Editor - Viewports | Look and Feel | and turn off Preview Select Cameras
 
 ![camera preview gets in way of scene](images/turnOffCameraPreview.png)
 
