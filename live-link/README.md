@@ -138,8 +138,7 @@ Now we need to add focus tracking.  Go back to the **Live Link** tab and seelct 
 ##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Make sure the camera name you have in **LoNet** shows up in 
-![alt_text](images/lonetGreen
-.png)
+![alt_text](images/lonetGreen.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
