@@ -159,6 +159,7 @@ Go to **Edit | Editor Preferences** and go to Level Editor - Viewports | Look an
 
 ![camera preview gets in way of scene](images/turnOffCameraPreview.png)
 
+![turn off camera preview](images/turnOffPreviewSettings.png)
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
