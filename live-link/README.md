@@ -129,7 +129,8 @@ https://user-images.githubusercontent.com/5504953/157681712-fd89c85f-0311-4e03-b
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
-Now we need to add focus tracking.  Go back to the **Live Link** tab and 
+Now we need to add focus tracking.  Go back to the **Live Link** tab and seelct **Source** and select the **LONET 2 LiveLink** plugin and press the <kbd>OK</kbd> key.
+
 ![alt_text](images/loNetDefaultSettings.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
