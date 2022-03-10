@@ -161,7 +161,9 @@ https://user-images.githubusercontent.com/5504953/157722365-b18b5091-1fbe-466f-9
 
 ##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+If everything works resave the **Live Link** preset to the same file overwriting the old one.  Now we have live camera and lense tracking.
+
+![save live link](images/resaveLiveLinkPreset.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
