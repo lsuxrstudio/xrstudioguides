@@ -66,6 +66,8 @@ Now we can open up the **LiveLink** window again and select the **ActivePuck_CH2
 
 Now select **Presets** and choose `Save Preset`.  Save it to the **Stage** folder and call it `LiveLinkPreset`.
 
+![save opti track preset](images/savePreset.png)
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
