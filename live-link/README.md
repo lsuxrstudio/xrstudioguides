@@ -153,7 +153,7 @@ Now that we have the **LiveLink** setup we just need to have it communicate to o
 
 ##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we are able to see the focus distance change when the focal ring is moved on the camera.
+Now we are able to see the **Current Focus Distance** change when the focal ring is moved on the camera.
 
 https://user-images.githubusercontent.com/5504953/157722365-b18b5091-1fbe-466f-9c8c-6ea4a2c872d5.mp4
 
