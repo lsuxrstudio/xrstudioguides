@@ -141,8 +141,7 @@ Place the **CineCamera** actor in the **World Outliner** to be a child of **LSUn
 
 Go to the **LSUnDisplayConfig** and click on the **ICVX Camera** component and set the reference to the above **Red Komodo** camera.
 
-GET SCREENSHOT FOR THIS
-![alt_text](images/.png)
+![assign icvx camera to blueprint](images/assignICVXCam.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
