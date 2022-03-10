@@ -147,7 +147,7 @@ Make sure the camera name you have in **LoNet** shows up under **Subject Name**.
 
 Now that we have the **LiveLink** setup we just need to have it communicate to our in game camera.  Go back  to the **Main** level and select the **RedKomodo** cinecamera.  Press the green <kbd>+ Add Component</kbd> button and select a **Live Link Controller** component. Call this component `Live Link Lonet`.
 
-![live link lonet component](images/lonetLinkC.png)
+![live link lonet component](images/lonetLinkCam.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
