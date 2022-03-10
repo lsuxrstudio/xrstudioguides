@@ -18,7 +18,7 @@ Now we have the base nDisplay config set up.  We need to add camera tracking int
 Lets get livelink setup to bring in Mocap data from the **OptiTrack**.  Make sure the motion capture system is turned on, has streaming enabled and has a static mesh tracking the camera on set.  Go to **Window | Live Link** and add a **OptiTrack Soucce** with default settings.
  Press the <kbd>Create</kbd> button.
  
-![alt_text](images/.png)
+![add opti track to game engine](images/.addOptiTrackpng)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -26,7 +26,7 @@ Lets get livelink setup to bring in Mocap data from the **OptiTrack**.  Make sur
 
 Make sure your tracker has a green (not yellow or red) light and the name of the static mesh is the same as the one on the tracker. In our case it is called **ActivePuck_CH20_ID1**. Make sure that **Rebroadcast Subject** is set to `true`.
 
-![alt_text](images/.png)
+![add opti track to game engine](images/addOptiTrack.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
