@@ -148,7 +148,7 @@ GET SCREENSHOT FOR THIS
 
 ##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to **Project | Settings** and turn off camera preview window which gets in the way. FINISH THIS
+Go to **Edit | Editor Preferences** and go to Level Editor - Viewports | Look and Feel | and turn off Preview Select Cameras
 
 ![camera preview gets in way of scene](images/turnOffCameraPreview.png)
 
@@ -158,7 +158,7 @@ Go to **Project | Settings** and turn off camera preview window which gets in th
 
 Adjust the camera settings.  Our **Red Komodo** has a **Sensor Width** of `27.03` mm, a **Sensor Height** of `14.26` mm.
 
-The current lens on the camera today is a Canon EF 16mm - 35mm 2.8. These values need to change for each lens. It has a **Min Focal Length** of `16.0` mm, a **Max Focal Length** of `355` mm, a **MinFStop** of `2.8`, a **Max FStop** of `22.6` and a **Diaphragm Blade Count** of `8`.
+The current lens on the camera today is a Canon EF 16mm - 35mm 2.8. These values need to change for each lens. It has a **Min Focal Length** of `16.0` mm, a **Max Focal Length** of `35` mm, a **MinFStop** of `2.8`, a **Max FStop** of `22.6` and a **Diaphragm Blade Count** of `8`.
 
 ![Red Komodo and Canon lens settings](images/cameraAndLens.png)
 
