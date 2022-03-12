@@ -48,7 +48,7 @@ Right click on **Stages | OCIO** and select **Open in Explorer** and now paste t
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
 Click on the **OCIO** folder and right click on the <kbd>Add/Import</kbd> button and select the **Miscellaneous 
-| OpenColorIO Configuration** node.
+| OpenColorIO Configuration** node. Call it `SRGB to PQ`.  SRGB is the native format that Unreal outputs for games and PQ is an **HDR** format that our **Brompton** processors are set up to receive.
 
 ![creat OCIO Asset](images/createOCIOAsset.png)
 
