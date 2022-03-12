@@ -1,6 +1,6 @@
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-### Output Unreal Color Space
+### HDR Output
 
 <sub>[previous](../) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../)</sub>
 
@@ -15,15 +15,17 @@ The LED wall wants to receive a linear HDR signal.  Unreal has been built to out
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-Make sure the **OCIO** plugin is enabled.
+Make sure the **OCIO** plugin is enabled. Click on **View Options** and turn on **Engine Content** and **Plugin Content**.  Search of OCIO.  Now none of the files will show up in Unreal so you will have to right click on the **OpenColorIO** folder and select **Open in Explorer**.
 
-![alt_text](images/.png)
+![set up OCIO color](images/ocioTools.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Copy the `simple.config.ocio` and the `ocio` folder.
+
+![copy config and ocio folder](images/simpleConfigOCIO.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
