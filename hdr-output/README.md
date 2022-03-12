@@ -48,7 +48,7 @@ Right click on **Stages | OCIO** and select **Open in Explorer** and now paste t
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
 Click on the **OCIO** folder and right click on the <kbd>Add/Import</kbd> button and select the **Miscellaneous 
-| OpenColorIO Profile** node.
+| OpenColorIO Configuration** node.
 
 ![creat OCIO Asset](images/createOCIOAsset.png)
 
