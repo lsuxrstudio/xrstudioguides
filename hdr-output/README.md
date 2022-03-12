@@ -23,7 +23,7 @@ Make sure the **OCIO** plugin is enabled. Click on **View Options** and turn on 
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-Copy the `simple.config.ocio` and the `ocio` folder.
+Copy the `simple.config.ocio` and the `luts` folder.
 
 ![copy config and ocio folder](images/simpleConfigOCIO.png)
 
