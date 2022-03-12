@@ -31,19 +31,25 @@ Copy the `simple.config.ocio` and the `ocio` folder.
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Create a new folder inside of **Stages** called `OCIO`.
+
+![create OCIO folder in Stages](images/newOCIOFolder.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Right click on **Stages | OCIO** and select **Open in Explorer** and now paste the config file and folder into this folder.  Again, this will not show up in Unreal so you will have to confirm it in Explorer.
+
+![paste files in OCIO folder](images/copyContent.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Click on the **OCIO** folder and right click on the <kbd>Add/Import</kbd> button and select the **OpenColorIO Profile** node.
+
+![creat OCIO Asset](images/createOCIOAsset.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
