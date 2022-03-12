@@ -149,7 +149,7 @@ Go to the **LSUnDisplayConfig** and click on the **ICVX Camera** component and s
 
 Now do the same thing with the **LSUnDisplayConfig** in game and click on the **ICVFX** camera and assign the **Red Komodo** as the camera there as well.
 
-![NEED SCREENSHOT](images/.png)
+![assign game camera to config file](images/assignActorInConfig.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
