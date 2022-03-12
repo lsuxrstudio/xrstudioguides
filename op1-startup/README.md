@@ -12,7 +12,9 @@ Start-Up Procedure for Operator 1
 
 ---
 
-- [ ] Make sure breaker is on for LED wall
+- [ ] Make sure breaker is on for LED wall\
+
+- [ ] Make sure all lights behind the wall are blue, red light mean no power to monitor
 
 - [ ] Power on Brompton
 
@@ -27,6 +29,8 @@ Start-Up Procedure for Operator 1
 - [ ] If Project has no **Switchboard** config then create one
 
 - [ ] Log into our main render node machine
+
+- [ ] Make sure the render node display settings is set to 100%.
 
 - [ ] Launch Switchboard
 
