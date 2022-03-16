@@ -27,7 +27,11 @@ Install the LONET Unreal plugin for focus tracking: https://loledvirtual.com/doc
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Enable both plugins under Edit > Plugins.
+Enable both plugins under Edit > Plugins. Restart Unreal.
+
+![image](https://user-images.githubusercontent.com/1238349/158688749-923dc24d-6792-4e15-8329-3f294a9a1cfa.png)
+
+![image](https://user-images.githubusercontent.com/1238349/158688852-df14a5d2-3c8a-45a2-8961-3a4db3d6b6bf.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
