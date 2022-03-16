@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-A guide to setup a render node using perforce, ndsiplay, livelink, and switchboard.
+A guide to setup a render node using perforce, nDsiplay, livelink, switchboard, OptiTrack, and LONET.
 
 <br>
 
@@ -15,13 +15,13 @@ A guide to setup a render node using perforce, ndsiplay, livelink, and switchboa
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Install the OptiTrack Unreal Plugin from: https://optitrack.com/support/downloads/plugins.html#unreal-plugin.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Install the LONET Unreal plugin for focus tracking: https://loledvirtual.com/documentation/docs/unrealreleases
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
