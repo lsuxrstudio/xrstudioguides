@@ -16,9 +16,19 @@ A guide to setup a render node using perforce, nDsiplay, livelink, switchboard, 
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-Open NVIDIA Control Panel and change resolution to match Brompton Canvas. Ie QuadHD.
+Open NVIDIA Control Panel and change Resolution to **2560x1440**; Refresh rate to **60Hz**; Desktop color depth to HDR **(64-bit)**; Output Color Depth to **12 bpc**; Output color format to **RGB**; and Output dynamic range to **Full**.
+
+![image](https://user-images.githubusercontent.com/1238349/158887097-d4749e71-697f-4da3-92e2-c70378b559f3.png)
+
+##### `Step 2.`\|`BTS`|:small_blue_diamond:
+
+Also in NVIDIA Control Panel choose **On this system** for the timing server. Then under **Server Settings** choose **An external house sync signal**. 
+
+![image](https://user-images.githubusercontent.com/1238349/158887847-f3ae6a56-e68e-4c15-9072-2ccb8544530a.png)
 
 ---
+
+### Unreal Settings
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
