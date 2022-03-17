@@ -12,6 +12,13 @@ A guide to setup a render node using perforce, nDsiplay, livelink, switchboard, 
 
 ---
 
+### GPU Settings
+
+##### `Step 1.`\|`BTS`|:small_blue_diamond:
+
+Open NVIDIA Control Panel and change resolution to match Brompton Canvas. Ie QuadHD.
+
+---
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
