@@ -19,36 +19,41 @@ Once you've gone through the Unreal Base Setup you can make sure your project la
 
 ![image](https://user-images.githubusercontent.com/1238349/159081509-a55c11fa-301d-4932-a819-291cbf960c65.png)
 
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Inside of switchboard you go to Configs > New Config and then in this dialog box you can click **detect** to automatically fill in values from source control (Perforce).
+
+![image](https://user-images.githubusercontent.com/1238349/159081892-1e186324-0252-42b1-859e-8b3b297868ca.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Click **Add Device > nDisplay** and then choose **Populate**.
+
+![image](https://user-images.githubusercontent.com/1238349/159082849-2d292a28-0946-4b09-a9c7-72e1e9384a55.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Also add an **Unreal** device with the current machine's IP: 130.39.93.73.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Change the nDisplay IP to the render node, at the moment, this is 130.39.93.72.
+
+![image](https://user-images.githubusercontent.com/1238349/159083130-69e0c102-455f-498f-bd46-ad9a58d0cf4f.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Under settings tick on **Auto Join**.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
