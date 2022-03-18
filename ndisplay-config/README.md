@@ -112,6 +112,14 @@ You can leave the the node named **Node_0**). Make sure the **Parent** is set **
 ![enter new cluster node settings](images/node0Settings.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+  
+##### `Step 12a.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+Select the **viewport** under the Cluster panel. In the Details panel change View Origin to **DefaultViewPoint**.
+
+![image](https://user-images.githubusercontent.com/1238349/159074832-74a4d008-aabe-497b-88bf-0fef1cadaf03.png)
+  
+![image](https://user-images.githubusercontent.com/1238349/159074682-930dd5a3-5b33-4bb1-8114-b911528ec758.png)
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
