@@ -172,9 +172,13 @@ Go to **Edit | Editor Preferences** and go to Level Editor - Viewports | Look an
 
 ##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Adjust the camera settings.  Our **Red Komodo** has a **Sensor Width** of `27.03` mm, a **Sensor Height** of `14.26` mm.
+Adjust the camera settings.  Our **Red Komodo** has a **Sensor Width** of `27.03` mm, a **Sensor Height** of `14.26` mm when shooting at 6K (6244 x 3250).
 
-The current lens on the camera today is a Canon EF 16mm - 35mm 2.8. These values need to change for each lens. It has a **Min Focal Length** of `16.0` mm, a **Max Focal Length** of `35` mm, a **MinFStop** of `2.8`, a **Max FStop** of `22.6` and a **Diaphragm Blade Count** of `8`.
+It's useful to note that that if camera is set to 4K DCI our sensor size is `27.03 x 14.25 mm` and for UHD our sensor size is `26.63 x 14.98 mm`. You can use these calculators to determine proportion of the sensor being used for given resolutions: https://www.scantips.com/lights/cropfactor3.html.
+  
+The current lens on the camera today is a Canon EF 16mm - 35mm 2.8. These values need to change for each lens. It has a **Min Focal Length** of `16.0` mm, a **Max Focal Length** of `35` mm, a **MinFStop** of `2.8`, a **Max FStop** of `22.6` and a **Diaphragm Blade Count** of `8`. 
+  
+
 
 ![Red Komodo and Canon lens settings](images/cameraAndLens.png)
 
