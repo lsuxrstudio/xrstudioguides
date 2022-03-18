@@ -33,7 +33,7 @@ Select whether you want starter content or not and whether you want to enable or
 
 Open up **Edit | Plugins** and in the **Virtual Reality** section turn off **SteamVR**, **Oculus** and the three **OpenXR** plugins.  
 
-Make sure you have **nDisplay**, **nDisplay Support for Level Snapshots**, **Live Link**, **Live Link Over nDisplay**, **Multi-User Editing**, **Virutal Production Utilities**, **Media Framework Utilities**, **Blackmagic Media Player**. **Camera Calibration**, **Color Correct Regions**, **ICVFX**, **Level Snapshots**, **Live Link XR**, **LiveLinkCamera**, **Lonet2 Pluagin**, **Multi-User Editing**, **OpenColorIO**, **OSC**, **REmote Control API**, **Remote Control Web Interface**, **Switchboard**, **Time Data Monitor**, **Opti Track - Live Link**, **Opti Track - Streaming Client** and **OptiTrack - Track VR Latency Optimization**  plugins ALL activated.
+Make sure you have **nDisplay**, **nDisplay Support for Level Snapshots**, **Live Link**, **Live Link Over nDisplay**, **Multi-User Editing**, **Virtual Production Utilities**, **Media Framework Utilities**, **Blackmagic Media Player**. **Camera Calibration**, **Color Correct Regions**, **ICVFX**, **Level Snapshots**, **Live Link XR**, **LiveLinkCamera**, **LONET2 Pluagin**, **OpenColorIO**, **OSC**, **Remote Control API**, **Remote Control Web Interface**, **Switchboard**, **Time Data Monitor**, **Opti Track - Live Link**, **Opti Track - Streaming Client** and **OptiTrack - Track VR Latency Optimization**  plugins ALL activated.
 
 You will need to restart the engine for this to take place.
 
