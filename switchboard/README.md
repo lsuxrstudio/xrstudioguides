@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-The procedure for starting a new Switchboard configuration in LSU's Virtual Production Studio.
+The procedure for starting a new Switchboard configuration in LSU's Virtual Production Studio. See also Unreal's generic In-camera VFX Quick Start Step 4 for assistance: https://docs.unrealengine.com/4.27/en-US/WorkingWithMedia/IntegratingMedia/InCameraVFX/InCameraVFXQuickStart/.
 
 <br>
 
