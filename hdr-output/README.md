@@ -56,9 +56,9 @@ Click on the **OCIO** folder and right click on the <kbd>Add/Import</kbd> button
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Open up the **SRGBtoPQ** file and load the `simpgle.config.ocio` into the **Configuration File** slote.
+Open up the **SRGBtoPQ** file and load the `simple.config.ocio` into the **Configuration File** slote.
 
-![alt_text](images/addOpenConfig.png)
+![add simple.config.ocio to element](images/addOpenConfig.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -73,6 +73,8 @@ Next to **Desired Color Space** press the **+** button next to **Desired Color S
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Select **LSUnDIsplayACongif** in **World Outliner** and drag the *SRGBtoPQ** item to **OCIO | Configuration**.  Then select the **Source Color** as **Utility - Linear - sRGB** and **Destination Color** as **Output - LED Walls - PQ**.
 
 ![alt_text](images/.png)
 
