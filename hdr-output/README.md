@@ -90,7 +90,9 @@ Repeat the above in the **ICVFX** component in the **LSUnDIsplayACong** Blueprin
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Double check that in game these settings carry over into the **LSUDisplayConfig** in the **World Outliner**.
+
+![confirm ocio carry over to component in game](images/confirmColor.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
