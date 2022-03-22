@@ -82,7 +82,9 @@ Open the **LSUnDIsplayACong** Blueprint and select the  **OCIO | Configuration S
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/ocioIcvx.png)
+Repeat the above in the **ICVFX** component in the **LSUnDIsplayACong** Blueprint. Press the <kbd>Compile</kbd> button.
+
+![assign ocio to icvfx component](images/ocioIcvx.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
