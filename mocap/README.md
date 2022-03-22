@@ -46,7 +46,10 @@ Drag a bounding box around the 8 markers of the active tracker. If all 8 markers
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-![alt_text](images/.png)
+The rigid body should turn orange to indicate the IMU is being tracked. If not, make sure channel and IMU ID are set.
+
+![image](https://user-images.githubusercontent.com/1238349/159531682-854b526f-acc6-497f-84da-8053750ba437.png)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
