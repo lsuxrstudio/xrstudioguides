@@ -74,7 +74,7 @@ Next to **Desired Color Space** press the **+** button next to **Desired Color S
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select **LSUnDIsplayACongif** in **World Outliner** and drag the **SRGBtoPQ** item to **OCIO | Configuration Source**.  Then select the **Source Color Space** as `Utility - Linear - sRGB` and **Destination Color Space** as `Output - LED Walls - PQ`.
+Select **LSUnDIsplayACong** in **World Outliner** and drag the **SRGBtoPQ** item to **OCIO | Configuration Source**.  Then select the **Source Color Space** as `Utility - Linear - sRGB` and **Destination Color Space** as `Output - LED Walls - PQ`.
 
 ![assign ocio to ndisplay config and pick source and destination color](images/assignOCIO.png)
 
