@@ -15,7 +15,7 @@ The LED wall wants to receive a linear HDR signal.  Unreal has been built to out
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-Make sure the **OCIO** plugin is enabled. Click on **View Options** and turn on **Engine Content** and **Plugin Content**.  Search of OCIO.  Now none of the files will show up in Unreal so you will have to right click on the **OpenColorIO** folder and select **Open in Explorer**.
+Make sure the **OCIO** plugin is enabled. Click on **View Options** and turn on **Engine Content** and **Plugin Content**.  Search of OCIO.  Now none of the files will show up in Unreal so you will have to right click on the **OCIO** folder and select **Open in Explorer**.
 
 ![set up OCIO color](images/ocioTools.png)
 
@@ -48,7 +48,7 @@ Right click on **Stages | OCIO** and select **Open in Explorer** and now paste t
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
 Click on the **OCIO** folder and right click on the <kbd>Add/Import</kbd> button and select the **Miscellaneous 
-| OpenColorIO Configuration** node. Call it `SRGB to PQ`.  SRGB is the native format that Unreal outputs for games and PQ is an **HDR** format that our **Brompton** processors are set up to receive.
+| OpenColorIO Configuration** node. Call it `SRGBtoPQ`.  SRGB is the native format that Unreal outputs for games and PQ is an **HDR** format that our **Brompton** processors are set up to receive.
 
 ![creat OCIO Asset](images/createOCIOAsset.png)
 
