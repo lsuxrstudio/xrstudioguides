@@ -76,7 +76,7 @@ Next to **Desired Color Space** press the **+** button next to **Desired Color S
 
 Select **LSUnDIsplayACongif** in **World Outliner** and drag the *SRGBtoPQ** item to **OCIO | Configuration**.  Then select the **Source Color** as **Utility - Linear - sRGB** and **Destination Color** as **Output - LED Walls - PQ**.
 
-![alt_text](images/.png)
+![assign ocio to ndisplay config and pick source and destination color](images/assignOCIO.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
