@@ -68,10 +68,7 @@ Switch to the capture layout to begin streaming data to Unreal.
 
 ![image](https://user-images.githubusercontent.com/1238349/159533974-038591c7-a684-443e-9ef7-e13113205b4f.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
 ___
-
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
