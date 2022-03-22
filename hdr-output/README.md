@@ -64,7 +64,7 @@ Open up the **SRGBtoPQ** file and load the `simpgle.config.ocio` into the **Conf
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Next to **Desired Color Space** press the **+** button next to **Desired Color Space** twice.  In the slot `0` add **Utility | Utility - Curve -sRGB.  On `1` select **Output | LED Walls - PQ**
+Next to **Desired Color Space** press the **+** button next to **Desired Color Space** twice.  In the slot `0` add **Utility | Utility - Curve -sRGB**.  On `1` select **Output | LED Walls - PQ**
 
 ![add an sRGB to PQ converter](images/conversion.png)
 
