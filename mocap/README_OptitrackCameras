@@ -1,0 +1,14 @@
+Motive 2.3 
+Prime X22
+
+Wiring network switches
+	• Powered over Ethernet; wattage dependent
+
+Camera installation
+	• Aiming
+		○ To optimize the distance from screen to camera, all tracking cameras were aimed towards the back corner of our filming space. Although this is the priority area for tracking the cinema camera, each tracking camera also covers a part of the set so that tracking other objects is still possible.
+	• Focus
+		○ Cameras should be focused at the center of the zone in which the camera is moving. A wider focal depth will be provided by aperture.
+	• Aperture
+		○ To ensure the maximum focal depth, the tracking cameras should be set to the smallest aperture possible, while still being able to pick up the tracker. Our apertures were almost completely closed since the Active Puck has its own illumination, and we are not relying on IR illumination in the environment.
+
