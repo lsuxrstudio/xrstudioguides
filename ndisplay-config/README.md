@@ -58,7 +58,7 @@ Now the only other special thing is that we have calibrated world 0,0 in our spa
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
 
-Select the **Stages** folder. Press the green <kbd>Add/Import<\kbd> button and add a **nDisplay | nDisplay Config** file to the folder. Call this file `LSUnDisplayConfig`.
+Select the **Stages** folder. Press the green <kbd>Add/Import</kbd> button and add a **nDisplay | nDisplay Config** file to the folder. Call this file `LSUnDisplayConfig`.
 
 ![add nDisplay Config to project](images/nDisplayConfig.png)
 
