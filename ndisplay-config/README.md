@@ -113,23 +113,22 @@ You can leave the the node named **Node_0**). Make sure the **Parent** is set **
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
   
-##### `Step 12a.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
-Select the **viewport**, likely called `VP_0`, under the Cluster panel. In the Details panel change View Origin to **DefaultViewPoint**. Also, change Projection Policy > Type: Mesh and Projection Policy > Mesh: LSU_LED_Wall.
-
-![image](https://user-images.githubusercontent.com/1238349/159075600-53036eac-778b-4734-b869-ea5573c3ef75.png)
-  
-![image](https://user-images.githubusercontent.com/1238349/159075378-94fb858c-e15d-4960-b14e-1a4e8e66b220.png)
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now you can move the ICVFX camera around and the frustum should move as well.  We have a single GPU so we leave the **GPU Index** at -1 (which means a single GPU).
+Select the **viewport**, likely called `VP_0`, under the Cluster panel. In the Details panel change View Origin to **DefaultViewPoint**. Also, change Projection Policy > Type: Mesh and Projection Policy > Mesh: LSU_LED_Wall.
 
-![inner frustum](images/gpuSettings.png)
+  
+![set mesh and view origin](images/SetUpMeshWallConfig.png)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Now you can move the ICVFX camera around and the frustum should move as well.  We have a single GPU so we leave the **GPU Index** at -1 (which means a single GPU).
+
+![inner frustum](images/gpuSettings.png)
 
 Add **CineCamera** actor to our **Main** level. Also add one copy of the **LSUnDisplayConfig** to the level as well. Make sure the **Z** is at `0` as we don't want to alter the ground position.  The setup can be moved to wherever in a future level you want to place it.  But we want the **Actor** ground level to be `0`, which is what we calibrated our camera to be starting at on **Z**.
 
