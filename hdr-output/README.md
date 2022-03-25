@@ -73,7 +73,7 @@ Next to **Desired Color Space** press the **+** button next to **Desired Color S
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open the **LSUnDIsplayACong** Blueprint and select the  **OCIO | Configuration Source** selecting the `SRGBtoPQ` item.  Then select the **Source Color Space** as `Utility - Linear - sRGB` and **Destination Color Space** as `Output - LED Walls - PQ`.
+Open the **LSUnDisplayConfig** Blueprint and select the  **OCIO | Configuration Source** selecting the `SRGBtoPQ` item.  Then select the **Source Color Space** as `Utility - Linear - sRGB` and **Destination Color Space** as `Output - LED Walls - PQ`.
 
 ![assign ocio to ndisplay config and pick source and destination color](images/assignOCIO.png)
 
