@@ -114,7 +114,9 @@ Right now the template defaults to showing the two controller for touch screens.
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now we need to turn off some of the game rendering features that are trying a mimic a real lens (like Bloom) as we want our camera on set to do these effects natively in camera.  Make sure you set **Infinite Extent(Unbound)** to `true`.
+
+![set post process volume](images/setPosttProcessVolume.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
