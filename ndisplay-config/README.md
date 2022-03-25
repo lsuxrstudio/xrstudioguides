@@ -74,7 +74,7 @@ Open up the **LSUnDisplayConfig** file.  Press the green <kbd>Add Component</kbd
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Click on the **StaticMesh** component and add the **LSU_LED_Wall** to the mesh in the **Details** panel.
+Click on the **StaticMesh** component and add the **LSU_LED_Wall** to the mesh in the **Details** panel. Erase unused **nDisplaySystem** component.
 
 ![add lsu_led_wall to static mesh component](images/staticMeshWall.png)
 
