@@ -64,7 +64,7 @@ Open up the **SRGBtoPQ** file and load the `simple.config.ocio` into the **Confi
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Next to **Desired Color Space** press the **+** button next to **Desired Color Space** twice.  In the slot `0` add **Utility | Utility - Linear -sRGB**.  On `1` select **Output | LED Walls - PQ**
+Next to **Desired Color Space** press the **+** button next to **Desired Color Space** twice.  In the slot `0` add **Utility | Utility - Linear -sRGB**.  On `1` select **Output | LED Walls - PQ**.  We also need a third output for anyone who is working in Unreal Editor (like operator 1) to get the output color into a sRGB computer monitor color.
 
 ![add an sRGB to PQ converter](images/conversion.png)
 
