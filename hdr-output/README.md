@@ -68,7 +68,6 @@ Next to **Desired Color Space** press the **+** button next to **Desired Color S
 
 ![add an sRGB to PQ converter](images/conversion.png)
 
-![sRGB to PQ ocio file](images/finalConversion.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
