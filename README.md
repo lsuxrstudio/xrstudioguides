@@ -27,3 +27,5 @@ make git m="add commit message"
 </details>
 
 [Indiemark lense encoder instructions](https://loledvirtual.com/documentation/docs/indiemarkusingencoder/)
+
+`p4 retype -t binary //DEPOT/...`
