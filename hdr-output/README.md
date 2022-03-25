@@ -106,7 +106,9 @@ Go back to the game editor and click on **Lit** and enable **OCIO Display | Enab
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Right now the template defaults to showing the two controller for touch screens.  Turn them off by going to **Project Settings** and turn off `Always Show Touch Interface`.
+
+![turn off touch interface](images/turnOffTouch.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
