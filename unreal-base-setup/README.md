@@ -1,6 +1,6 @@
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-### Setting Up
+### Setting Up Project
 
 [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../ndisplay-config/README.md#user-content-ndisplay-config)</sub>
 
