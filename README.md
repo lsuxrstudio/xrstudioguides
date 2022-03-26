@@ -18,6 +18,7 @@ The TLDR's are for students and faculty already trained on the system for a quic
 #### Setup project with all the settings for the LSU LED Wall with no ray tracing walk through. Creating a UE4.27 Single Camera UE4 4.27 Project From Scratch. 
 * [Setting Up Projecth](unreal-base-setup/README.md#setting-up#user-content-setting-up-project)
 * [nDisplay Config](ndisplay-config/README.md#user-content-ndisplay-config)
+* [Live Link](live-link/README.md#user-content-live-link)
 
 
 ### Add To Walkthrough
