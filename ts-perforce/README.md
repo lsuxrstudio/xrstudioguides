@@ -1,24 +1,23 @@
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-### Operator 1 Shut-Down Checklist
+### Trouble Shooting Perforce
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
 <sub>[home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)</sub>
 
-Shut-Down Procedure for Operator 1
+
+Trouble Shooting Perforce
 
 <br>
 
 ---
 
-- [ ] If weekday just double click the black button on brompton in Tessera Remote or the right button on the unit itself
+- [ ] If project files are locked and no one has them checked out in Unreal then run `p4 retype -t binary //DEPOT/...`.  This will unlock **ALL** the files in the repo
 
-- [ ] If it is the weekend, power down the wall from the brompton then turn off the breakers
+- [ ] If you cannot save a level while in Unreal run **Control Panel** and look for stray **Unreal** project files that are still around.
 
-- [ ] Log out of the operator and node 0 pc
 
-- [ ] Double check naming convention of all files in project and push the last changes to Perforce
 
 <br><br>
 
