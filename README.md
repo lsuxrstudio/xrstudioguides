@@ -9,7 +9,7 @@ The TLDR's are for students and faculty already trained on the system for a quic
 * [UE4 Template for Single Camera LED Wall Shoot (No RT)]()
 * [Create new Config for Switchboard]()
 * [Operator 1 Start-Up Checklist](op1-startup/README.md)
-* [Operator 1 Shut-Down Checklist](opt1-shutdown/README.md)
+* [Operator 1 Shut-Down Checklist](op1-shutdown/README.md)
 * [Camera Tracker Start-Up Checklist](mocap/README.md)
 * [Operator 1 Production Checklist](op1-production/README.md)
 * [Camera Tracking Info]()
