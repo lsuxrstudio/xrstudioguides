@@ -38,6 +38,4 @@ The TLDR's are for students and faculty already trained on the system for a quic
 make git m="add commit message"
 </details>
 
-[Indiemark lense encoder instructions](https://loledvirtual.com/documentation/docs/indiemarkusingencoder/)
-
-`p4 retype -t binary //DEPOT/...`
+[Indiemark lense encoder instructions](https://loledvirtual.com/documentation/docs/indiemarkusingencoder/)x
