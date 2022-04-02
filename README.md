@@ -25,6 +25,9 @@ The TLDR's are for students and faculty already trained on the system for a quic
 ### Troubleshooting
 * [Perforce](ts-perforce/README.md#user-content-ts-perforce)
 
+### Tips
+* Run unreal regularly when doing work.  Do **NOT** use **Switchboard** if adding objects and making changes to levels. Changes during ***Switchboard** should only be repositioning of objects in the scene.
+
 ### Add To Walkthrough
 * When using level streaming make sure the streaming method is set to **Always Loaded** and NOT **Blueprint** loaded as it will not go to **nDisplay**.
 
