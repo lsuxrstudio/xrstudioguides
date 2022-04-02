@@ -12,7 +12,7 @@ Start-Up Procedure for Operator 1
 
 ---
 
-- [ ] Make sure breaker is on for LED wall\
+- [ ] Make sure breaker is on for LED wall
 
 - [ ] Make sure all lights behind the wall are blue, red light mean no power to monitor
 
