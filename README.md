@@ -23,7 +23,7 @@ The TLDR's are for students and faculty already trained on the system for a quic
 * [HDR Output](hdr-output/README.md#user-content-hdr-output)
 
 ### Troubleshooting
-* [Perforce]()[ts-perforce/README.md#user-content-ts-perforce]
+* [Perforce](ts-perforce/README.md#user-content-ts-perforce)
 
 ### Add To Walkthrough
 * When using level streaming make sure the streaming method is set to **Always Loaded** and NOT **Blueprint** loaded as it will not go to **nDisplay**.
