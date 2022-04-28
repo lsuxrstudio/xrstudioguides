@@ -122,7 +122,7 @@ Now we need to turn off some of the game rendering features that are trying a mi
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-In the **Post Production Volume** set the **Bloom | Intensity** to `0`, the **Vignette Intensity** to `0`, the **Tone Curve Amount** to `0`, the **Sexposure Gamut** to `0` and the **Blue Correction** to `0`.
+In the **Post Production Volume** set the **Bloom | Intensity** to `0`, the **Vignette Intensity** to `0`, the **Tone Curve Amount** to `0`, the **Expand Gamut** to `0` and the **Blue Correction** to `0`.
 
 ![adjust post production volume](images/adjustmentPostVolume.png)
 
