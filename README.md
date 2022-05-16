@@ -26,7 +26,7 @@ The TLDR's are for students and faculty already trained on the system for a quic
 * [Setting Up Lens Encoding](indie-mark/README.md#user-content-indie-mark)
 
 ### Troubleshooting
-* [Perforce](ts-perforce/README.md#user-content-ts-perforce)
+* [Troubleshooting](ts-perforce/README.md#user-content-ts-perforce)
 
 ### Tips
 * Run unreal regularly when doing work.  Do **NOT** use **Switchboard** if adding objects and making changes to levels. Changes during **Switchboard** should only be repositioning of objects in the scene.
