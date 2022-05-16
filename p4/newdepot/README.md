@@ -34,6 +34,7 @@ Start-Up Procedure for Operator 1
 
 - [ ] Now you are ready to copy over the **Unreal Projectt** files into this depot making sure the `.uproject` is in the same directory as the `.p4ignore`.  If not it will not work properly and all files, even binaries, will be included
 
+- []  Ensure **Depot** is added to both **Operator 1** and **Render Node** PC's in the lab. Please note that you cannot use the same workspace name twice but can use the same workspace root.  It is best practice to have Unreal program and workspaces installed on the same drive letter and directories on both **Operator 1** and **Render Node** machines.
 
 <br><br>
 
