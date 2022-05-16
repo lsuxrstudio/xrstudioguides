@@ -22,6 +22,10 @@ Start-Up Procedure for Operator 1
 
 - [ ] Assign persmissions to the correct **Group** in **P4 Admin** so that the workspace can access the file.  Ideally the **Group** would be called `CLASS-SECTION`.
 
+- [ ] Create a new user that has access to this new depot that is a member of the above group.  Select `File | New User` then enter a new username and you can use the same as the group.  Assign an easy to remember password for the entire class. This user should only be use in the lab computers. Under **Groups** click on `Browse` and select the above group.
+
+- [ ] Go to **Permissions** tab and insert line and assign the new group the correct **Folder/File**.  Press `Save Edits`.
+
 - [ ] If it is a new group, a new workspace might have to be created.  The workspace name should be CLASS-MACHINE for example **ART4240Operator**. Keep the workspace root the same on both **Operator** and **Render Node** machines.
 
 - [ ] When creating a new **Workspace** click onthe **Advanced** tab and set **Modtime...** to `true` and **rmdir** to `true` and **On submit** to `Revert unchanged files` then press `ok`
