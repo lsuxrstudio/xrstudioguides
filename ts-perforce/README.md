@@ -39,6 +39,25 @@ Switchboard listenter isn't running
 ### Resolution
 Open up Switchboard Listener by double clicking its icon on the desktop.
 
+---
+
+### Symptoms
+Sometimes we might get a mapping error in perforce.
+
+### Resolution
+- You can double click your workspace and change the view mapping there.
+- Or, you can rt. click > edit workspace and go to text view to edit the mappings there.
+
+---
+
+### Sympotoms
+Getting latest from p4 doens't download all of the files.
+
+### Resolution
+Open a command prompt and `cd` into your workspace directory and run `p4 sync`
+`
+
+
 
 
 | [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
