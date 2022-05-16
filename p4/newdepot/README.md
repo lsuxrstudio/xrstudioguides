@@ -33,6 +33,8 @@ Start-Up Procedure for Operator 1
 - [ ] Add the `.p4ignore` file into a changelist and submit to server.  Do this before copying over the **Unreal Project**.
 
 - [ ] Now you are ready to copy over the **Unreal Projectt** files into this depot making sure the `.uproject` is in the same directory as the `.p4ignore`.  If not it will not work properly and all files, even binaries, will be included
+
+
 <br><br>
 
 | [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
