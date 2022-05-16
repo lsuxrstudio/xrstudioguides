@@ -12,15 +12,15 @@ Start-Up Procedure for Operator 1
 
 ---
 
-- [ ] In **P4 Admin** press `File | New | Depot`.
+- [ ] In **P4 Admin** press `File | New | Depot`.`
 
-- [ ] Enter name for new Depot (don't include spaces)
+- [ ] Enter name for new Depot (don't include spaces). The name should be `YEAR-SEMESTER-CLASS-SECTION` for example **2022-Spring-ART4240-03**
 
 - [ ] Select either **local** for no branching/streaming or **stream** for branching/streaming projects.  If you don't know what streaming is, then select **local**
 
 - [ ] Press `OK`
 
-- [ ] Assign persmissions to the correct **Group** in **P4 Admin** so that the workspace can access the file
+- [ ] Assign persmissions to the correct **Group** in **P4 Admin** so that the workspace can access the file.  Ideally the **Group** would be called `CLASS-SECTION`.
 
 - [ ] If it is a new group, a new workspace might have to be created
 
