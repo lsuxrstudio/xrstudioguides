@@ -1,25 +1,31 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+# Troubleshooting Perforce
 
-### Trouble Shooting Perforce
-
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
-
-<sub>[home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)</sub>
-
-
-Trouble Shooting Perforce
-
-<br>
+- [ ] If project files are locked and no one has them checked out in Unreal then run `p4 retype -t binary //DEPOT/...`.  This will unlock **ALL** the files in the repo
+- [ ] If you cannot save a level while in Unreal run **Control Panel** and look for stray **Unreal** project files that are still around.
 
 ---
 
-- [ ] If project files are locked and no one has them checked out in Unreal then run `p4 retype -t binary //DEPOT/...`.  This will unlock **ALL** the files in the repo
+### Symptoms
+p4 info doen't show a root and says somehting like "Client Disconnected"
 
-- [ ] If you cannot save a level while in Unreal run **Control Panel** and look for stray **Unreal** project files that are still around.
+### Cause
+p4 doens't know what the client running is called. 
+
+### Resolution
+run the command `p4 set P4CLIENT=p4Operator1`
+
+---
+
+### Symptoms
+Swtichboard gives a socket error when trying to sync changes.
+
+### Cause
+Switchboard listenter isn't running
+
+### Resolution
+Open up Switchboard Listener by double clicking its icon on the desktop.
 
 
-
-<br><br>
 
 | [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
 |---|
