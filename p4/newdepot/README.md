@@ -16,7 +16,7 @@ Start-Up Procedure for Operator 1
 
 - [ ] Enter name for new Depot (don't include spaces)
 
-- [ ] Select either **local** (for no branching/steaming) or **stream** for branching/streaming projects.  If you don't know what streaming is, then select local
+- [ ] Select either **local** for no branching/streaming or **stream** for branching/streaming projects.  If you don't know what streaming is, then select **local**
 
 - [ ] Press `OK`
 
