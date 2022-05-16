@@ -23,6 +23,7 @@ The TLDR's are for students and faculty already trained on the system for a quic
 * [HDR Output](hdr-output/README.md#user-content-hdr-output)
 
 ### Perforce
+* [Add Depot to Perforce](p4/newdepot/README.md)
 
 ### Indiemark Lens Encoder
 * [Setting Up Lens Encoding](indie-mark/README.md#user-content-indie-mark)
