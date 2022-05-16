@@ -1,8 +1,22 @@
-# Troubleshooting Perforce
+# Switchboard Troubleshooting
 
-- [ ] If project files are locked and no one has them checked out in Unreal then run `p4 retype -t binary //DEPOT/...`.  This will unlock **ALL** the files in the repo
-- [ ] If you cannot save a level while in Unreal run **Control Panel** and look for stray **Unreal** project files that are still around.
+### Symptoms
+You cannot save a level while in Unreal 
 
+
+### Resolution
+Run **Task Manager** and look for stray **Unreal** instances that are still around.
+
+---
+
+# Perforce Troubleshooting
+
+### Symptoms
+Project files are locked and no one has them checked out in Unreal.
+
+### Resolution
+Run `p4 retype -t binary //DEPOT/...`.  This will unlock **ALL** the files in the repo
+ 
 ---
 
 ### Symptoms
