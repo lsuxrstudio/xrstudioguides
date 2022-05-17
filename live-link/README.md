@@ -153,7 +153,7 @@ Now that we have the **LiveLink** setup we just need to have it communicate to o
 
 ##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we have to select what the **LiveLink** data will be altering.  In this case it is pulling the **Focal Distance**.
+Now we have to select what the **LiveLink** data will be altering.  In this case it is pulling the **Focal Distance**. Turn off all of the settings we will not be using.
 
 ![select what lonet tracker changes](images/cameraPlugin.png)
 

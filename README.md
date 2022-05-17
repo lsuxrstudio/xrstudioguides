@@ -22,11 +22,18 @@ The TLDR's are for students and faculty already trained on the system for a quic
 * [Live Link](live-link/README.md#user-content-live-link)
 * [HDR Output](hdr-output/README.md#user-content-hdr-output)
 
+#### Setup Project will all the settings for the LED wall in UE5.  Creating a UE5.0.1 Single Camera project from scratch. Ray tracing should automatically be used when connected to an RTX or ray tracing compatible GPU.
+
+* [Setting Up Project](unreal5-base-setup/README.md#setting-up#user-content-setting-up-project)
+
+### Perforce
+* [Add Depot to Perforce](p4/newdepot/README.md)
+
 ### Indiemark Lens Encoder
 * [Setting Up Lens Encoding](indie-mark/README.md#user-content-indie-mark)
 
 ### Troubleshooting
-* [Perforce](ts-perforce/README.md#user-content-ts-perforce)
+* [Troubleshooting](ts-perforce/README.md#user-content-ts-perforce)
 
 ### Tips
 * Run unreal regularly when doing work.  Do **NOT** use **Switchboard** if adding objects and making changes to levels. Changes during **Switchboard** should only be repositioning of objects in the scene.
