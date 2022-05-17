@@ -1,6 +1,6 @@
 # Startup and Shutdown Procedures
 
-<sub>[previous](../) • [home](../) • [next](../)</sub>
+<sub>[previous](/) • [home](/) • [next](/)</sub>
 
 ---
 
@@ -25,5 +25,5 @@ The following section goes over the startup and shutdown procedures for hardware
 
 ---
 
-| [previous](../)| [home](../) | [next](../)|
+| [previous](/)| [home](/) | [next](/)|
 |---|---|---|
