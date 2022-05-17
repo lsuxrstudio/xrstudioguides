@@ -23,7 +23,7 @@ Run the **Epic Games Launcher** and run the latest version of Unreal. Selet the 
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-We need to download two external plugins. **Opti Track** for the **Live Link** and **Motive** and **Lonet
+We need to download two external plugins. **Opti Track** for the **Live Link** and **Motive** and **Lonet 2 - Live Link** plugins.
 
 ![select config and name project](images/twoExternalPlugins.png)
 
