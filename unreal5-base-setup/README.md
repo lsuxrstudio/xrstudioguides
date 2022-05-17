@@ -23,13 +23,17 @@ Run the **Epic Games Launcher** and run the latest version of Unreal. Selet the 
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-We need to download two external plugins. **Opti Track** for the **Live Link** and **Motive** and **Lonet 2 - Live Link** plugins.
+We need to download two external plugins. **Opti Track** for the **Live Link** support in **Motive** that handles camera tracking. For focus we are using **LOLED Indie Mark** encoders which require a server to be installed as well as a plugin for Unreal **Lonet 2 - Live Link**.
 
 ![select config and name project](images/twoExternalPlugins.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Place them in the project folder under a new directory called `Plugins`.
+
+![select config and name project](images/externalPlugins.png)
 
 Open up **Edit | Plugins** and in the **Virtual Reality** section turn off **SteamVR**, **Oculus** and the three **OpenXR** plugins.  
 
