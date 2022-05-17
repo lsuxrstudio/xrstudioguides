@@ -23,9 +23,9 @@ Run the **Epic Games Launcher** and run the latest version of Unreal. Selet the 
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-Select whether you want starter content or not and whether you want to enable or disable Raytracing.  Please remember that you need an RTX or similar GPU that supports RayTracing. Name your project and select the <kbd>Create Project</kbd> button.
+We need to download two external plugins. **Opti Track** for the **Live Link** and **Motive** and **Lonet
 
-![select config and name project](images/nameProject.png)
+![select config and name project](images/twoExternalPlugins.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
