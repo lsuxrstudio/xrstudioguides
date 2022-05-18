@@ -52,7 +52,7 @@ You will need to restart the engine for this to take place.
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Make sure **SwitchBoardListener is running**.  You can find it in **C:\Program Files\Epic Games\UE4_27\Engine\Binaries\Win64\SwitchboardListener.exe**.  Creata a shortcut for the desktop.  Run it.
+Make sure **SwitchBoardListener is running**.  You can find it in **D:\Program Files\Epic Games\UE4_5.0\Engine\Binaries\Win64\SwitchboardListener.exe**.  Creata a shortcut for the desktop.  Run it.
 
 
 ![create shortcut to switchboard listener and run](images/shortCut.png)
