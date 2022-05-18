@@ -35,6 +35,11 @@ Place them in the project folder under a new directory called `Plugins`.
 
 ![select config and name project](images/externalPlugins.png)
 
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Open up **Edit | Plugins** and in the **Virtual Reality** section turn off **SteamVR**, **Oculus** and the three **OpenXR** plugins.  
 
 Make sure you have **nDisplay**, **Level Snapshots**, **Live Link**, **Live Link Over nDisplay**, **Multi-User Editing**, **Virtual Production Utilities**, **Media Framework Utilities**, **Blackmagic Media Player**. **Camera Calibration**, **Color Correct Regions**, **ICVFX**, **Level Snapshots**, **Live Link XR**, **LiveLinkCamera**, **LONET2 Plugin**, **OpenColorIO**, **OSC**, **Remote Control API**, **Remote Control Web Interface**, **Switchboard**, **Timed Data Monitor**, **OptiTrack - Live Link** and **OptiTrack - Streaming Client** plugins ALL activated.
@@ -45,16 +50,12 @@ You will need to restart the engine for this to take place.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
 Make sure **SwitchBoardListener is running**.  You can find it in **C:\Program Files\Epic Games\UE4_27\Engine\Binaries\Win64\SwitchboardListener.exe**.  Creata a shortcut for the desktop.  Run it.
 
 
 ![create shortcut to switchboard listener and run](images/shortCut.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
 Now you know if it working by making sure the terminal does not display any errors.  This looks good.
 
