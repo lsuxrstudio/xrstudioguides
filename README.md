@@ -31,6 +31,7 @@ The TLDR's are for students and faculty already trained on the system for a quic
 
 ### Indiemark Lens Encoder
 * [Setting Up Lens Encoding](indie-mark/README.md#user-content-indie-mark)
+* [nDisplay Config](ndisplay5-config/README.md#user-content-ndisplay-config)
 
 ### Studio
 * [Startup and Shutdown Procedures](startupshutdown/README.md)
