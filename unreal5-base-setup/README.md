@@ -71,7 +71,7 @@ Double click and run the **SwitchboardListener** shortcut. Now you know if it wo
 
 OK, we need to quit Unreal and set up a **Perforce Depot** (Project).  Either add to an existing Depot or create a new one in the **Admin** interface.  Use a normal **Local** depot. I called mine `Templates`. 
 
-![new Templates depot](images/createDepotP4.png)
+![new Templates depot](images/shortCut.png)
 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
