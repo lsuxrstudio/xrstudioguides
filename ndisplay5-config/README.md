@@ -31,7 +31,7 @@ Drag the fbx you downloaded above into the **Stages** folder. Turn off **Generat
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-It also imported an unneeded **Material** do you can right click and select **Delete**.
+It also imported an unneeded **Material** do you can right click and select **Force Delete**.
 
 ![alt_text](images/defaultMaterial.png)
 
