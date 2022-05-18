@@ -37,7 +37,7 @@ Place them in the project folder under a new directory called `Plugins`.
 
 Open up **Edit | Plugins** and in the **Virtual Reality** section turn off **SteamVR**, **Oculus** and the three **OpenXR** plugins.  
 
-Make sure you have **nDisplay**, **Level Snapshots**, **Live Link**, **Live Link Over nDisplay**, **Multi-User Editing**, **Virtual Production Utilities**, **Media Framework Utilities**, **Blackmagic Media Player**. **Camera Calibration**, **Color Correct Regions**, **ICVFX**, **Level Snapshots**, **Live Link XR**, **LiveLinkCamera**, **LONET2 Plugin**, **OpenColorIO**, **OSC**, **Remote Control API**, **Remote Control Web Interface**, **Switchboard**, **Timed Data Monitor**, **OptiTrack - Live Link**, **OptiTrack - Streaming Client** and **OptiTrack - Track VR Latency Optimization**  plugins ALL activated.
+Make sure you have **nDisplay**, **Level Snapshots**, **Live Link**, **Live Link Over nDisplay**, **Multi-User Editing**, **Virtual Production Utilities**, **Media Framework Utilities**, **Blackmagic Media Player**. **Camera Calibration**, **Color Correct Regions**, **ICVFX**, **Level Snapshots**, **Live Link XR**, **LiveLinkCamera**, **LONET2 Plugin**, **OpenColorIO**, **OSC**, **Remote Control API**, **Remote Control Web Interface**, **Switchboard**, **Timed Data Monitor**, **OptiTrack - Live Link** and **OptiTrack - Streaming Client** plugins ALL activated.
 
 You will need to restart the engine for this to take place.
 
