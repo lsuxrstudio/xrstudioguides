@@ -78,7 +78,7 @@ OK, we need to quit Unreal and set up a **Perforce Depot** (Project).  Either ad
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to add a `.p4ignore` file.  You can download it here [.p4ignore](../files/.p4ignore)This allows us to indicate folders and files that will not be included in the repo as they are generated sepearately at run-time on each machine.
+Now we need to add a `.p4ignore` file.  You can download it here [.p4ignore](../files/.p4ignore). This allows us to indicate folders and files that will not be included in the repo as they are generated sepearately at run-time on each machine.
 
 ![add .p4ignore](images/p4Ignore.png)
 
