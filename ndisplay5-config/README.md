@@ -57,9 +57,9 @@ The only change we need to make to this static mesh is to set **Use Full Precisi
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Drag a copy of **SM_LSUWall** into the main level.
+Drag a copy of **SM_LSUWall** into the main level. Set the Location to `0,0,0`. Rotate the screen by `90°` on the **Z** axis.
 
-![alt_text](images/.png)
+![rotate wall 90 degrees and 0 out location](images/wallHeight.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
