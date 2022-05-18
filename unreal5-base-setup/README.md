@@ -119,9 +119,9 @@ Now launch the game from **P4V** by double clicking an launching Unreal from the
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-If all works well the source control will default to being connected.  Now if not just click on the arrow next to the <kbd>Source Control</kbd> button. Select **Perforce** and enter the **username** and **Workspace**.
+If all works well the source control will default to being connected.  Now if not just click on the arrow next to the <kbd>Source Control</kbd> button at the bottom right of the editor. Select **Perforce** and enter the **username** and **Workspace**.
 
-![alt_text](images/SetUpSourceControl.png)
+![set up source control for UE5](images/SetUpSourceControl.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
