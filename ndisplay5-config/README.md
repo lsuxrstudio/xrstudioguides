@@ -23,7 +23,7 @@ First we need a 3-D representation of our wall in exact dimesions.  Download the
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-Drag the fbx you downloaded above into Unreal and turn off **Generate Missing Collision**  accept all the other default settings for importing FBXs. Press the **Import All** button to import the static mesh of the LSU LED volume.
+Drag the fbx you downloaded above into the **Stages** folder. Turn off **Generate Missing Collision**  and accept all the other default settings for importing FBXs. Press the **Import All** button to import the static mesh of the LSU LED volume.
 
 ![import lsu_led_wall.fbx](images/dragSceenToStage.png)
 
