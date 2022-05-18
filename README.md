@@ -1,6 +1,6 @@
 # XRStudioSetup
 
-## Unreal
+## Table of Contents
 
 ### TLDR
 
@@ -32,8 +32,11 @@ The TLDR's are for students and faculty already trained on the system for a quic
 ### Indiemark Lens Encoder
 * [Setting Up Lens Encoding](indie-mark/README.md#user-content-indie-mark)
 
+### Studio
+* [Startup and Shutdown Procedures](startupshutdown/README.md)
+
 ### Troubleshooting
-* [Troubleshooting](ts-perforce/README.md#user-content-ts-perforce)
+* [General Troubleshooting](ts-perforce/README.md)
 
 ### Tips
 * Run unreal regularly when doing work.  Do **NOT** use **Switchboard** if adding objects and making changes to levels. Changes during **Switchboard** should only be repositioning of objects in the scene.
@@ -41,11 +44,11 @@ The TLDR's are for students and faculty already trained on the system for a quic
 ### Add To Walkthrough
 * When using level streaming make sure the streaming method is set to **Always Loaded** and NOT **Blueprint** loaded as it will not go to **nDisplay**.
 
+### Links
+* [Indiemark lense encoder instructions](https://loledvirtual.com/documentation/docs/indiemarkusingencoder/)
 
-</p>
-</details>
+---
 <details><summary>Dev Tips</summary>
 make git m="add commit message"
 </details>
 
-[Indiemark lense encoder instructions](https://loledvirtual.com/documentation/docs/indiemarkusingencoder/)x
