@@ -82,15 +82,13 @@ Now we need to add this new depot to the workspace (it does not know it is there
 
 ![add depot to workspace](images/SetDepotToWorkspace.png)
 
-Create a directory in your workspace drive (mine is D:\perforce) with the exact same name including caps as the depot.  So I have a new folder called `Templates`.  I added a `readme.txt` file with the name of the project in it. I then opened **P4V** and selected the **Pending** tab and right clicked and selected a **New Pending Changelist**.
-
-![create new changelist](images/newChangelist.png)
-
-
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Create a directory in your workspace drive (mine is D:\p4) with the exact same name including caps as the depot.  So I have a new folder called `Templates`.  I added a `.p4ignore` file with the name of the project in it. I then opened **P4V** and selected the **Pending** tab and right clicked and selected a **New Pending Changelist**.
+
+![create new changelist](images/newChangelist.png)
 
 Now drag **readme.txt** to the changelist and submit it to the server. 
 
