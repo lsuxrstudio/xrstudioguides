@@ -102,15 +102,6 @@ Select `.p4ignore` and press **Add** to add the file to the repository.  Select 
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-Now drag **readme.txt** to the changelist and submit it to the server. 
-
-![alt_text](images/addToChangelist.png)
-
-
- Now you should see the new **Templates** depot in the **Depot** tab with the single text file.
-
-![template depot](images/templateDepot.png)
-
 Now drag the entire Unreal folder you created into this new folder. Right click and include **Binaries, Config, Content, Source and MyProject folder**.  The Source folder is created to store source assets that are used in Unreal where all your raw art and audio files go.  Press the **Add** button and then **Submit** them to the repot.
 
 ![include all key folders and add and submit](images/addKeyFolders.png)
