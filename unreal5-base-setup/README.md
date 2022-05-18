@@ -102,7 +102,7 @@ Select `.p4ignore` and press **Add** to add the file to the repository.  Select 
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-Now drag the entire Unreal folder you created into this new folder. Right click and include **Binaries, Config, Content, Source and MyProject folder**.  The Source folder is created to store source assets that are used in Unreal where all your raw art and audio files go.  Press the **Add** button and then **Submit** them to the repot.
+Click on the **Templates** folder 
 
 ![include all key folders and add and submit](images/addKeyFolders.png)
 
