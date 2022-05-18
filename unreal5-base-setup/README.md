@@ -65,13 +65,13 @@ Double click and run the **SwitchboardListener** shortcut. Now you know if it wo
 
 ![switchboard running](images/switchBoardRunning.PNG)
 
-OK, we need to quit Unreal and set up a **Perforce Depot** (Project).  Either add to an existing Depot or create a new one in the **Admin** interface.  Use a normal **Local** depot. I called mine `Templates`. 
-
-![new Templates depot](images/createDepotP4.png)
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+OK, we need to quit Unreal and set up a **Perforce Depot** (Project).  Either add to an existing Depot or create a new one in the **Admin** interface.  Use a normal **Local** depot. I called mine `Templates`. 
+
+![new Templates depot](images/createDepotP4.png)
 
 Now we need to add this new depot to the workspace (it does not know it is there). Right lick on the **Workspaces** in **P4V**. Right click on the workspace and select **Edit Workspace 'name of workspace'**. Then a window pops up and select **Include Tree**. Then select <kbd>Get Latest</kbd> button.
 
