@@ -23,7 +23,7 @@ First we need a 3-D representation of our wall in exact dimesions.  Download the
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-Drag the fbx you downloaded above into Unreal and accept the default settings for importing FBXs.
+Drag the fbx you downloaded above into Unreal and turn off **Generate Missing Collision**  accept all the other default settings for importing FBXs.
 
 ![import lsu_led_wall.fbx](images/dragSceenToStage.png)
 
