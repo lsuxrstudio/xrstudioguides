@@ -65,6 +65,10 @@ Drag a copy of **SM_LSUWall** into the main level. Set the Location to `0,0,0`. 
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Set the floor **Locaation | Z** to `15`.
+
+![set floor height to 15](images/wallHeight.png)
+
 Now the only other special thing is that we have calibrated world 0,0 in our space about 10 feet in front of the center of our screen.  That is where we calibrate all of our 3-D systems.
 
 ![pivot point in engine](images/pivotPoint.png)
