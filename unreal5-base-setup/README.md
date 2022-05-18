@@ -142,7 +142,7 @@ Now when you go to save, if you have not checked out the file you will be prompt
 
 ##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Right-click on the **Content** folder and select.
+Right-click on the **Content** folder and select **Fix Up Reditors in Folder**.
 
 ![alt_text](images/fixRedirects.png)
 
