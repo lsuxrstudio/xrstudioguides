@@ -90,27 +90,26 @@ Now we need to add this new depot to a new or existing workspace. Right lick on 
 
 ![add depot to workspace](images/SetDepotToWorkspace.png)
 
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 10.`\|`BTS`| :large_blue_diamond:
+
 Create a directory in your workspace drive (mine is D:\p4) with the exact same name including caps as the depot.  So I have a new folder called `Templates`.  I added a `.p4ignore` file with the name of the project in it. I then opened **P4V** and selected the **Pending** tab and right clicked and selected a **New Pending Changelist**.
 
 ![create new changelist](images/newChangelist.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
 Now drag **readme.txt** to the changelist and submit it to the server. 
 
 ![alt_text](images/addToChangelist.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 10.`\|`BTS`| :large_blue_diamond:
-
  Now you should see the new **Templates** depot in the **Depot** tab with the single text file.
 
 ![template depot](images/templateDepot.png)
-
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
 Now drag the entire Unreal folder you created into this new folder. Right click and include **Binaries, Config, Content, Source and MyProject folder**.  The Source folder is created to store source assets that are used in Unreal where all your raw art and audio files go.  Press the **Add** button and then **Submit** them to the repot.
 
