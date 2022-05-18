@@ -25,13 +25,13 @@ The TLDR's are for students and faculty already trained on the system for a quic
 #### Setup Project will all the settings for the LED wall in UE5.  Creating a UE5.0.1 Single Camera project from scratch. Ray tracing should automatically be used when connected to an RTX or ray tracing compatible GPU.
 
 * [Setting Up Project](unreal5-base-setup/README.md#setting-up#user-content-setting-up-project)
+* [nDisplay Config](ndisplay5-config/README.md#user-content-ndisplay-config)
 
 ### Perforce
 * [Add Depot to Perforce](p4/newdepot/README.md)
 
 ### Indiemark Lens Encoder
 * [Setting Up Lens Encoding](indie-mark/README.md#user-content-indie-mark)
-* [nDisplay Config](ndisplay5-config/README.md#user-content-ndisplay-config)
 
 ### Studio
 * [Startup and Shutdown Procedures](startupshutdown/README.md)
