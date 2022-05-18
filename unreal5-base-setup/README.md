@@ -140,6 +140,13 @@ Now when you go to save, if you have not checked out the file you will be prompt
 
 ![check out or save locally](images/checkoutSelected.png)
 
+##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+Right-click on the **Content** folder and select.
+
+![alt_text](images/fixRedirects.png)
+
+
 
 ___
 
