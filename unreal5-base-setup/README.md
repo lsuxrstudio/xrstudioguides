@@ -102,7 +102,7 @@ Select `.p4ignore` and press **Add** to add the file to the repository.  Select 
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-Click on the **Templates** folder 
+Click on the **Templates** folder and select `Reconcile Offline Work...`.  Then **Submit** the changelist with a comment.
 
 ![include all key folders and add and submit](images/addKeyFolders.png)
 
