@@ -55,7 +55,7 @@ You will need to restart the engine for this to take place.
 Make sure **SwitchBoardListener is running**.  You can find it in **D:\Program Files\Epic Games\UE4_5.0\Engine\Binaries\Win64\SwitchboardListener.exe**.  Creata a shortcut for the desktop.  Run it.
 
 
-![create shortcut to switchboard listener and run](images/shortCut.png)
+![create shortcut to switchboard listener and run](images/createDepotP4.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -73,14 +73,14 @@ OK, we need to quit Unreal and set up a **Perforce Depot** (Project).  Either ad
 
 ![new Templates depot](images/createDepotP4.png)
 
-Now we need to add this new depot to the workspace (it does not know it is there). Right lick on the **Workspaces** in **P4V**. Right click on the workspace and select **Edit Workspace 'name of workspace'**. Then a window pops up and select **Include Tree**. Then select <kbd>Get Latest</kbd> button.
-
-![add depot to workspace](images/SetDepotToWorkspace.png)
-
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now we need to add this new depot to the workspace (it does not know it is there). Right lick on the **Workspaces** in **P4V**. Right click on the workspace and select **Edit Workspace 'name of workspace'**. Then a window pops up and select **Include Tree**. Then select <kbd>Get Latest</kbd> button.
+
+![add depot to workspace](images/SetDepotToWorkspace.png)
 
 Create a directory in your workspace drive (mine is D:\perforce) with the exact same name including caps as the depot.  So I have a new folder called `Templates`.  I added a `readme.txt` file with the name of the project in it. I then opened **P4V** and selected the **Pending** tab and right clicked and selected a **New Pending Changelist**.
 
