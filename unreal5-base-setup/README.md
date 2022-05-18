@@ -94,7 +94,7 @@ Now we need to add this new depot to a new or existing workspace. Right lick on 
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-Create a directory in your workspace drive (mine is D:\p4) with the exact same name including caps as the depot.  So I have a new folder called `Templates`.  I added a `.p4ignore` file with the name of the project in it. I then opened **P4V** and selected the **Pending** tab and right clicked and selected a **New Pending Changelist**.
+Select `.p4ignore` and press **Add** to add the file to the repository.  Select the **Pending** tab and submit the **Changelist**. Enter a message and submit the changelist.
 
 ![create new changelist](images/newChangelist.png)
 
