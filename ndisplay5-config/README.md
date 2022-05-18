@@ -31,6 +31,10 @@ Drag the fbx you downloaded above into Unreal and turn off **Generate Missing Co
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+It also imported an uneeded **Material** do you can right click and select **Delete**.
+
+![alt_text](images/defaultMaterial.png)
+
 Open up the static mesh and it is an exact replica of our screen.  It contains two sets of UV's.  UV0 is just a 0 to 1 UV with the entire area filed.  The UV1 has our 6 x 14 grid of screens with the exact ratio of the wall.
 
 ![wall uv 0](images/uv0.png)
