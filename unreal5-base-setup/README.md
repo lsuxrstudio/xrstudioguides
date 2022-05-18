@@ -78,6 +78,11 @@ OK, we need to quit Unreal and set up a **Perforce Depot** (Project).  Either ad
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now we need to add a `.p4ignore` file.  This allows us to indicate folders and files that will not be included in the repo as they are generated sepearately at run-time on each machine.
+
+![add .p4ignore](images/p4Ignore.png)
+
+
 Now we need to add this new depot to the workspace (it does not know it is there). Right lick on the **Workspaces** in **P4V**. Right click on the workspace and select **Edit Workspace 'name of workspace'**. Then a window pops up and select **Include Tree**. Then select <kbd>Get Latest</kbd> button.
 
 ![add depot to workspace](images/SetDepotToWorkspace.png)
