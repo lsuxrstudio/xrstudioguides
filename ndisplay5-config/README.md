@@ -65,7 +65,7 @@ Drag a copy of **SM_LSUWall** into the main level. Set the Location to `0,0,0`. 
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Set the floor **Locaation | Z** to `15`.
+Set the Floor **Transform | Location | Z** to `15`.
 
 ![set floor height to 15](images/floor.png)
 
