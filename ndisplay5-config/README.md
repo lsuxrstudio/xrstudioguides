@@ -52,23 +52,27 @@ The only change we need to make to this static mesh is to set **Use Full Precisi
 
 ![use full precision UVs](images/fullPrecisionUvs.png)
 
-Now the only other special thing is that we have calibrated world 0,0 in our space about 10 feet in front of the center of our screen.  That is where we calibrate all of our 3-D systems.
-
-![pivot point in engine](images/pivotPoint.png)
-![00 in stage](images/pivotPoint2.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
+Drag a copy of **SM_LSUWall** into the main level.
 
-Select the **Stages** folder. Press the green <kbd>Add/Import</kbd> button and add a **nDisplay | nDisplay Config** file to the folder. Call this file `LSUnDisplayConfig`.
-
-![add nDisplay Config to project](images/nDisplayConfig.png)
+![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now the only other special thing is that we have calibrated world 0,0 in our space about 10 feet in front of the center of our screen.  That is where we calibrate all of our 3-D systems.
+
+![pivot point in engine](images/pivotPoint.png)
+![00 in stage](images/pivotPoint2.jpg)
+
+Select the **Stages** folder. Press the green <kbd>Add/Import</kbd> button and add a **nDisplay | nDisplay Config** file to the folder. Call this file `LSUnDisplayConfig`.
+
+![add nDisplay Config to project](images/nDisplayConfig.png)
 
 Open up the **LSUnDisplayConfig** file.  Press the green <kbd>Add Component</kbd> button and add an **ICVFX Camera** and a **Static Mesh**.
 
