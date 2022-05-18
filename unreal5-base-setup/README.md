@@ -57,13 +57,13 @@ Make sure **SwitchBoardListener is running**.  You can find it in **D:\Program F
 
 ![create shortcut to switchboard listener and run](images/shortCut.png)
 
-Now you know if it working by making sure the terminal does not display any errors.  This looks good.
-
-![switchboard running](images/switchBoardRunning.PNG)
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
+
+Double click and run the **SwitchboardListener** shortcut. Now you know if it working by making sure the terminal does not display any errors.  This looks good.
+
+![switchboard running](images/switchBoardRunning.PNG)
 
 OK, we need to quit Unreal and set up a **Perforce Depot** (Project).  Either add to an existing Depot or create a new one in the **Admin** interface.  Use a normal **Local** depot. I called mine `Templates`. 
 
