@@ -44,13 +44,13 @@ Open up the static mesh and it is an exact replica of our screen.  It contains t
 ![wall uv 0](images/uv0.png)
 ![wall uv1](images/uv1.png)
 
-The only change we need to make to this static mesh is to set **Use Full Precision UVs** to `true`. This uses greater floating point accuracy when calculating the UV's (I believe).
-
-![use full precision UVs](images/fullPrecisionUvs.png)
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
+
+The only change we need to make to this static mesh is to set **Use Full Precision UVs** to `true`. This uses greater floating point accuracy when calculating the UV's (I believe).
+
+![use full precision UVs](images/fullPrecisionUvs.png)
 
 Now the only other special thing is that we have calibrated world 0,0 in our space about 10 feet in front of the center of our screen.  That is where we calibrate all of our 3-D systems.
 
