@@ -2,7 +2,7 @@
 
 ### Live Link
 
-<sub>[previous](../ndisplay-config/README.md#user-content-ndisplay-config) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../hdr-output/README.md#user-content-hdr-output)</sub>
+<sub>[previous](../ndisplay5-config/README.md#user-content-ndisplay-config) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../hdr5-output/README.md#user-content-hdr-output)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -15,7 +15,7 @@ Now we have the base nDisplay config set up.  We need to add camera tracking int
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-Lets get livelink setup to bring in Mocap data from the **OptiTrack**.  Make sure the motion capture system is turned on, has streaming enabled and has a static mesh tracking the camera on set.  Go to **Window | Live Link** and add a **OptiTrack Soucce** with default settings.
+Lets get livelink setup to bring in Mocap data from the **OptiTrack**.  Make sure the motion capture system is turned on, has streaming enabled and has a static mesh tracking the camera on set.  Go to **Window | Virtual Production | Live Link** and add a **OptiTrack Soucce** with default settings.
  Press the <kbd>Create</kbd> button.
  
 ![add opti track to game engine](images/addOptiTrack.png)
@@ -183,5 +183,5 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../ndisplay-config/README.md#user-content-ndisplay-config)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../hdr-output/README.md#user-content-hdr-output)|
+| [previous](../ndisplay5-config/README.md#user-content-ndisplay-config)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../hdr5-output/README.md#user-content-hdr-output)|
 |---|---|---|
