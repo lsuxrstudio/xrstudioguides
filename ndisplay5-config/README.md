@@ -82,13 +82,22 @@ Now the only other special thing is that we have calibrated world 0,0 in our spa
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the **Stages** folder. Press the green <kbd>Add/Import</kbd> button and add a **nDisplay | nDisplay Config** file to the folder. Call this file `LSUnDisplayConfig`.
+Select the **Stages** folder. Press the green <kbd>Add</kbd> button and add a **nDisplay | nDisplay Config** file to the folder. Call this file `LSUnDisplayConfig`.
 
 ![add nDisplay Config to project](images/nDisplayConfig.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
+
+Delete the **nDisplayScreen** component as we will not need it.
+
+![delete nDisplayScreen component](images/deleteNDisplayScreen.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
+
 
 Open up the **LSUnDisplayConfig** file.  Press the green <kbd>Add Component</kbd> button and add an **ICVFX Camera** and a **Static Mesh**.
 
@@ -106,10 +115,6 @@ Rotate the mesh so it is in the front of the stage.  The letters should be right
 Now zero out the **Transform** on the static mesh for the screen and the screen does not start on the floor. It is `5.08` cm off of the floor.  We need to adjust the **Z** (+Z is facing up) by `12.90` units (1 unit is 1 cm in Unreal by default).
 
 ![lift the screen off the ground](images/LiftScreen.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
 Since our resolution is less than a 4K screen we can use a single cluster node to power the screen.  Right click on **Cluster** and select **Add New Cluster Node**.
 
