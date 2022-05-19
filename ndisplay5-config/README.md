@@ -139,7 +139,6 @@ You can leave the the node named **Node_0**). Make sure the **Parent** is set **
 ##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Select the **viewport**, likely called `VP_0`, under the Cluster panel. In the Details panel change View Origin to **DefaultViewPoint**. Also, change Projection Policy > Type: Mesh and Projection Policy > Mesh: LSU_LED_Wall.
-
   
 ![set mesh and view origin](images/SetUpMeshWallConfig.png)
 
