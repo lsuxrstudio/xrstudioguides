@@ -86,6 +86,10 @@ Select the **Stages** folder. Press the green <kbd>Add/Import</kbd> button and a
 
 ![add nDisplay Config to project](images/nDisplayConfig.png)
 
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 10.`\|`BTS`| :large_blue_diamond:
+
 Open up the **LSUnDisplayConfig** file.  Press the green <kbd>Add Component</kbd> button and add an **ICVFX Camera** and a **Static Mesh**.
 
 ![add two components icvx camera and static mesh](images/addCamAndStaticMesh.png)
@@ -98,9 +102,6 @@ Rotate the mesh so it is in the front of the stage.  The letters should be right
 
 ![rotate mesh to front of room](images/rotateMesh.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
 Now zero out the **Transform** on the static mesh for the screen and the screen does not start on the floor. It is `5.08` cm off of the floor.  We need to adjust the **Z** (+Z is facing up) by `12.90` units (1 unit is 1 cm in Unreal by default).
 
