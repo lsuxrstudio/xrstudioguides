@@ -172,13 +172,13 @@ Place the **Red Komodo** cine camera actor in **World Outliner** as a child of *
 
 ##### `Step 20.`\|`BTS`| :large_blue_diamond: :large_blue_diamond:
 
-Go to the **LSUnDisplayConfig** and click on the **ICVX Camera** component and set the reference to the above **Red Komodo** camera.
+Go to the **LSUnDisplayConfig** and click on the **ICVX Camera** component and set the reference to the above **Red Komodo** camera. Press **Compile** and **Save**.
 
 ![assign icvx camera to blueprint](images/assignICVXCam.png)
 
 ##### `Step 21.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Now do the same thing with the **LSUnDisplayConfig** in game and click on the **ICVFX** camera and assign the **Red Komodo** as the camera there as well.
+Now go to the **Main** level and select the **LSUnDisplayConfig** in game and click on the **ICVFX** camera and make sure the **Red Komodo** is set as the camera there as well (it should have done this at compile time above).
 
 ![assign game camera to config file](images/assignActorInConfig.png)
 
