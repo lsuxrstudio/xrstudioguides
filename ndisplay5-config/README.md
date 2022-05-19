@@ -154,7 +154,9 @@ Press the <kbd>Add +</kbd> component button and add an `ICVFX Camera`. This is n
 
 ##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add **CineCamera** actor to our **Main** level. Also add one copy of the **LSUnDisplayConfig** to the level as well. Make sure the **Z** is at `0` as we don't want to alter the ground position.  The setup can be moved to wherever in a future level you want to place it.  But we want the **Actor** ground level to be `0`, which is what we calibrated our camera to be starting at on **Z**.
+ Open up the **Scenes | Main** level.  Remove the static mesh of the LED wall and replace it with the **LSUnDisplayConfig** Make sure the **X, Y, Z** are all at `0` as we don't want to alter the ground height and put it in the center of the world for now.  The setup can be moved to wherever in a future level you want to place it.  But we want the **Actor** ground level to be `0`, which is what we calibrated our camera to be starting at on **Z**. 
+ 
+ Add **CineCamera** actor to our **Main** level. Call it `Red Komodo`.
 
 ![add cinecamera and lsundisplayconfig to level](images/addCineConfigToLvl.png)
 
