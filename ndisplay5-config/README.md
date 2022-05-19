@@ -102,7 +102,7 @@ Rotate the mesh so it is in the front of the stage.  The letters should be right
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-Now zero out the **Transform** on the static mesh for the screen and the screen does not start on the floor. It is `5.08` cm off of the floor.  We need to adjust the **Z** (+Z is facing up) by `5.08` units (1 unit is 1 cm in Unreal by default).
+Now zero out the **Transform** on the static mesh for the screen and the screen does not start on the floor. It is `5.08` cm off of the floor.  We need to adjust the **Z** (+Z is facing up) by `12.90` units (1 unit is 1 cm in Unreal by default).
 
 ![lift the screen off the ground](images/LiftScreen.png)
 
