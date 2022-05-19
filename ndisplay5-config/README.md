@@ -106,9 +106,7 @@ Open up the **LSUnDisplayConfig** file.  Press the green <kbd>Add Component</kbd
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-
-
-Rotate the mesh so it is in the front of the stage.  The letters should be right side up if we are looking at the screen.
+Rotate the mesh so it is in the front of the stage.  The letters should be right side up if we are looking at the screen. If you click on the **Default View** you should have the **X** axis (red arrow) pointing at the screen.  In our case we had to rotate the mesh by `90°`.
 
 ![rotate mesh to front of room](images/rotateMesh.png)
 
