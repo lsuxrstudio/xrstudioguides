@@ -164,7 +164,7 @@ Press the <kbd>Add +</kbd> component button and add an `ICVFX Camera`. This is n
 
 ##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Place the **CineCamera** actor in the **World Outliner** to be a child of **LSUnDisplayConfig**.  This way when we move the entire panel the cine camera moves with it.  Make sure the **CineCamera** is at `0,0,0` so we do not offset it.  The position will be given to the camera by the **OptiTrack** system.
+Place the **CineCamera** actor in the **World Outliner** to be a child of **LSUnDisplayConfig**.  This way when we move the entire panel the cine camera moves with it.  Make sure the **CineCamera** is at `0,0,0` in both **Transform | Locations** and **Transform | Rotation** so we do not offset it.  The position will be given to the camera by the **OptiTrack** system.
 
 ![make camera child of nDisplay](images/makeCamChild.png)
 
