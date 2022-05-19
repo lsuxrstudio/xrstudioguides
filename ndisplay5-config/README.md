@@ -146,7 +146,7 @@ Select the **viewport**, likely called `VP_0`, under the Cluster panel. In the D
 
 ##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now you can move the ICVFX camera around and the frustum should move as well.  We have a single GPU so we leave the **GPU Index** at -1 (which means a single GPU).
+Press the <kbd>Add +</kbd> component button and add an `ICVFX Camera`. This is now adding an inner frustum camera to the scene. Now you can move the ICVFX camera around and the frustum should move as well.  
 
 ![inner frustum](images/gpuSettings.png)
 
