@@ -138,7 +138,7 @@ You can leave the the node named **Node_0**). Make sure the **Parent** is set **
 
 ##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Select the **viewport**, likely called `VP_0`, under the Cluster panel. In the Details panel change View Origin to **DefaultViewPoint**. Also, change Projection Policy > Type: Mesh and Projection Policy > Mesh: LSU_LED_Wall.
+Select the **viewport**, likely called `VP_0`, under the Cluster panel. In the Details panel change **View Origin** to `DefaultViewPoint` and **Type** to `Mesh`. Select the `LED_LSU_WALL` mesh. Now the screen is a grid of 6 x 14 monitors that are 176 pixels square.  So our horizontal resolution in the wall is 14 * 176 =  2464 and vertical resolution is 6 * 176 = 1056. So change the **Region | Size** to `2464` by `1056`.
   
 ![set mesh and view origin](images/SetUpMeshWallConfig.png)
 
