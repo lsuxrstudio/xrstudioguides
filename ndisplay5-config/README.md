@@ -98,10 +98,13 @@ Delete the **nDisplayScreen** component as we will not need it.
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-
-Open up the **LSUnDisplayConfig** file.  Press the green <kbd>Add Component</kbd> button and add an **ICVFX Camera** and a **Static Mesh**.
+Open up the **LSUnDisplayConfig** file.  Press the green <kbd>Add Component</kbd> button and a **Static Mesh** component and call it `LSU_LED_WALL`.
 
 ![add two components icvx camera and static mesh](images/addCamAndStaticMesh.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Click on the **StaticMesh** component and add the **LSU_LED_Wall** to the mesh in the **Details** panel. Erase unused **nDisplaySystem** component.
 
@@ -119,11 +122,6 @@ Now zero out the **Transform** on the static mesh for the screen and the screen 
 Since our resolution is less than a 4K screen we can use a single cluster node to power the screen.  Right click on **Cluster** and select **Add New Cluster Node**.
 
 ![add new cluster node](images/clusterNode.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-
-##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 You can leave the the node named **Node_0**). Make sure the **Parent** is set **Cluster**. Choose the **QHD (2,560 x 1,440)** Preset. That is the size of the entire frame going from Unreal to the Brompton. The game only uses a part of it as the screens don't have this many pixels. The ROE panels are pixels 176 pixels square per panel. We have a grid of 14 tiles wide by 6 tiles tall, thus giving us a resolution of 2464 x 1056, which nestles into the QHD preset. The **IP** of our main machine is `130.39.93.72`. **Enable Sound** and enable **Full Screen**.  Press the <kbd>Add</kbd> key.
 
