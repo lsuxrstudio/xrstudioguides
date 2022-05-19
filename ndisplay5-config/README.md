@@ -188,7 +188,7 @@ Now go to the **Main** level and select the **LSUnDisplayConfig** in game and cl
 
 ##### `Step 22.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to **Edit | Editor Preferences** and go to Level Editor - Viewports | Look and Feel | and turn off Preview Select Cameras
+The camera preview frame gets in the way of our scene.  Lets turn this off.  Go to **Edit | Editor Preferences** and go to **Level Editor - Viewports | Look and Feel**  and turn off **Preview Select Cameras**.
 
 ![camera preview gets in way of scene](images/turnOffCameraPreview.png)
 
