@@ -106,9 +106,7 @@ Open up the **LSUnDisplayConfig** file.  Press the green <kbd>Add Component</kbd
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Click on the **StaticMesh** component and add the **LSU_LED_Wall** to the mesh in the **Details** panel. Erase unused **nDisplaySystem** component.
 
-![add lsu_led_wall to static mesh component](images/staticMeshWall.png)
 
 Rotate the mesh so it is in the front of the stage.  The letters should be right side up if we are looking at the screen.
 
