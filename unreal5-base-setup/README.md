@@ -153,7 +153,7 @@ ___
 
 ![](../images/line.png)
 
-![](../images/nextNDisplay.png)
+![](images/nextNDisplay.png)
 
 ![](../images/line.png)
 
