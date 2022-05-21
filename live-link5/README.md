@@ -60,7 +60,7 @@ Now we can open up the **LiveLink** window again and select the **RED_CAMERA** t
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Now select **Presets** and choose `Save Preset`.  Save it to the **Stage** folder and call it `LiveLinkPreset`.
+Now select **Presets** and choose `Save Preset`.  Save it to the **Stage** folder and call it `LiveLinkPreset`. Press the <kbd>Save</kbd> button.
 
 ![save opti track preset](images/savePreset.png)
 
