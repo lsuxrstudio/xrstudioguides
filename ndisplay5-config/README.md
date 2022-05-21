@@ -202,14 +202,12 @@ The current lens on the camera today is a Canon EF 16mm - 35mm 2.8. These values
 
 ___
 
-![decorative line](https://via.placeholder.com/1000x4/dba81a/dba81a)
+![](../images/line.png)
 
-![live link next](https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Live Link)
+![live link next](../images/ndisplayconfig.png)
 
-![decorative line](https://via.placeholder.com/1000x4/dba81a/dba81a)
+![](../images/line.png)
 
-
-![](https://via.placeholder.com/150)
 
 
 | [previous](../unreal5-base-setup/README.md#setting-up#user-content-setting-up)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../live-link5/README.md#user-content-live-link)|
