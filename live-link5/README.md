@@ -76,21 +76,16 @@ Now this just adds it to this tracking machine.  We also need to add it to the p
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now you can set the **Role** to a `LiveLinkTransformRole`. 
-
-![change role to LiveLinkTransformRole](images/liveLinkPIRole.png)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
 Now we also need to alter the orientation and add the pre processor. Press the **+** button next to the **Frame Pre Processors**.
 
 ![add a frame preprocessor](images/addFramePreProc.png)
 
 ![](../images/line2.png)
+
+##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
