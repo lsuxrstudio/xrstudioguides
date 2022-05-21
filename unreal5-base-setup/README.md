@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Setting Up Project
 
 [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../ndisplay5-config/README.md#user-content-ndisplay-config)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 How to create an Unreal project from scratch in Unreal 5.0.X for an in-camera virual production using LSU's equipment in their XR lab in room 1001 at the DMC.
 
@@ -19,7 +19,7 @@ Run the **Epic Games Launcher** and run the latest version of Unreal. Selet the 
 
 ![start game launger and create blank film template](images/SelectNewProject.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ We need to download two external plugins. **Opti Track** for the **Live Link** s
 
 ![select config and name project](images/twoExternalPlugins.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -36,7 +36,7 @@ Place them in the project folder under a new directory called `Plugins`.
 ![select config and name project](images/externalPlugins.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -48,7 +48,7 @@ You will need to restart the engine for this to take place.
 
 ![disable vr and open xr plugins](images/undoPlugins.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
@@ -57,7 +57,7 @@ Make sure **SwitchBoardListener is running**.  You can find it in **D:\Program F
 
 ![create shortcut to switchboard listener and run](images/createDepotP4.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
@@ -65,7 +65,7 @@ Double click and run the **SwitchboardListener** shortcut. Now you know if it wo
 
 ![switchboard running](images/switchBoardRunning.PNG)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -74,7 +74,7 @@ OK, we need to quit Unreal and set up a **Perforce Depot** (Project).  Either ad
 ![new Templates depot](images/shortCut.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -82,7 +82,7 @@ Now we need to add a `.p4ignore` file.  You can download it here [.p4ignore](../
 
 ![add .p4ignore](images/p4Ignore.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -90,7 +90,7 @@ Now we need to add this new depot to a new or existing workspace. Right lick on 
 
 ![add depot to workspace](images/SetDepotToWorkspace.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
@@ -98,7 +98,7 @@ Select `.p4ignore` and press **Add** to add the file to the repository.  Select 
 
 ![create new changelist](images/newChangelist.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -106,7 +106,7 @@ Click on the **Templates** folder and select `Reconcile Offline Work...`.  Then 
 
 ![include all key folders and add and submit](images/addKeyFolders.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -115,7 +115,7 @@ Now launch the game from **P4V** by double clicking an launching Unreal from the
 
 ![launch game from P4V](images/runGameFromP4V.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -123,7 +123,7 @@ If all works well the source control will default to being connected.  Now if no
 
 ![set up source control for UE5](images/SetUpSourceControl.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -131,7 +131,7 @@ Now you will create two folders `Stage` and `Scenes`.  The stage folder will hav
 
 ![mnove the main scene to Scenes folder](images/moveMainScene.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -151,11 +151,11 @@ Right-click on the **Content** folder and select **Fix Up Redirectors in Folder*
 ___
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - nDisplay Config">
+![](../images/nextNDisplay.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../ndisplay5-config/README.md#user-content-ndisplay-config)|
 |---|---|
