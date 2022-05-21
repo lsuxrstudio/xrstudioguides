@@ -104,7 +104,7 @@ Now select the **Subject Representation** in the **Live Link Controller** and pi
 
 Now you should see in game that the camera pops up to the position of where it is tracking in **OptiTrack Motive**.
 
-https://user-images.githubusercontent.com/5504953/157681712-fd89c85f-0311-4e03-b9b3-d808dc9325ef.mp4
+![moving camera in scene](images/cameraNowTracking.png)
 
 ![](../images/line2.png)
 
