@@ -84,7 +84,7 @@ Now the only other special thing is that we have calibrated world 0,0 in our spa
 
 Select the **Stages** folder. Press the green <kbd>Add</kbd> button and add a **nDisplay | nDisplay Config** file to the folder. Call this file `LSUnDisplayConfig`.
 
-![add nDisplay Config to project](images/nDisplayConfig.png)
+![add nDisplay Config to project](images/nDisplayConfig2.png)
 
 ![](../images/line2.png)
 
