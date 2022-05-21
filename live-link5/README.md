@@ -15,12 +15,12 @@ Now we have the base nDisplay config set up.  We need to add camera tracking int
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-Lets get livelink setup to bring in Mocap data from the **OptiTrack**.  Make sure the motion capture system is turned on, has streaming enabled and has a static mesh tracking the camera on set.  Go to **Window | Virtual Production | Live Link** and add a **OptiTrack Soucce** with default settings.
- 
- Press the <kbd>Create</kbd> button.
+Lets get livelink setup to bring in Mocap data from the **OptiTrack**.  Make sure the motion capture system is turned on, has streaming enabled and has a static mesh tracking the camera on set.  Go to **Window | Virtual Production | Live Link**.
+
+Press **+ Add** and select **OptiTrack Soucce** with default settings. Press the <kbd>Create</kbd> button.
 
  ![add live link window](images/optiTrackWindow.png)
- 
+
 ![add opti track to game engine](images/addOptiTrack.png)
 
 ![](../images/line2.png)
