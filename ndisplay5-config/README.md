@@ -202,7 +202,7 @@ The current lens on the camera today is a Canon EF 16mm - 35mm 2.8. These values
 
 ___
 
-
+![decorative line](https://via.placeholder.com/1000x4/dba81a/dba81a)
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
 <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Live Link">
