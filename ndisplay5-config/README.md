@@ -190,7 +190,7 @@ The camera preview frame gets in the way of our scene.  Lets turn this off.  Go 
 
 ![camera preview gets in way of scene](images/turnOffCameraPreview.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 Adjust the camera settings.  Our **Red Komodo** has a **Sensor Width** of `27.03` mm, a **Sensor Height** of `14.26` mm when shooting at 6K (6244 x 3250).
 
@@ -207,8 +207,6 @@ ___
 ![live link next](images/ndisplayconfig.jpg)
 
 ![](../images/line.png)
-
-
 
 | [previous](../unreal5-base-setup/README.md#setting-up#user-content-setting-up)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../live-link5/README.md#user-content-live-link)|
 |---|---|---|
