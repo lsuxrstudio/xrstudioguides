@@ -208,7 +208,7 @@ ___
 
 ![decorative line](https://via.placeholder.com/1000x4/dba81a/dba81a)
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
 
 ![](https://placehold.it/400x90/ff0000/000000?text=IMPORTANT!)
 
