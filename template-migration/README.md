@@ -10,33 +10,33 @@ The following goes over how to use the LSU Base Template in conjuntion with an e
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-Copy the `LSUBaseTemplate` from p4 > Templates and rename it something particular to your project. 
+Copy the `LSUBaseTemplate` from p4 > Templates and **rename** it something *particular* to your project. For instance if your project is named "MyProject" you might rename the template folder "MyProject-XRStudio". 
 
 ---
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-Open the level you have designed. 
+**Open your oringal project** (ie "MyProject") and bring up the level you have designed. 
 
 ---
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Rt. Click on the level and choose Asset Actions > **Migrate**. Make sure to go to the root of your exisiting project. 
+Rt. Click on the level and choose Asset Actions > **Migrate**. Choose the *particular* name you made in Step 1 (ie "MyProject-XRStudio"). Make sure to go to the root folder. 
 
 --- 
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now open the new project you made which will include the LSUBaseTemplate "Test" Level. Copy the 
+Now open the new project you made (ie MyProject-XRStudio) this should now include the LSUBaseTemplate "Test" Level. Select nDisplay component in your outliner then rt. click > copy. Now go into your level and rt. click > paste it into your outliner.
 
 --- 
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Finally, you need to go into your nDisplay component and re-select the ICVFX camera. 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+---
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
