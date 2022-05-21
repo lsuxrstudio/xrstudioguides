@@ -208,5 +208,7 @@ ___
 
 ![decorative line](https://via.placeholder.com/1000x4/dba81a/dba81a)
 
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+
 | [previous](../unreal5-base-setup/README.md#setting-up#user-content-setting-up)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../live-link5/README.md#user-content-live-link)|
 |---|---|---|
