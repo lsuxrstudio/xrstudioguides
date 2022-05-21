@@ -49,15 +49,10 @@ Call this new blueprint `BP_OptiTrack_Offset`.  Double click it.  It will either
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`BTS`| :small_orange_diamond:
-
-Sometimes the blueprint will open up in the full editor and you can make the same adjustments in the **Details** panel.
-
-![full bp editor](images/otherModeBP.png)
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
 Now we can open up the **LiveLink** window again and select the **ActivePuck_CH20_ID1** camera tracker in the **Subject Name** window.  Now in the **Pre Processor** press the **+** key and assign the **BP_Optitrack_Offset** blueprint in preprocessor slot `0`.
 
@@ -65,7 +60,7 @@ Now we can open up the **LiveLink** window again and select the **ActivePuck_CH2
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
 Now select **Presets** and choose `Save Preset`.  Save it to the **Stage** folder and call it `LiveLinkPreset`.
 
@@ -74,6 +69,8 @@ Now select **Presets** and choose `Save Preset`.  Save it to the **Stage** folde
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now this just adds it to this tracking machine.  We also need to add it to the project configuraiton so that all the other machines can get this offset as well.  Open up the **Edit | Project Settings** folder and select **Live Link** plugin settings.  Assign `LiveLinkPreset` to **Default Live Link Preset**.  Open up the little **triangle** next to **Default Role Settings**.
 
