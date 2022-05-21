@@ -146,6 +146,16 @@ Right-click on the **Content** folder and select **Fix Up Redirectors in Folder*
 
 ![alt_text](images/fixRedirects.png)
 
+![](../images/line2.png)
+
+##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now we want to the source control to check out files as they are being edited.  So this way you don't have surprises after an hour or so working on a level that it is locked and can't be saved.
+
+Go to **Edit | Project Settings** and search for `source control`.  
+
+![alt_text](images/autoCheckOut.png)
+
 
 
 ___
