@@ -94,7 +94,7 @@ Now that we have the **LiveLink** setup we just need to have it communicate to o
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-Now select the **Subject Representatino** in the **Live Link Controller** and pick `ActivePuck_CH20_ID1`.
+Now select the **Subject Representation** in the **Live Link Controller** and pick `RED_Camera`.
 
 ![bind live link component to ActivePuck_CH20_ID1](images/selectCameraTracker.png)
 
