@@ -152,7 +152,7 @@ Right-click on the **Content** folder and select **Fix Up Redirectors in Folder*
 
 Now we want to the source control to check out files as they are being edited.  So this way you don't have surprises after an hour or so working on a level that it is locked and can't be saved.
 
-Go to **Edit | Project Settings** and search for `source control`.  
+Go to **Edit | Project Settings** and search for `source control`.  Turn **Automatically Checkout on Asset Modification** to `true`.
 
 ![alt_text](images/autoCheckOut.png)
 
