@@ -27,7 +27,7 @@ Press **+ Add** and select **OptiTrack Soucce** with default settings. Press the
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-Make sure your tracker has a green (not yellow or red) light and the name of the static mesh is the same as the one on the tracker. In our case it is called **RED_Camera**. Make sure that **Rebroadcast Subject** is set to `true`.
+Make sure your tracker has a green (not yellow or red) light and the name of the static mesh is the same as the one on the tracker. In our case it is called **RED_Camera**. This is the rigid body that is set up in **Motive**. Make sure that **Rebroadcast Subject** is set to `true`.
 
 ![opti track active](images/optiTrackActive.png)
 
