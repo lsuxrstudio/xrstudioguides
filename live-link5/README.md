@@ -94,19 +94,13 @@ Now that we have the **LiveLink** setup we just need to have it communicate to o
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
-
-##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
-##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
 Now select the **Subject Representatino** in the **Live Link Controller** and pick `ActivePuck_CH20_ID1`.
 
 ![bind live link component to ActivePuck_CH20_ID1](images/selectCameraTracker.png)
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
 Now you should see in game that the camera pops up to the position of where it is tracking in **OptiTrack Motive**.
 
@@ -114,7 +108,7 @@ https://user-images.githubusercontent.com/5504953/157681712-fd89c85f-0311-4e03-b
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Now we need to add focus tracking.  Go back to the **Live Link** tab and seelct **Source** and select the **LONET 2 LiveLink** plugin and press the <kbd>OK</kbd> key.
 
@@ -122,7 +116,8 @@ Now we need to add focus tracking.  Go back to the **Live Link** tab and seelct 
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Make sure the camera name you have in **LoNet** shows up under **Subject Name**.  Make sure the light is green.  Keep all the default settings.
 
@@ -130,13 +125,19 @@ Make sure the camera name you have in **LoNet** shows up under **Subject Name**.
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now that we have the **LiveLink** setup we just need to have it communicate to our in game camera.  Go back  to the **Main** level and select the **RedKomodo** cinecamera.  Press the green <kbd>+ Add Component</kbd> button and select a **Live Link Controller** component. Call this component `Live Link Lonet`.
 
 ![live link lonet component](images/lonetLinkCam.png)
 
 ![](../images/line2.png)
+
+##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
+
+##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 ##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
