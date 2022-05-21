@@ -204,7 +204,7 @@ ___
 
 ![](../images/line.png)
 
-![live link next](images/ndisplayconfig.png)
+![live link next](images/ndisplayconfig.jpg)
 
 ![](../images/line.png)
 
