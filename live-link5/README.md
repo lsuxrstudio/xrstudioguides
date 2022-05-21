@@ -50,11 +50,9 @@ Call this new blueprint `BP_OptiTrack_Offset`.  Double click it.  It will either
 ![](../images/line2.png)
 
 
-![](../images/line2.png)
-
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Now we can open up the **LiveLink** window again and select the **ActivePuck_CH20_ID1** camera tracker in the **Subject Name** window.  Now in the **Pre Processor** press the **+** key and assign the **BP_Optitrack_Offset** blueprint in preprocessor slot `0`.
+Now we can open up the **LiveLink** window again and select the **RED_CAMERA** tracker in the **Subject Name** window.  Now in the **Pre Processor** press the **+** key and assign the **BP_Optitrack_Offset** blueprint that you just created in preprocessor slot `0`.
 
 ![add offset to pre processor](images/trackCamOpti.png)
 
