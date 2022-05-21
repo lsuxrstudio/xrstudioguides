@@ -77,7 +77,7 @@ Now this just adds it to this tracking machine.  We also need to add it to the p
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
-Now we also need to alter the orientation and add the pre processor. Press the **+** button next to the **Frame Pre Processors**.
+Now we also need to alter the orientation and add the pre processor. Press the **+** button next to the **Frame Pre Processors**. Assign **BP_OptiTrack_Offset** to this pre processor.
 
 ![add a frame preprocessor](images/addFramePreProc.png)
 
@@ -85,24 +85,18 @@ Now we also need to alter the orientation and add the pre processor. Press the *
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-##### `Step 10.`\|`BTS`| :large_blue_diamond:
-
-##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
-
-Assign **BP_OptiTrack_Offset** to this pre processor.
-
-![add BP_OptiTrack_Offset to preprocessor](images/bpOffset.png)
-
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
 Now that we have the **LiveLink** setup we just need to have it communicate to our in game camera.  Go back  to the **Main** level and select the **RedKomodo** cinecamera.  Press the green <kbd>+ Add Component</kbd> button and select a **Live Link Controller** component. Call this component `Live Link OptiTrack`.
 
 ![add live link controller component to RedKomodo cinecam](images/liveLinkController.png)
 
 ![](../images/line2.png)
+
+
+##### `Step 10.`\|`BTS`| :large_blue_diamond:
+
+##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
+
+##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
