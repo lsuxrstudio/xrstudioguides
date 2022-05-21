@@ -206,11 +206,7 @@ ___
 
 ![live link next](https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Live Link)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
-
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Live Link">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![decorative line](https://via.placeholder.com/1000x4/dba81a/dba81a)
 
 | [previous](../unreal5-base-setup/README.md#setting-up#user-content-setting-up)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../live-link5/README.md#user-content-live-link)|
 |---|---|---|
