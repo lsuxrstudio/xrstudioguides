@@ -20,6 +20,7 @@ Lets get livelink setup to bring in Mocap data from the **OptiTrack**.  Make sur
  Press the <kbd>Create</kbd> button.
 
  ![add live link window](images/optiTrackWindow.png)
+ 
 ![add opti track to game engine](images/addOptiTrack.png)
 
 ![](../images/line2.png)
