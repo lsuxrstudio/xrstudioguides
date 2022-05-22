@@ -155,7 +155,7 @@ Go to the **Render Node** pc and check the **NVidia Control Panel**.  Select **S
 
 
 
-![alt_text](images/confirmSync.png)
+![alt_text](images/confirmSync.jpg)
 
 ![](../images/line2.png)
 
