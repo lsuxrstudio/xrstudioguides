@@ -32,7 +32,7 @@ Start-Up Procedure for Operator 1
 
 - [ ] In the workspace location create a new folder with the same name as the **Depot**, don't forget this is cap sensitive
 
-- [ ] Copy the `.p4ignore` file into the folder
+- [ ] Copy the `.p4ignore` file into the folder. A generic sample can be found here [.p4ignore](../files/.p4ignore).
 
 - [ ] Open up **P4V** and make sure you are in the correct workspace. Select `Connection | Edit Current Workspace` then right click on the newly created workspace and select `Include Tree`.
 
@@ -40,7 +40,7 @@ Start-Up Procedure for Operator 1
 
 - [ ] Now you are ready to copy over the **Unreal Projectt** files into this depot making sure the `.uproject` is in the same directory as the `.p4ignore`.  If not it will not work properly and all files, even binaries, will be included
 
-- []  Ensure **Depot** is added to both **Operator 1** and **Render Node** PC's in the lab. Please note that you cannot use the same workspace name twice but can use the same workspace root.  It is best practice to have Unreal program and workspaces installed on the same drive letter and directories on both **Operator 1** and **Render Node** machines.
+- [ ]  Ensure **Depot** is added to both **Operator 1** and **Render Node** PC's in the lab. Please note that you cannot use the same workspace name twice but can use the same workspace root.  It is best practice to have Unreal program and workspaces installed on the same drive letter and directories on both **Operator 1** and **Render Node** machines.
 
 <br><br>
 
