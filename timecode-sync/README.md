@@ -79,7 +79,7 @@ Now go to the **Operator** machine and we have another black magic card set up t
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/setUp4KMini.png)
 
 ![](../images/line2.png)
 
