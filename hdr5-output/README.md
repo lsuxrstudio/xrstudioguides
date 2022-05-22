@@ -1,7 +1,7 @@
 ![](../images/line3.png)
 ### HDR Output
 
-<sub>[previous](../live-link5/README.md#user-content-live-link) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)</sub>
+<sub>[previous](../live-link5/README.md#user-content-live-link) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../live-link5/README.md#user-content-live-link)</sub>
 
 ![](../images/line3.png)
 
@@ -131,5 +131,6 @@ In the **Post Production Volume** set the **Bloom | Intensity** to `0`, the **Vi
 
 ![](../images/line.png)
 
-| [previous](../live-link5/README.md#user-content-live-link)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
-|---|---|
+| [previous](../live-link5/README.md#user-content-live-link)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../live-link5/README.md#user-content-live-link)|
+|---|---|---|
+
