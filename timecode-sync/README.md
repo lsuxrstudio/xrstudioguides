@@ -63,9 +63,9 @@ Now select **Video IO..**.
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-S
+Select the **DeckLink 8K Pro** as the device that we are inputting.  The camera is wired into channel 1.  Turn this **On** and set it as the **Input**. Our second channel is going from this decklink to the **BlackMagic** card in the operator PC that needs this signal to read the timecode.  So we set channel 2 to **On** and set it as **Output**
 
-![alt_text](images/forwardVideo.jpg)
+![set input and output](images/forwardVideo.jpg)
 
 ![](../images/line2.png)
 
