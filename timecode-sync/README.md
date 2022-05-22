@@ -31,6 +31,8 @@ Call the blueprint `BP_BlackMagic_Timecode`.
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+The black magic capture card that receives the camera signal in our capture PC then sends it to the operator machine to feed it timecode.  We can open up 
+
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
