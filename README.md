@@ -6,7 +6,7 @@
 
 The TLDR's are for students and faculty already trained on the system for a quick reminder for all the steps in the various roles to get up and running on your shoot.
 
-* [UE5 Template for Single Camera LED Wall Shoot (No RT)](https://dmae.cct.lsu.edu/LSUBaseTemplate.zip)
+* [UE5 Template for Single Camera LED Wall Shoot (No RT)](https://dmae.cct.lsu.edu/templates/LSUBaseTemplate.zip)
 * [Add and Create new Config for Switchboard]()
 * [Operator 1 Start-Up Checklist](op1-startup/README.md)
 * [Operator 1 Shut-Down Checklist](op1-shutdown/README.md)
