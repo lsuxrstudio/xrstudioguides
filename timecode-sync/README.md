@@ -145,9 +145,9 @@ Open up **Edit | Project Settings** and set the **Framerate | Advanced | Custom 
 
 ##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the **Render Node** pc and check the **NVidia Settings**.  z
+Go to the **Render Node** pc and check the **NVidia Control Panel**.  Select **Synchronize Displays** and select a **timing server** that is **On this System**. Make sure it has an **External House Signal** and ensure it is `30` fps. Please note this requires a second NVidea card alongside the GPU that provides sync.  In our case it is the **NVidia Quadro Sync** card.
 
-![alt_text](images/syncDisplays.png)
+![make sure GPU is set to external house signal](images/syncDisplays.png)
 
 ![](../images/line2.png)
 
