@@ -120,7 +120,9 @@ Double check that the timecode in Unreal is the same as our source (in this case
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now we can stripe timcecode to our digital content in Unreal.  We also want to sync our Unreal game to match the rest of the system (camera, opti track cameras, both Blackmagic sync cards, render node pc).  Select the **Stages** folder and press the 
+
+![alt_text](images/customTimestepBP.png)
 
 ![](../images/line2.png)
 
