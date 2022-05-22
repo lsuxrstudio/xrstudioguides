@@ -145,7 +145,7 @@ Open up **Edit | Project Settings** and set the **Framerate | Advanced | Custom 
 
 ##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the **Render Node** pc and check the **NVidia Settings**. 
+Go to the **Render Node** pc and check the **NVidia Settings**.  z
 
 ![alt_text](images/syncDisplays.png)
 
