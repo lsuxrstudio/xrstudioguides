@@ -55,7 +55,9 @@ Now we are using **Assimilate Live-FX** to record and feed timecode to our opert
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/videoIO.jpg)
+Now select **Video IO..**.
+
+![select Video IO..](images/videoIO.jpg)
 
 ![](../images/line2.png)
 
