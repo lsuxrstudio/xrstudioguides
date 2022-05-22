@@ -104,7 +104,7 @@ Now to make this all work the final step is to open **Edit | Project Settings** 
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-To see the timecode open up **Window | Timecode Provider**.
+To see the timecode open up **Window | Virtual Production | Timecode Provider**.
 
 ![open up window timecode provider](images/timecodeProvider.png)
 
