@@ -119,7 +119,7 @@ Now we need to add focus tracking.  Go back to the **Red Komodo** camera in the 
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Make sure the camera name you have in **LoNet** shows up under **Subject Name**.  Make sure the light is green.  Keep all the default settings.
+Make sure the camera name you have in **LoNet** shows up under **Subject Name**.  Make sure the light is green.  Turn on **Rebroadcast Subjects**.
 
 ![lonet green in subject name](images/lonetGreen.png)
 
@@ -127,7 +127,9 @@ Make sure the camera name you have in **LoNet** shows up under **Subject Name**.
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now that we have the **LiveLink** setup we just need to have it communicate to our in game camera.  Go back  to the **Main** level and select the **RedKomodo** cinecamera.  Press the green <kbd>+ Add Component</kbd> button and select a **Live Link Controller** component. Call this component `Live Link Lonet`.
+Now that we have the **LiveLink** setup we just need to have it communicate to our in game camera.  Go back  to the **Main** level and select the **RedKomodo** cinecamera.  Press the green <kbd>+ Add Component</kbd> button and select a **Live Link Controller** component. Call this component `Camera Focus`.
+
+Now this will adjust more than just the focus.  You need to go to **CAMERA ROLE | Settings | Update Flags** and turn off all adjustments except for **Apply Focus Distance**.  Otherwise you will not be able to set aperature, zoom etc...
 
 ![live link lonet component](images/lonetLinkCam.png)
 
@@ -135,18 +137,18 @@ Now that we have the **LiveLink** setup we just need to have it communicate to o
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
-##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Now we have to select what the **LiveLink** data will be altering.  In this case it is pulling the **Focal Distance**. Turn off all of the settings we will not be using.
 
 ![select what lonet tracker changes](images/cameraPlugin.png)
 
 ![](../images/line2.png)
 
+
+##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 ##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
