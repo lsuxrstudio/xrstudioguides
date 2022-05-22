@@ -129,14 +129,15 @@ Now we can stripe timcecode to our digital content in Unreal.  We also want to s
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
-Now 
-![alt_text](images/genlockSettings.png)
+Now select the same input card settings we picked for the timecode with **UltraStudio 4K Mini** with **4K DCI**, **Progressive** scan and **30 fps**.
+
+![set genlock settings to same as camera](images/genlockSettings.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/projectSyncSettings.png)
 
 ![](../images/line2.png)
 
