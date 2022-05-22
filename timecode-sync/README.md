@@ -137,7 +137,9 @@ Now select the same input card settings we picked for the timecode with **UltraS
 
 ##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/projectSyncSettings.png)
+Open up **Edit | Project Settings** and set the **Framerate | Advanced | Custom TimeStep** to `BP_BlackMagic_GenLock`.
+
+![add genlock blueprint to project settings](images/projectSyncSettings.png)
 
 ![](../images/line2.png)
 
