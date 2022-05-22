@@ -153,7 +153,9 @@ Go to the **Render Node** pc and check the **NVidia Control Panel**.  Select **S
 
 ##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+
+
+![alt_text](images/confirmSync.png)
 
 ![](../images/line2.png)
 
