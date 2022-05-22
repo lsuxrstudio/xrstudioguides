@@ -87,7 +87,9 @@ Quit the black magic software and open the project in **Unreal**. Now open up **
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now select the **Timecode Format** to `LTC`.
+
+![select ltc timecode](images/selectMini.png)
 
 ![](../images/line2.png)
 
