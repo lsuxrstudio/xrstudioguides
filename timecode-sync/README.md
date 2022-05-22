@@ -161,7 +161,7 @@ Go to **View System Topology** and make sure that **External Sync Signal** is se
 
 ##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now to confirm sync in game type `~ stat fps` then press enter.  You will see a framerate that is no longer 200 fps but very close to 30.
+Now to confirm sync in game type `~ stat fps` then press enter.  You will see a framerate that is no longer 200 fps but very close to 30. And we have timecode to boot.  Now are set to put a project up on the wall.
 
 ![confirm sync](images/syncTimecode.png)
 
