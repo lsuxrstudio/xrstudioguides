@@ -87,7 +87,7 @@ Quit the black magic software and open the project in **Unreal**. Now open up **
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-Now select the **Timecode Format** to `LTC`.
+Now set the **Timecode Format** to `LTC`.
 
 ![select ltc timecode](images/selectMini.png)
 
@@ -95,7 +95,9 @@ Now select the **Timecode Format** to `LTC`.
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now to make this all work the final step is to open **Edit | Project Settings** and set the **Timecode Provider** as the blueprint we just configured.
+
+![alt_text](images/timecodeProjectSettings.png)
 
 ![](../images/line2.png)
 
