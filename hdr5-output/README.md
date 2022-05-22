@@ -128,7 +128,7 @@ In the **Post Production Volume** set the **Bloom | Intensity** to `0`, the **Vi
 
 ![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Timecode and Sync">
+![next up timecode and sync](images/timecodeAndSync.jpg)
 
 ![](../images/line.png)
 
