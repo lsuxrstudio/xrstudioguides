@@ -15,7 +15,9 @@ We are almost ready to go.  The only thing we need to add is timecode and sync. 
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-![alt_text](images/.png)
+In our case in our **Caputure PC** we have a BlackMagic Decklink 8K card.  Our **RED Komodo** camera goes into the black magic by SDI. 
+
+![add black magic timecode blueprint](images/blackMagicTC.png)
 
 ![](../images/line2.png)
 
