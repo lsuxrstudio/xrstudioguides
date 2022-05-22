@@ -65,7 +65,7 @@ Now select **Video IO..**.
 
 S
 
-![alt_text](images/forwardVideo.png)
+![alt_text](images/forwardVideo.jpg)
 
 ![](../images/line2.png)
 
