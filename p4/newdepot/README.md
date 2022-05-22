@@ -32,7 +32,7 @@ Start-Up Procedure for Operator 1
 
 - [ ] In the workspace location create a new folder with the same name as the **Depot**, don't forget this is cap sensitive
 
-- [ ] Copy the `.p4ignore` file into the folder. A generic sample can be found here [.p4ignore](../files/.p4ignore).
+- [ ] Copy the `.p4ignore` file into the folder. A generic sample can be found here [.p4ignore](../../files/.p4ignore).
 
 - [ ] Open up **P4V** and make sure you are in the correct workspace. Select `Connection | Edit Current Workspace` then right click on the newly created workspace and select `Include Tree`.
 
