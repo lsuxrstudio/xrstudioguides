@@ -54,6 +54,10 @@ Start-Up Procedure for Operator 1
 
 - [ ] Confirm focus is tracking correctly
 
+- [ ] Confirm render node GPU Nvidia Control Panel are correct with house sync and correct framerate.
+
+- [ ] Make sure HDR is off on Nvidia Control Panel  
+
 <br><br>
 
 | [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
