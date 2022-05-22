@@ -41,7 +41,7 @@ The black magic capture card that receives the camera signal in our capture PC t
 
 We have setup the **BlackMagic Decklink** card so that any of the **SDI** connectors can be inputs or outputs.  It recognizes that we are using channel 1 as an input and channel 2 as an output.
 
-![show input and output setting in black magic deckink card](images/decklinkSettings.png)
+![show input and output setting in black magic deckink card](images/decklinkSettings.jpg)
 
 ![](../images/line2.png)
 
