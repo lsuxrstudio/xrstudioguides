@@ -71,7 +71,9 @@ Select the **DeckLink 8K Pro** as the device that we are inputting.  The camera 
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now go to the **Operator** machine and we have another black magic card set up to ingest the video.  Run the **Black Magic** software and confirm you are receiving a video signal. If it is working you will see the camera in the operator computer (make sure Unreal is not running at this time).  Remember, only one piece of software can get a video input at a time.  
+
+![check operator video input](images/videoInCapture.png)
 
 ![](../images/line2.png)
 
