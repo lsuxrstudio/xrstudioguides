@@ -110,7 +110,7 @@ Now you should see in game that the camera pops up to the position of where it i
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now we need to add focus tracking.  Go back to the **Live Link** tab and select **Source** and select the **LONET 2 Live Link** live link input and press the <kbd>OK</kbd> key.
+Now we need to add focus tracking.  Go back to the **Red Komodo** camera in the editor and go to the **Live Link** tab. Select **+ Source** and select the **LONET 2 Live Link** live link input and press the <kbd>OK</kbd> key.
 
 ![add lonet live link to game engine](images/loNetDefaultSettings.png)
 
