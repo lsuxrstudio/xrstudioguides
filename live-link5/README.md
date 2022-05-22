@@ -110,9 +110,9 @@ Now you should see in game that the camera pops up to the position of where it i
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now we need to add focus tracking.  Go back to the **Live Link** tab and seelct **Source** and select the **LONET 2 LiveLink** plugin and press the <kbd>OK</kbd> key.
+Now we need to add focus tracking.  Go back to the **Live Link** tab and select **Source** and select the **LONET 2** live link input and press the <kbd>OK</kbd> key.
 
-![alt_text](images/loNetDefaultSettings.png)
+![add lonet live link to game engine](images/loNetDefaultSettings.png)
 
 ![](../images/line2.png)
 
