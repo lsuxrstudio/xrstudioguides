@@ -153,9 +153,9 @@ Go to the **Render Node** pc and check the **NVidia Control Panel**.  Select **S
 
 ##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Go to **View System Topology** and make sure that **External Sync Signal** is set to **Present (in use)**.  Then we know sync is working.
 
-
-![alt_text](images/confirmSync.jpg)
+![confirm sync is working in external sync signal](images/confirmSync.jpg)
 
 ![](../images/line2.png)
 
