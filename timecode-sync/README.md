@@ -63,7 +63,9 @@ Now select **Video IO..**.
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+S
+
+![alt_text](images/forwardVideo.png)
 
 ![](../images/line2.png)
 
