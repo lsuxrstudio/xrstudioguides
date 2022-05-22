@@ -145,7 +145,9 @@ Open up **Edit | Project Settings** and set the **Framerate | Advanced | Custom 
 
 ##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Go to the **Render Node** pc and check the **NVidia Settings**. 
+
+![alt_text](images/syncDisplays.png)
 
 ![](../images/line2.png)
 
@@ -182,3 +184,5 @@ ___
 
 | [previous](../hdr5-output/README.md#user-content-hdr-output)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
 |---|---|
+
+syncTimecode
