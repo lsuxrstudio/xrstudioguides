@@ -161,21 +161,9 @@ Go to **View System Topology** and make sure that **External Sync Signal** is se
 
 ##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now to confirm sync in game type `~ stat fps` then press enter.  You will see a framerate that is no longer 200 fps but very close to 30.
 
-![](../images/line2.png)
-
-##### `Step 20.`\|`BTS`| :large_blue_diamond: :large_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-___
+![confirm sync](images/syncTimecode.png)
 
 
 ![](../images/line.png)
@@ -187,4 +175,3 @@ ___
 | [previous](../hdr5-output/README.md#user-content-hdr-output)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
 |---|---|
 
-syncTimecode
