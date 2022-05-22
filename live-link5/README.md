@@ -153,7 +153,7 @@ ___
 
 ![](../images/line.png)
 
-![next up monitor output](../images/monitorOutput.png)
+![next up monitor output](images/monitorOutput.png)
 
 ![](../images/line.png)
 
