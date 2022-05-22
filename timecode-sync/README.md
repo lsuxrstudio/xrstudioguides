@@ -95,7 +95,7 @@ Now set the **Timecode Format** to `LTC`.
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-Now to make this all work the final step is to open **Edit | Project Settings** and set the **Timecode Provider** as the blueprint we just configured.
+Now to make this all work the final step is to open **Edit | Project Settings** and set the **Timecode Provider** as the blueprint we just configured `BP_Blackmagic_Timecode`.
 
 ![alt_text](images/timecodeProjectSettings.png)
 
