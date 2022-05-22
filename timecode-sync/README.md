@@ -112,7 +112,9 @@ To see the timecode open up **Window | Virtual Production | Timecode Provider**.
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Double check that the timecode in Unreal is the same as our source (in this case our timecode source is coming from the camera).
+
+![check timecode in unreal and in camera](images/timecodeWorking.png)
 
 ![](../images/line2.png)
 
