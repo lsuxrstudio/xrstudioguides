@@ -15,7 +15,7 @@ We are almost ready to go.  The only thing we need to add is timecode and sync. 
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-In our case in our **Caputure PC** we have a BlackMagic Decklink 8K card.  Our **RED Komodo** camera goes into the black magic by SDI. 
+In our case in our **Caputure PC** we have a BlackMagic Decklink 8K card.  Our **RED Komodo** camera goes into the black magic by SDI. Go to the **Stages** folder and press the <kbd>+ Add</kbd> and open up **ALL CLASSES** and select `BlackmagicTimecodeProvider(Balckmagic SDI Input)`.
 
 ![add black magic timecode blueprint](images/blackMagicTC.png)
 
