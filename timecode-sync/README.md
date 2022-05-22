@@ -79,7 +79,9 @@ Now go to the **Operator** machine and we have another black magic card set up t
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/setUp4KMini.png)
+Quit the black magic software and open the project in **Unreal**. Now open up **BP_BlackMagic_Timecode** and our input card for the **Operator 1** is an **UltraStudio 4K Mini**. Set this as the input card at **4K DCI** and **30 fps** then press the <kbd>Apply</kbd> button.
+
+![set ultra studio 4k dci at 30 fps as the input](images/setUp4KMini.png)
 
 ![](../images/line2.png)
 
