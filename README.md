@@ -22,6 +22,8 @@ The TLDR's are for students and faculty already trained on the system for a quic
 * [nDisplay Config](ndisplay5-config/README.md#user-content-ndisplay-config)
 * [Live Link](live-link5/README.md#user-content-live-link)
 * [HDR Output](hdr5-output/README.md#user-content-hdr-output)
+* [Timecode & Sync](timecode-sync/README.md#user-content-hdr-output)
+
 
 #### OLD - Setup project with all the settings for the LSU LED Wall with no ray tracing walk through. Creating a UE4.27 Single Camera UE4 4.27 Project From Scratch. 
 * [Setting Up Project](unreal-base-setup/README.md#setting-up#user-content-setting-up-project)

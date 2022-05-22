@@ -1,6 +1,6 @@
 ![](../images/line3.png)
 
-### Add Title
+### Timecode & Sync
 
 <sub>[previous](../) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../)</sub>
 
