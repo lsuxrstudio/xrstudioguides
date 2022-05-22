@@ -23,7 +23,9 @@ In our case in our **Caputure PC** we have a BlackMagic Decklink 8K card.  Our *
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Call the blueprint `BP_Blackmagic_Timecode`.
+
+![call it BP_Blackmagic_Timecode](images/blackmagicbp.png)
 
 ![](../images/line2.png)
 
