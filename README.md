@@ -34,7 +34,8 @@ The TLDR's are for students and faculty already trained on the system for a quic
 ### Perforce
 * [Add Depot to Perforce](p4/newdepot/README.md)
 * [Installing P4V](https://github.com/maubanel/p4v-unreal/blob/main/installing/README.md#user-content-installing-p4v)
-
+* [Workspaces in P4V](https://github.com/maubanel/p4v-unreal/blob/main/workspaces/README.md#user-content-workspaces-in-p4v)
+* 
 ### Indiemark Lens Encoder
 * [Setting Up Lens Encoding](indie-mark/README.md#user-content-indie-mark)
 
