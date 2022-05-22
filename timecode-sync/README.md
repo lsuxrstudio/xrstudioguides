@@ -120,15 +120,17 @@ Double check that the timecode in Unreal is the same as our source (in this case
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now we can stripe timcecode to our digital content in Unreal.  We also want to sync our Unreal game to match the rest of the system (camera, opti track cameras, both Blackmagic sync cards, render node pc).  Select the **Stages** folder and press the 
+Now we can stripe timcecode to our digital content in Unreal.  We also want to sync our Unreal game to match the rest of the system (camera, opti track cameras, both Blackmagic sync cards, render node pc).  Select the **Stages** folder and press the <kbd>+ Add</kbd> button and select **Blueprint**.  Open up **ALL CLASSES** and select `BlackmagicCustomTimeStep(Blackmagic SDI Input)`.
+ Call the blueprint `BP_BlackMagic_GenLock`.
 
-![alt_text](images/customTimestepBP.png)
+![create blueprint for genlock](images/customTimestepBP.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Now 
+![alt_text](images/genlockSettings.png)
 
 ![](../images/line2.png)
 
