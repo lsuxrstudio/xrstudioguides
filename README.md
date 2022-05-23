@@ -32,7 +32,7 @@ The TLDR's are for students and faculty already trained on the system for a quic
 * [HDR Output](hdr-output/README.md#user-content-hdr-output)
 
 ### Perforce Admin (you require admin rights)
-* [Add Depot to Perforce]([p4/newdepot/README.md](https://github.com/maubanel/p4v-unreal/blob/main/newdepot/README.md#user-content-installing-p4v#user-content-p4-new-depot))
+* [Add Depot to Perforce](https://github.com/maubanel/p4v-unreal/blob/main/newdepot/README.md#user-content-installing-p4v#user-content-p4-new-depot)
 
 ### Perforce
 * [Installing P4V](https://github.com/maubanel/p4v-unreal/blob/main/installing/README.md#user-content-installing-p4v)
