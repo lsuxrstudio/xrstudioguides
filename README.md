@@ -6,8 +6,8 @@
 
 The TLDR's are for students and faculty already trained on the system for a quick reminder for all the steps in the various roles to get up and running on your shoot.
 
-* [UE4 Template for Single Camera LED Wall Shoot (No RT)]()
-* [Create new Config for Switchboard]()
+* [UE5 Template for Single Camera LED Wall Shoot (No RT)](https://dmae.cct.lsu.edu/templates/LSUBaseTemplate.zip)
+* [Add and Create new Config for Switchboard]()
 * [Operator 1 Start-Up Checklist](op1-startup/README.md)
 * [Operator 1 Shut-Down Checklist](op1-shutdown/README.md)
 * [Camera Tracker Start-Up Checklist](mocap/README.md)
@@ -22,6 +22,8 @@ The TLDR's are for students and faculty already trained on the system for a quic
 * [nDisplay Config](ndisplay5-config/README.md#user-content-ndisplay-config)
 * [Live Link](live-link5/README.md#user-content-live-link)
 * [HDR Output](hdr5-output/README.md#user-content-hdr-output)
+* [Timecode & Sync](timecode-sync/README.md#user-content-timecode--sync)
+
 
 #### OLD - Setup project with all the settings for the LSU LED Wall with no ray tracing walk through. Creating a UE4.27 Single Camera UE4 4.27 Project From Scratch. 
 * [Setting Up Project](unreal-base-setup/README.md#setting-up#user-content-setting-up-project)
@@ -31,6 +33,9 @@ The TLDR's are for students and faculty already trained on the system for a quic
 
 ### Perforce
 * [Add Depot to Perforce](p4/newdepot/README.md)
+* [Installing P4V](https://github.com/maubanel/p4v-unreal/blob/main/installing/README.md#user-content-installing-p4v)
+* [Workspaces in P4V](https://github.com/maubanel/p4v-unreal/blob/main/workspaces/README.md#user-content-workspaces-in-p4v)
+
 
 ### Indiemark Lens Encoder
 * [Setting Up Lens Encoding](indie-mark/README.md#user-content-indie-mark)

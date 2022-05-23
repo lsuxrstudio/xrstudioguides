@@ -94,7 +94,7 @@ Now that we have the **LiveLink** setup we just need to have it communicate to o
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-Now select the **Subject Representatino** in the **Live Link Controller** and pick `ActivePuck_CH20_ID1`.
+Now select the **Subject Representation** in the **Live Link Controller** and pick `RED_Camera`.
 
 ![bind live link component to ActivePuck_CH20_ID1](images/selectCameraTracker.png)
 
@@ -104,22 +104,22 @@ Now select the **Subject Representatino** in the **Live Link Controller** and pi
 
 Now you should see in game that the camera pops up to the position of where it is tracking in **OptiTrack Motive**.
 
-https://user-images.githubusercontent.com/5504953/157681712-fd89c85f-0311-4e03-b9b3-d808dc9325ef.mp4
+![moving camera in scene](images/cameraNowTracking.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now we need to add focus tracking.  Go back to the **Live Link** tab and seelct **Source** and select the **LONET 2 LiveLink** plugin and press the <kbd>OK</kbd> key.
+Now we need to add focus tracking.  Go back to the **Red Komodo** camera in the editor and go to the **Live Link** tab. Select **+ Source** and select the **LONET 2 LiveLink** live link input and press the <kbd>OK</kbd> key.
 
-![alt_text](images/loNetDefaultSettings.png)
+![add lonet live link to game engine](images/loNetDefaultSettings.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Make sure the camera name you have in **LoNet** shows up under **Subject Name**.  Make sure the light is green.  Keep all the default settings.
+Make sure the camera name you have in **LoNet** shows up under **Subject Name**.  Make sure the light is green.  Turn on **Rebroadcast Subjects**.
 
 ![lonet green in subject name](images/lonetGreen.png)
 
@@ -127,7 +127,9 @@ Make sure the camera name you have in **LoNet** shows up under **Subject Name**.
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now that we have the **LiveLink** setup we just need to have it communicate to our in game camera.  Go back  to the **Main** level and select the **RedKomodo** cinecamera.  Press the green <kbd>+ Add Component</kbd> button and select a **Live Link Controller** component. Call this component `Live Link Lonet`.
+Now that we have the **LiveLink** setup we just need to have it communicate to our in game camera.  Go back  to the **Main** level and select the **RedKomodo** cinecamera.  Press the green <kbd>+ Add Component</kbd> button and select a **Live Link Controller** component. Call this component `Camera Focus`.
+
+Now this will adjust more than just the focus.  You need to go to **CAMERA ROLE | Settings | Update Flags** and turn off all adjustments except for **Apply Focus Distance**.  Otherwise you will not be able to set aperature, zoom etc...
 
 ![live link lonet component](images/lonetLinkCam.png)
 
@@ -135,28 +137,13 @@ Now that we have the **LiveLink** setup we just need to have it communicate to o
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
-##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now we have to select what the **LiveLink** data will be altering.  In this case it is pulling the **Focal Distance**. Turn off all of the settings we will not be using.
-
-![select what lonet tracker changes](images/cameraPlugin.png)
-
-![](../images/line2.png)
-
-
-##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Now we are able to see the **Current Focus Distance** change when the focal ring is moved on the camera.
 
 https://user-images.githubusercontent.com/5504953/157722365-b18b5091-1fbe-466f-9c8c-6ea4a2c872d5.mp4
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`BTS`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 If everything works resave the **Live Link** preset to the same file overwriting the old one.  Now we have live camera and lense tracking.
 
@@ -166,7 +153,7 @@ ___
 
 ![](../images/line.png)
 
-![next up monitor output](../images/monitorOutput.png)
+![next up monitor output](images/monitorOutput.png)
 
 ![](../images/line.png)
 

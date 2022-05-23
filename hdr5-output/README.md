@@ -1,10 +1,9 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
-
+![](../images/line3.png)
 ### HDR Output
 
-<sub>[previous](../live-link5/README.md#user-content-live-link) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)</sub>
+<sub>[previous](../live-link5/README.md#user-content-live-link) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../timecode-sync/README.md#user-content-timecode--sync)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 The LED wall wants to receive a linear HDR signal.  Unreal has been built to output **sRGB** for computer monitors for playing games. There are a few extra steps in configuring the project to output in the correct color space. The monitor uses a **PQ** signal. We need to convert the color to **Linear PQ**.  Please note this will look wrong in your monitor viewing the project, but will look correct on the LED panels.
 
@@ -19,7 +18,7 @@ Make sure the **OCIO** plugin is enabled. Click on **View Options** and turn on 
 
 ![set up OCIO color](images/ocioTools.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +26,7 @@ Copy the `simple.config.ocio` and the `luts` folder.
 
 ![copy config and ocio folder](images/simpleConfigOCIO.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +34,7 @@ Create a new folder inside of **Stages** called `OCIO`.
 
 ![create OCIO folder in Stages](images/newOCIOFolder.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,16 +42,16 @@ Right click on **Stages | OCIO** and select **Open in Explorer** and now paste t
 
 ![paste files in OCIO folder](images/copyContent.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Click on the **OCIO** folder and right click on the <kbd>Add/Import</kbd> button and select the **Miscellaneous 
+Click on the **OCIO** folder and right click on the <kbd>+ Add</kbd> button and select the **Miscellaneous 
 | OpenColorIO Configuration** node. Call it `SRGBtoPQ`.  SRGB is the native format that Unreal outputs for games and PQ is an **HDR** format that our **Brompton** processors are set up to receive.
 
 ![creat OCIO Asset](images/createOCIOAsset.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
@@ -60,16 +59,16 @@ Open up the **SRGBtoPQ** file and load the `simple.config.ocio` into the **Confi
 
 ![add simple.config.ocio to element](images/addOpenConfig.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Next to **Desired Color Space** press the **+** button next to **Desired Color Space** twice.  In the slot `0` add **Utility | Utility - Linear -sRGB**.  On `1` select **Output | LED Walls - PQ**.  We also need a third output for anyone who is working in Unreal Editor (like operator 1) to get the output color into a sRGB computer monitor color.
+Next to **Desired Color Space** press the **+** button next to **Desired Color Space** three times.  In the slot `0` add **Utility | Utility - Linear -sRGB**.  On `1` select **Output | LED Walls - PQ**.  We also need a third output for anyone who is working in Unreal Editor (like operator 1) to get the output color into a sRGB computer monitor color.
 
 ![add an sRGB to PQ converter](images/conversion.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -77,7 +76,7 @@ Open the **LSUnDisplayConfig** Blueprint and select the  **OCIO | Configuration 
 
 ![assign ocio to ndisplay config and pick source and destination color](images/assignOCIO.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -85,7 +84,7 @@ Repeat the above in the **ICVFX** component in the **LSUnDIsplayACong** Blueprin
 
 ![assign ocio to icvfx component](images/ocioIcvx.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
@@ -93,7 +92,7 @@ Double check that in game these settings carry over into the **LSUDisplayConfig*
 
 ![confirm ocio carry over to component in game](images/confirmColor.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -101,7 +100,7 @@ Go back to the game editor and click on **Lit** and enable **OCIO Display | Enab
 
 ![set up color transform in engine](images/inGameColor.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -110,7 +109,7 @@ Right now the template defaults to showing the two controller for touch screens.
 
 ![turn off touch interface](images/turnOffTouch.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -118,7 +117,7 @@ Now we need to turn off some of the game rendering features that are trying a mi
 
 ![set post process volume](images/setPosttProcessVolume.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -126,22 +125,12 @@ In the **Post Production Volume** set the **Bloom | Intensity** to `0`, the **Vi
 
 ![adjust post production volume](images/adjustmentPostVolume.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line.png)
 
-##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
+![next up timecode and sync](images/timecodeAndSync.png)
 
-Now we can finish by downloading a few textures we might use for monitor calibratoin.  Add the [T_Calibratoin.png](images/T_Calibration.png) and [T_CalibrationTester.png]()files.
+![](../images/line.png)
 
-![alt_text](images/.png)
+| [previous](../live-link5/README.md#user-content-live-link)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../timecode-sync/README.md#user-content-timecode--sync)|
+|---|---|---|
 
-___
-
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
-
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - That's All Folks!">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
-
-| [previous](../live-link5/README.md#user-content-live-link)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
-|---|---|
