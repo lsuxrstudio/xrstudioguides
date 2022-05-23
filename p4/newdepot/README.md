@@ -42,6 +42,8 @@ Start-Up Procedure for Operator 1
 
 - [ ]  Ensure **Depot** is added to both **Operator 1** and **Render Node** PC's in the lab. Please note that you cannot use the same workspace name twice but can use the same workspace root.  It is best practice to have Unreal program and workspaces installed on the same drive letter and directories on both **Operator 1** and **Render Node** machines.
 
+- [ ] Ensure that the environment variable is set and in command prompt in **p4** enter `p4 set P4IGNORE=.p4ignore`.
+
 <br><br>
 
 | [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
