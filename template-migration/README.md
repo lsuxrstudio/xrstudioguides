@@ -16,25 +16,25 @@ Copy the `LSUBaseTemplate` from p4 > Templates and **rename** it something *part
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-**Open your oringal project** (ie "MyProject") and bring up the level you have designed. 
+**Open your original project** (ie "MyProject") and bring up the level you have designed. 
 
 ---
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Rt. Click on the level and choose Asset Actions > **Migrate**. Choose the *particular* name you made in Step 1 (ie "MyProject-XRStudio"). Make sure to go to the root folder. 
+Rt. Click on the level and choose Asset Actions > **Migrate**. Choose the new custom template name you made in Step 1 (ie "MyProject-XRStudio"). Make sure to go to the root folder. 
 
 --- 
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now open the new project you made (ie MyProject-XRStudio) this should include the LSUBaseTemplate "Test" Level. Select nDisplay component in your outliner then rt. click > copy. Now go into your level and rt. click > paste it into your outliner.
+Now open the new project you made (ie MyProject-XRStudio) this should include the LSUBaseTemplate "Test" Level in the Scenes folder. Select **LSUnDisplayConfig** AND its child **Red Komodo** in your outliner then rt. click > copy. Now go into your level and rt. click > paste it into your outliner.
 
 --- 
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Finally, you need to go into your nDisplay component and re-select the ICVFX camera. 
+In your level, select **LSUnDisplayConfig** and then in details select **IXVFXCamera**. Under In-Camera VFX > Cine Camera Actor click the drop down and choose **Red Komodo**.
 
 ---
 
