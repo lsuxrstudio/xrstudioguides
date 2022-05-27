@@ -28,7 +28,7 @@ Rt. Click on the level and choose Asset Actions > **Migrate**. Choose the *parti
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now open the new project you made (ie MyProject-XRStudio) this should now include the LSUBaseTemplate "Test" Level. Select nDisplay component in your outliner then rt. click > copy. Now go into your level and rt. click > paste it into your outliner.
+Now open the new project you made (ie MyProject-XRStudio) this should include the LSUBaseTemplate "Test" Level. Select nDisplay component in your outliner then rt. click > copy. Now go into your level and rt. click > paste it into your outliner.
 
 --- 
 
