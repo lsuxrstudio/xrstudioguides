@@ -6,7 +6,7 @@
 
 <sub>[home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)</sub>
 
-Start-Up Procedure for Operator 1
+Procedure for creating a new Depot in P4.
 
 <br>
 

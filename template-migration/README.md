@@ -1,6 +1,6 @@
 # LSU Base Template Migration
 
-<sub>[previous](workspaces/README.md) • [home](/README.md) • [next](/README.md)</sub>
+<sub>[previous](/README.md) • [home](/README.md) • [next](/README.md)</sub>
 
 ---
 
@@ -62,5 +62,5 @@ The following goes over how to migrate your project into the LSUBaseTemplate tha
 
 ---
 
-| [previous](workspaces/README.md)| [home](/README.md) | [next](/README.md)|
+| [previous](/README.md)| [home](/README.md) | [next](/README.md)|
 |---|---|---|
