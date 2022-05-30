@@ -64,8 +64,6 @@ The following section goes over the startup and shutdown procedures for hardware
 
 In the event of a storm it would be best to power off everything in the studio using the above procedures then proceed to the circuit breaker and turn off all of the switches. Each section of switches is labled for a particular area ie: "brain bar", "virtaul art dept", etc.
 
-
-
 ---
 
 | [previous](/README.md)| [home](/README.md) | [next](/README.md)|

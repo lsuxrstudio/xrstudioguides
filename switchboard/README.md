@@ -1,159 +1,83 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+# Switchboard Setup
 
-### Switchboard
-
-<sub>[previous](../) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../)</sub>
-
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
-
-The procedure for starting a new Switchboard configuration in LSU's Virtual Production Studio. See also Unreal's generic In-camera VFX Quick Start Step 4 for assistance: https://docs.unrealengine.com/4.27/en-US/WorkingWithMedia/IntegratingMedia/InCameraVFX/InCameraVFXQuickStart/.
-
-<br>
+<sub>[previous](/README.md) • [home](/README.md) • [next](/README.md)</sub>
 
 ---
 
-
-##### `Step 1.`\|`BTS`|:small_blue_diamond:
-
-Once you've gone through the Unreal Base Setup you can make sure your project launches through Unreal's Switchboard. Among other things, this application helps you manage Unreal across multiple render nodes. You can either launch it from within the editor by clicking the Switchboard icon above the viewport or by clicking a the desktop shortcut for it.  
-
-![image](https://user-images.githubusercontent.com/1238349/159081509-a55c11fa-301d-4932-a819-291cbf960c65.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
-
-Inside of switchboard you go to Configs > New Config and then in this dialog box you can click **detect** to automatically fill in values from source control (Perforce).
-
-![image](https://user-images.githubusercontent.com/1238349/159081892-1e186324-0252-42b1-859e-8b3b297868ca.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Click **Add Device > nDisplay** and then choose **Populate**.
-
-![image](https://user-images.githubusercontent.com/1238349/159082849-2d292a28-0946-4b09-a9c7-72e1e9384a55.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Also add an **Unreal** device with the current machine's IP: 130.39.93.73.
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 5.`\|`BTS`| :small_orange_diamond:
-
-Change the nDisplay IP to the render node, at the moment, this is 130.39.93.72.
-
-![image](https://user-images.githubusercontent.com/1238349/159083130-69e0c102-455f-498f-bd46-ad9a58d0cf4f.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
-
-Under settings tick on **Auto Join**.
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 10.`\|`BTS`| :large_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-
-##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 20.`\|`BTS`| :large_blue_diamond: :large_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 21.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-___
-
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
-
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
-
-| [previous](../)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../)|
-|---|---|---|
+The following goes over how to create a new switchboard configuration.
+
+---
+
+## Pre-reqs
+
+1. Before proceeding make sure you’ve setup your Perfoce workspaces. See [Setting up Perforce on Operator and Render Nodes](https://www.notion.so/Setting-up-Perforce-on-Operator-and-Render-Nodes-43e28feb9d064b75bed4fbd697756860) 
+2. Also, it’s helpful to Migrate your project into the LSUBaseTemplate making sure to have renamed your project file and project folder something unique. See: [LSU Base Template Migration](https://www.notion.so/LSU-Base-Template-Migration-cc7f94d854774d2ab692365d7ef6c75f) 
+3. It’s useful to connect the project to source control from within the editor first. This way switchboard can auto-populate some of the fields below.  
+4. Make sure to close Unreal if you're going to launch Switchboard from outside the editor. 
+
+## Switchboard
+
+1. Open **Switchboard Listener** using the desktop shortcut ("D:\Program Files\UE_5.0\Engine\Binaries\Win64\SwitchboardListener.exe”)
+2. Open **Switchboard** using the desktop shortcut ("D:\Program Files\UE_5.0\Engine\Plugins\VirtualProduction\Switchboard\Source\Switchboard\switchboard.bat”)
+3. Go to Configs > **New Config**
+    
+    ![New Switchboard Config](images/switchboardNewConfig.png)
+    
+4. Click **Browse** next to **uProject** and choose the project you want to use.
+5. Click **Detect** and as long as your Unreal File has been already connected to Perforce it should bring in your P4 Project Path and Workspace Name. 
+
+    ![Add New Switchboard Config](images/addNewSwitchboardConfig.png)
+        
+6. If it didn’t, you can check what they are by opening Perforce and copy pasting them in.
+7. Click Add Device > **nDisplay**
+
+    ![Add nDisplay](images/addNDisplay.png)
+        
+8. When asked for an nDisplay config file click **populate** and it should grab the one from inside your project. ie: D:\Users\virtualproduction\Perforce\art4240_DESN-ART302-01_3815\2022-Summer-ART-4240-01\cfair_shatter_XR\cfair_shatter_XR.uproject. 
+9. Click Add Device > **Unreal** 
+    
+    ![Add Unreal Device](images/addDeviceUnreal.png)
+    
+10. Use **127.0.0.1** for the IP address 
+
+    ![Unreal IP Address](images/UnrealIPAddress.png)
+        
+11. Go to Settings and change the **nDisplay Node_0 Workspace Name** to the workspace on that computer (i.e. 22suart4240-render).
+
+    ![nDisplay Workspace Name](images/nDisplayWorkspaceName.png)
+        
+12. Choose your **Level**
+    
+    ![Choose Level](images/pickLevel.png)
+    
+13. Name Your Multi-User Session something like **MU_Session_ProjectName_01** and press Enter.
+    
+    ![Multi User Session Name](images/multiUserSessionName.png)
+    
+14. Click 1) Refresh Change Lists; 2) Connect to Listener on nDisplay; 3) Connect to Listener on Unreal Device; 4) Sync all device; 5) Build all devices. 6) Connect All Devices; 7) Start All devices.
+
+15. After about a minute the Unreal editor should open up on the operator and an Unreal build should  open on the render node(s).
+
+## Troubleshooting
+
+- Sometimes there are multiuser sessions running that you can’t delete. One way to do this is to run the following
+    
+    ```bash
+    cd "D:\Program Files\UE_5.0\Engine\Binaries\Win64\”
+    .\UnrealMultiUserServer.exe -ConcertClean
+    ```
+    
+- If you get an error in Switchboard that says “Could not start program p4” when switching workspaces try logging out and in again. I suspect p4 variables need to be reloaded.
+
+- Sometimes we have Unreal "ghost sessions" you can use Windows Tasks Manager to look for any instances of Unreal running in the background and close them down. 
+
+## Resources
+
+[In-Camera VFX Quick Start](https://docs.unrealengine.com/5.0/en-US/in-camera-vfx-quick-start-for-unreal-engine/)
+
+[In-Camera VFX Production Test](https://docs.unrealengine.com/5.0/en-US/in-camera-vfx-production-test-sample-project-for-unreal-engine/)
+
+---
+
+| [previous](/README.md)| [home](/README.md) | [next](/README.md)|
+|---|---|---|s
