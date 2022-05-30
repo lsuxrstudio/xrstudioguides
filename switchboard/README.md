@@ -80,4 +80,4 @@ The following goes over how to create a new switchboard configuration.
 ---
 
 | [previous](/README.md)| [home](/README.md) | [next](/README.md)|
-|---|---|---|s
+|---|---|---|
