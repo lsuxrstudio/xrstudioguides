@@ -1,17 +1,21 @@
+![](../images/line3.png)
+
 # Switchboard Setup
 
 <sub>[previous](/README.md) • [home](/README.md) • [next](/README.md)</sub>
 
----
+![](../images/line3.png)
 
 The following goes over how to create a new switchboard configuration.
+
+<br>
 
 ---
 
 ## Pre-reqs
 
-1. Before proceeding make sure you’ve setup your Perfoce workspaces. See [Setting up Perforce on Operator and Render Nodes](https://www.notion.so/Setting-up-Perforce-on-Operator-and-Render-Nodes-43e28feb9d064b75bed4fbd697756860) 
-2. Also, it’s helpful to Migrate your project into the LSUBaseTemplate making sure to have renamed your project file and project folder something unique. See: [LSU Base Template Migration](https://www.notion.so/LSU-Base-Template-Migration-cc7f94d854774d2ab692365d7ef6c75f) 
+1. Before proceeding make sure you’ve setup your Perfoce workspaces. See [Setting up Perforce on Operator and Render Nodes](../operator-and-render/README.md) 
+2. Also, it’s helpful to Migrate your project into the LSUBaseTemplate making sure to have renamed your project file and project folder something unique. See: [LSU Base Template Migration](../template-migration/README.md) 
 3. It’s useful to connect the project to source control from within the editor first. This way switchboard can auto-populate some of the fields below.  
 4. Make sure to close Unreal if you're going to launch Switchboard from outside the editor. 
 
