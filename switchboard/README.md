@@ -1,6 +1,6 @@
 ![](../images/line3.png)
 
-# Switchboard Setup
+# Switchboard New Config
 
 <sub>[previous](/README.md) • [home](/README.md) • [next](/README.md)</sub>
 
