@@ -50,7 +50,7 @@ The following goes over how to create a new switchboard configuration.
 
     ![nDisplay Workspace Name](images/nDisplayWorkspaceName.png)
         
-12. Choose your **Level**
+12. Choose your **Level**. For the first time you might have to press the **Refresh** button to see the levels.
     
     ![Choose Level](images/pickLevel.png)
     
