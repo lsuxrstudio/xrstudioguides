@@ -15,14 +15,14 @@ The following goes over how to create a new switchboard configuration.
 ## Pre-reqs
 
 1. Before proceeding make sure you’ve setup your Perfoce workspaces. See [Setting up Perforce on Operator and Render Nodes](../operator-and-render/README.md) 
-2. Also, it’s helpful to Migrate your project into the LSUBaseTemplate making sure to have renamed your project file and project folder something unique. See: [LSU Base Template Migration](../template-migration/README.md) 
+2. Make sure you've setup your scene for nDisplay and camera tracking. It's easiest to start off with the LSUBaseTemplate and build your environment on top of that, but you may also build these components from scratch, or migrate your project into the LSUBaseTemplate, see: [LSU Base Template Migration](../template-migration/README.md).
 3. It’s useful to connect the project to source control from within the editor first. This way switchboard can auto-populate some of the fields below.  
 4. Make sure to close Unreal if you're going to launch Switchboard from outside the editor. 
 
 ## Switchboard
 
-1. Open **Switchboard Listener** using the desktop shortcut ("D:\Program Files\UE_5.0\Engine\Binaries\Win64\SwitchboardListener.exe”)
-2. Open **Switchboard** using the desktop shortcut ("D:\Program Files\UE_5.0\Engine\Plugins\VirtualProduction\Switchboard\Source\Switchboard\switchboard.bat”)
+1. If it's not already running, open **Switchboard Listener** using the desktop shortcut. It's also located at D:\Program Files\UE_5.0\Engine\Binaries\Win64\SwitchboardListener.exe.
+2. Open **Switchboard** using the desktop shortcut It's also located at D:\Program Files\UE_5.0\Engine\Plugins\VirtualProduction\Switchboard\Source\Switchboard\switchboard.bat.
 3. Go to Configs > **New Config**
     
     ![New Switchboard Config](images/switchboardNewConfig.png)
@@ -64,7 +64,7 @@ The following goes over how to create a new switchboard configuration.
 
 ## Troubleshooting
 
-- Sometimes there are multiuser sessions running that you can’t delete. One way to do this is to run the following
+- If you get an error that you can't join your session or the "Joining Unreal Session" popup doesn't go away there may be multiuser sessions already running that conflict and that you can’t delete. One way to do fix this is to run the following and then press CTRL-C to exit.
     
     ```bash
     cd "D:\Program Files\UE_5.0\Engine\Binaries\Win64\”
@@ -72,6 +72,8 @@ The following goes over how to create a new switchboard configuration.
     ```
     
 - If you get an error in Switchboard that says “Could not start program p4” when switching workspaces try logging out and in again. I suspect p4 variables need to be reloaded.
+
+- If you get an error in Switchboard asking if we're connected to Source Control. Run the command `p4 login` from the command prompt. 
 
 - Sometimes we have Unreal "ghost sessions" you can use Windows Tasks Manager to look for any instances of Unreal running in the background and close them down. 
 
