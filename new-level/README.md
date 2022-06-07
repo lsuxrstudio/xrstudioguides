@@ -15,13 +15,17 @@ When you've setup Perforce and you're working in an Unreal Project there's a cou
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Whehn inside of a renamed version of the LSU Base Template you'll have a folder claled **Scenes** insisde here is a level called **Test**. To make a new level `rt click > Duplicate` the **Test** level and give the new level a name.
+
+![Duplicate Level](images/duplicate-level.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now, go into that new Level and in the **Outlimer** click **LSUnDisplayConfig**. Under **Details** click the **ICVFXCamera**. In **Cine Camera Actor** click the drop down and choose **RED Komodo**.
+
+![Select Cinema Camera](images/cine-actor-select.jpg)
 
 ![](../images/line2.png)
 
