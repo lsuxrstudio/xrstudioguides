@@ -79,6 +79,8 @@ The following goes over how to create a new switchboard configuration.
 
 - If you get the error message `Operator already running cstat_project a9508bb6-992c-4268-9989-27c16639908b` make sure to close out the multi user server window.
 
+- If you get the error message `Node_0: Could not retrieve changelists for project. Are the Source Control Settings correctly configured?` open a command prompt and type `p4 login` followed by the yser passwoird and enter.
+
 ## Resources
 
 [In-Camera VFX Quick Start](https://docs.unrealengine.com/5.0/en-US/in-camera-vfx-quick-start-for-unreal-engine/)
