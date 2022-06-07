@@ -1,4 +1,4 @@
 P4CLIENT=22suart4240-operator
 P4USER=art4240
 P4PORT=helixcore.cct.lsu.edu:1818
-P4PASSWD=p4$$w0rd!
+P4IGNORE=.p4ignore
