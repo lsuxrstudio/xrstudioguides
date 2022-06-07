@@ -69,7 +69,7 @@ This tutorial helps us get started for new classes/groups using Perforce for a r
     P4PORT=helixcore.cct.lsu.edu:1818
     P4PASSWD=p4$$w0rd!
     ```
-    [operator.p4config](operator.p4config)
+    [operator.p4config](files/operator.p4config)
     
     Contents of render.p4config:
     ```
@@ -78,7 +78,7 @@ This tutorial helps us get started for new classes/groups using Perforce for a r
     P4PORT=helixcore.cct.lsu.edu:1818
     P4PASSWD=p4$$w0rd!
     ```
-    [render.p4config](operator.p4config)
+    [render.p4config](files/render.p4config)
 
 #### Resources
 
