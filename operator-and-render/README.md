@@ -67,7 +67,6 @@ This tutorial helps us get started for new classes/groups using Perforce for a r
     P4CLIENT=22suart4240-operator
     P4USER=art4240
     P4PORT=helixcore.cct.lsu.edu:1818
-    P4PASSWD=p4$$w0rd!
     ```
     [operator.p4config](files/operator.p4config)
     
@@ -76,7 +75,6 @@ This tutorial helps us get started for new classes/groups using Perforce for a r
     P4CLIENT=22suart4240-render
     P4USER=art4240
     P4PORT=helixcore.cct.lsu.edu:1818
-    P4PASSWD=p4$$w0rd!
     ```
     [render.p4config](files/render.p4config)
 
