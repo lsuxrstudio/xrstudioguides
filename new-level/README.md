@@ -31,7 +31,9 @@ Now, go into that new Level and in the **Outlimer** click **LSUnDisplayConfig**.
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+- 2nd RED Komodo
+- OpenColorIO
+- OptiTrack
 
 ![](../images/line2.png)
 
