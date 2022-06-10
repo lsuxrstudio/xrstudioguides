@@ -64,7 +64,7 @@ The following goes over how to create a new switchboard configuration.
 
 ## Troubleshooting
 
-- If you get an error that you can't join your session or the "Joining Unreal Session" popup doesn't go away there may be multiuser sessions already running that conflict and that you can’t delete. One way to do fix this is to run the following and then press CTRL-C to exit.
+- If you get an error in the Unreal editor that you can't join your session or the "Joining Unreal Session" popup doesn't go away there may be multiuser sessions already running that conflict and that you can’t delete. One way to do fix this is to run the following and then press CTRL-C to exit.
     
     ```bash
     cd "D:\Program Files\UE_5.0\Engine\Binaries\Win64\”
@@ -80,6 +80,8 @@ The following goes over how to create a new switchboard configuration.
 - If you get the error message `Operator already running cstat_project a9508bb6-992c-4268-9989-27c16639908b` make sure to close out the multi user server window.
 
 - If you get the error message `Node_0: Could not retrieve changelists for project. Are the Source Control Settings correctly configured?` open a command prompt and type `p4 login` followed by the yser passwoird and enter.
+
+- If for some reason the nDisplay node doesn't join the Multi User session and changes don't show up live on the other between machines, try loading and running a different Switchboard config and then go back to your original config and try it again.
 
 ## Resources
 
