@@ -83,6 +83,8 @@ The following goes over how to create a new switchboard configuration.
 
 - If for some reason the nDisplay node doesn't join the Multi User session and changes don't show up live on the other between machines, try loading and running a different Switchboard config and then go back to your original config and try it again.
 
+- This one is new: `Node_0: nDisplay uasset transfer failed: Error while trying to write to D:\Perforce\22suart4240\2022-Summer-ART-4240-01\UnkownWanderer\Content\Stages\LSUnDisplayConfig.uasset`. I'm not sure how to fix this yet.
+
 ## Resources
 
 [In-Camera VFX Quick Start](https://docs.unrealengine.com/5.0/en-US/in-camera-vfx-quick-start-for-unreal-engine/)
