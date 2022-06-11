@@ -165,6 +165,13 @@ Now to confirm sync in game type `~ stat fps` then press enter.  You will see a 
 
 ![confirm sync](images/syncTimecode.png)
 
+![](../images/line2.png)
+
+##### `Step 20.`\|`BTS`| :large_blue_diamond: :large_blue_diamond:
+
+At this point you can also set Optitrack Live Link source to use Timecode. This way the Source will use the Engine's timcode to evaluate its subjects. Go to Window > Virtual Production > Live Link > Optitrack > Settings > **Evaluation Mode > Timecode**.  
+
+![Optitrack Timecode](images/optitrack-timecode.png)
 
 ![](../images/line.png)
 
