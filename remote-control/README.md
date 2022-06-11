@@ -25,7 +25,7 @@ First make sure you have the following plugins enabled:
 
 ##### `Step 2.`\|`Install NodeJS`|:small_blue_diamond: :small_blue_diamond: 
 
-**Open PowerShell as an administrator** and install nvm for Windows by right clicking PowerShell and choosing "Run as Administrator." This easily lets you install specific versions of NodeJS which is a prequisite for running web applications for Unreal. Type the following commands in PowerShell: 
+**Open PowerShell** as an administrator and **install nvm** for Windows by right clicking PowerShell and choosing "Run as Administrator." This easily lets you install specific versions of NodeJS which is a prequisite for running web applications for Unreal. Type the following commands in PowerShell: 
 - ` winget install CoreyButler.NVMforWindows`
 - `nvm install 14.15.5`
 - `nvm use 14.15.5`
