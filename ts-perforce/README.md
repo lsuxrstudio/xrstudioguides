@@ -10,7 +10,7 @@ Unreal tells you it can't save a file.
 
 *Note: We can also rt. click a file in the content browser to sync but sometimes this doesn't resolve the issue.* 
 
---
+---
 
 ### Symptoms
 Project files are locked and no one has them checked out in Unreal.
