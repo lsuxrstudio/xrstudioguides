@@ -1,15 +1,16 @@
-# Switchboard Troubleshooting
+# Perforce Troubleshooting
 
 ### Symptoms
-You cannot save a level while in Unreal 
-
+Unreal tells you it can't save a file.
 
 ### Resolution
-Run **Task Manager** and look for stray **Unreal** instances that are still around.
+- Open a command prompt. 
+- `cd` into you Unreal Project folder, ie ` cd .\UnkownWanderer\`. 
+- type the command `p4 sync` followed be enter.
 
----
+*Note: We can also rt. click a file in the content browser to sync but sometimes this doesn't resolve the issue. 
 
-# Perforce Troubleshooting
+--
 
 ### Symptoms
 Project files are locked and no one has them checked out in Unreal.
@@ -31,17 +32,6 @@ run the command `p4 set P4CLIENT=p4Operator1`
 ---
 
 ### Symptoms
-Swtichboard gives a socket error when trying to sync changes.
-
-### Cause
-Switchboard listenter isn't running
-
-### Resolution
-Open up Switchboard Listener by double clicking its icon on the desktop.
-
----
-
-### Symptoms
 Sometimes we might get a mapping error in perforce.
 
 ### Resolution
@@ -50,12 +40,30 @@ Sometimes we might get a mapping error in perforce.
 
 ---
 
-### Sympotoms
+### Symptoms
 Getting latest from p4 doens't download all of the files.
 
 ### Resolution
 Open a command prompt and `cd` into your workspace directory and run `p4 sync`
-`
+
+# Switchboard Troubleshooting
+
+### Symptoms
+You cannot save a level while in Unreal 
+
+### Resolution
+Run **Task Manager** and look for stray **Unreal** instances that are still around.
+
+---
+
+### Symptoms
+Swtichboard gives a socket error when trying to sync changes.
+
+### Cause
+Switchboard listenter isn't running
+
+### Resolution
+Open up Switchboard Listener by double clicking its icon on the desktop.
 
 
 
