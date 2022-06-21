@@ -36,6 +36,10 @@ First make sure you have the following plugins enabled:
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Still in PowerShell open port 3000 with the following command. 
+
+`New-NetFirewallRule -DisplayName "UnrealRemote" -Direction Inbound -Action Allow -Protocol TCP -LocalPort 3000`
+
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
