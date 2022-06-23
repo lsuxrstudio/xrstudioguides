@@ -12,20 +12,25 @@ This tutorial helps us get started for new classes/groups using Perforce for a r
 
 ---
 
+#### Guide Changes Yet To Make
+- [ ] Replace the images to match the new text about multiple users.
+- [ ] Add a bit about changing the advaned workspace settings.
+- [ ] Add another guide for setting up the VAD workstations with user names like `art4240-vad1`.
+
 #### Pre-reqs
 
-1. Download the Perforce Helix Visual Client P4V from here: [https://www.perforce.com/downloads/helix-visual-client-p4v](https://www.perforce.com/downloads/helix-visual-client-p4v). 
-2. Download the Perforce Helix Command Line from here: [https://www.perforce.com/downloads/helix-command-line-client-p4](https://www.perforce.com/downloads/helix-command-line-client-p4)
+1. Download the Perforce from here: [https://www.perforce.com/downloads/helix-visual-client-p4v](https://www.perforce.com/downloads/helix-visual-client-p4v). 
+2. Install both, the command line client and visual client.
 
 #### P4 Admin
 
-1. Create a New User that can be shared on the operator and render nodes such as **22suart4240**
+1. Create new users that can be shared on the operator and render nodes such as **art4240-operator** and **art4240-render**.
 2. Make a new Depot for this group or class named something like **2022-Summer-ART-4240**
-3. Give this user permissions for **Templates**
+3. Give these users permissions for **Templates**
 
 #### P4V
 
-1. Open P4V and connect to [helixcore.cct.lsu.edu:1818](http://helixcore.cct.lsu.edu:1818) as the user that was made in P4 Admin
+1. Open P4V and connect to ssl:helixcore.cct.lsu.edu:1818 as the user that was made in P4 Admin
     
     ![p4v login](images/p4vLogin.png)
     
@@ -33,8 +38,8 @@ This tutorial helps us get started for new classes/groups using Perforce for a r
     
     ![New Workspace](images/newWorkspace.png)
     
-3. For Workspace Root choose a directory that all computers can have in common, for instance: **D:\Perforce\22suart4240**. 
-4. For Workspace Name choose something unique, for instance: **22suart4240-operator.** 
+3. For Workspace Root ~~choose a directory that all computers can have in common, for instance: **D:\Perforce\22suart4240**.~~ you can pick a location like **C:\Users\virtualproduction\Perforce\22suart4240**. 
+4. For Workspace Name choose something unique, for instance: **22suart4240-operator**, **22suart4240-render**, **22suart4240-vad1**.  
 5. Rt. Click > **Clear** any depots you don’t want such as OldProjects. 
     
     ![Choose Depots](images/chooseDepots.png)
@@ -53,8 +58,10 @@ This tutorial helps us get started for new classes/groups using Perforce for a r
     ![1st P4 Info](images/p4info1st.png)
     
 2. P4 CLI Client Name and User Name should be set to match p4v.
-3. Type `p4 set P4USER=art4240`
+3. Type `p4 set P4USER=art4240-operator`
 4. Type `p4 set P4CLIENT=22suart4240-operator`
+4. Type `p4 set P4PORT=ssl:helixcore.cct.lsu.edu:1818`
+4. Type `p4 set P4IGNORE=.p4ignore`
 5. Now check `p4 info` again. 
     
     ![2nd P4 Info](images/p4info2nd.png)
@@ -65,18 +72,18 @@ This tutorial helps us get started for new classes/groups using Perforce for a r
     Contents of operator.p4config:
     ```
     P4CLIENT=22suart4240-operator
-    P4USER=art4240
-    P4PORT=helixcore.cct.lsu.edu:1818
+    P4USER=art4240-operator
+    P4PORT=ssl:helixcore.cct.lsu.edu:1818
+    P4IGNORE=.p4ignore
     ```
-    [operator.p4config](files/operator.p4config)
     
     Contents of render.p4config:
     ```
     P4CLIENT=22suart4240-render
-    P4USER=art4240
-    P4PORT=helixcore.cct.lsu.edu:1818
+    P4USER=art4240-render
+    P4PORT=ssl:helixcore.cct.lsu.edu:1818
+    P4IGNORE=.p4ignore
     ```
-    [render.p4config](files/render.p4config)
 
 #### Resources
 
