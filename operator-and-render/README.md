@@ -85,6 +85,14 @@ This tutorial helps us get started for new classes/groups using Perforce for a r
     P4IGNORE=.p4ignore
     ```
 
+    Contents of vad1.p4config:
+    ```
+    P4CLIENT=22suart4240-vad1
+    P4USER=art4240-vad1
+    P4PORT=ssl:helixcore.cct.lsu.edu:1818
+    P4IGNORE=.p4ignore
+    ```
+
 #### Resources
 
 * [maubanel/p4v-unreal](https://github.com/maubanel/p4v-unreal)
