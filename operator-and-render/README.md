@@ -38,7 +38,7 @@ This tutorial helps us get started for new classes/groups using Perforce for a r
     
     ![New Workspace](images/newWorkspace.png)
     
-3. For Workspace Root ~~choose a directory that all computers can have in common, for instance: **D:\Perforce\22suart4240**.~~ you can pick a location like **C:\Users\virtualproduction\Perforce\22suart4240**. 
+3. For Workspace Root ~~choose a directory that all computers can have in common, for instance: **D:\Perforce\22suart4240**.~~ you can pick a location like **C:\Users\virtualproduction\Perforce\22suart4240-operator**. 
 4. For Workspace Name choose something unique, for instance: **22suart4240-operator**, **22suart4240-render**, **22suart4240-vad1**.  
 5. Rt. Click > **Clear** any depots you don’t want such as OldProjects. 
     
