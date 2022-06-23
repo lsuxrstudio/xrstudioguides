@@ -57,11 +57,12 @@ This tutorial helps us get started for new classes/groups using Perforce for a r
     
     ![1st P4 Info](images/p4info1st.png)
     
-2. P4 CLI Client Name and User Name should be set to match p4v.
-3. Type `p4 set P4USER=art4240-operator`
-4. Type `p4 set P4CLIENT=22suart4240-operator`
-4. Type `p4 set P4PORT=ssl:helixcore.cct.lsu.edu:1818`
-4. Type `p4 set P4IGNORE=.p4ignore`
+2. P4 CLI Client Name and User Name should be set to match p4v. For instance...
+    - Type `p4 set P4USER=art4240-operator`
+    - Type `p4 set P4CLIENT=22suart4240-operator`
+    - Type `p4 set P4PORT=ssl:helixcore.cct.lsu.edu:1818`
+    - Type `p4 set P4IGNORE=.p4ignore`
+
 5. Now check `p4 info` again. 
     
     ![2nd P4 Info](images/p4info2nd.png)
