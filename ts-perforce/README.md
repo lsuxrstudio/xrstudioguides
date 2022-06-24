@@ -4,11 +4,18 @@
 Unreal tells you it can't save a file.
 
 ### Resolution
+
+#### 1
 - Open a command prompt. 
 - `cd` into you Unreal Project folder, ie ` cd .\UnkownWanderer\`. 
 - type the command `p4 sync` followed be enter.
 
 *Note: We can also rt. click a file in the content browser to sync but sometimes this doesn't resolve the issue.* 
+
+#### 2
+- Disconnect source control in Unreal
+- Save your file
+- Reconnect source control in Unreal
 
 ---
 
