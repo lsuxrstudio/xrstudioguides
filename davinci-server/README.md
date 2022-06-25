@@ -75,7 +75,9 @@ Restart the PostgreSQL service by going to Run > services.msc. Then right clicki
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Now, other 
+Now, users can connect to you server by using the user name and password you made earlier. Make sure yo use the same project name and IP address that the server is using.
+
+![resolve project](images/resolve-project.png)
 
 ![](../images/line2.png)
 
@@ -84,7 +86,7 @@ ___
 
 ![](../images/line.png)
 
-CREATE BANNER WITH https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE
+https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE
 
 ![](../images/line.png)
 
