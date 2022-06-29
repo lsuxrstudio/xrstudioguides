@@ -120,7 +120,7 @@ Double check that the timecode in Unreal is the same as our source (in this case
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now we can stripe timcecode to our digital content in Unreal.  We also want to sync our Unreal game to match the rest of the system (camera, opti track cameras, both Blackmagic sync cards, render node pc).  Select the **Stages** folder and press the <kbd>+ Add</kbd> button and select **Blueprint**.  Open up **ALL CLASSES** and select `BlackmagicCustomTimeStep(Blackmagic SDI Input)`.
+Now we can stripe timecode to our digital content in Unreal.  We also want to sync our Unreal game to match the rest of the system (camera, opti track cameras, both Blackmagic sync cards, render node pc).  Select the **Stages** folder and press the <kbd>+ Add</kbd> button and select **Blueprint**.  Open up **ALL CLASSES** and select `BlackmagicCustomTimeStep(Blackmagic SDI Input)`.
  Call the blueprint `BP_BlackMagic_GenLock`.
 
 ![create blueprint for genlock](images/customTimestepBP.png)
@@ -169,7 +169,7 @@ Now to confirm sync in game type `~ stat fps` then press enter.  You will see a 
 
 ##### `Step 20.`\|`BTS`| :large_blue_diamond: :large_blue_diamond:
 
-At this point you can also set Optitrack Live Link source to use Timecode. This way the Source will use the Engine's timcode to evaluate its subjects. Go to Window > Virtual Production > Live Link > Optitrack > Settings > **Evaluation Mode > Timecode**.  
+At this point you can also set Optitrack Live Link source to use Timecode. This way the Source will use the Engine's timecode to evaluate its subjects. Go to Window > Virtual Production > Live Link > Optitrack > Settings > **Evaluation Mode > Timecode**.  
 
 ![Optitrack Timecode](images/optitrack-timecode.png)
 
