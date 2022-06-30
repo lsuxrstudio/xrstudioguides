@@ -36,14 +36,12 @@ When you've setup Perforce and you want to start making levels in Unreal follow 
 
 1. For source control, it's useful to turn on auto check out before getting started. Do this by going to Edit > Editor Preferences > General - Loading & Saving > Source Control and tick on **Automatically check out on asset modification**.
 
-1. In Unreal, make sure source control is running by hovering your mouse over the word **Source Control** in the bottom right corner of the screen. It should say connected. 
+1. In Unreal, make sure source control is running by hovering your mouse over the word **Source Control** in the bottom right corner of the screen. It should say connected. If it doesn't say connected, click the word Source Control. Fill in the following info.
 
-If it doesn't say connected, click the word Source Control. Fill in the following info.
-
-- Provider: `Perforce`
-- Server: `ssl:helixcore.cct.lsu.edu:1818`
-- User Name: `Your personal username or generic login.`
-- Available Workspaces: `Let this auto-populate and choose the correct one.`
+    - Provider: `Perforce`
+    - Server: `ssl:helixcore.cct.lsu.edu:1818`
+    - User Name: `Your personal username or generic login.`
+    - Available Workspaces: `Let this auto-populate and choose the correct one.`
     
     ![Connect to Source Control](images/connectToSourceControl.png)
         
