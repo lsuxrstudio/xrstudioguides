@@ -13,7 +13,8 @@ When you've setup Perforce and you want to start making levels in Unreal follow 
 ---
 
 #### To Do
-- [ ] Finish the opencolorIO section.
+- [ ] Finish the OpenColorIO section.
+- [ ] Write an alternative process with multiple levels in the Level Window. 
 
 ---
 
