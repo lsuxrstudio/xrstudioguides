@@ -66,6 +66,8 @@ The following goes over how to create a new switchboard configuration.
 
 ## Troubleshooting
 
+- If switchboard throws an error that says “Could not start program p4” this can be for a couple reasons. One fix is to double check your uProject paths and workspace names are correct in the Switchboard settings. These should be different for the operator and render nodes. Another fix could be to log out and then back in to P4V. 
+
 - One particlarly annoying issue that crops up is that the render node won't join the multi-user session. If this happens, click the stop and the disconnect icons next to *just* the render node in Switchboard. Then on the render node close and re-open the switchboard listener. Click connect and join for the render node back in Switchboard.
 
 - If you get an error in the Unreal editor that you can't join your session or the "Joining Unreal Session" popup doesn't go away there may be multiuser sessions already running that conflict and that you can’t delete. One way to do fix this is to run the following and then press CTRL-C to exit.
@@ -75,8 +77,6 @@ The following goes over how to create a new switchboard configuration.
     .\UnrealMultiUserServer.exe -ConcertClean
     ```
     
-- If you get an error in Switchboard that says “Could not start program p4” when switching workspaces try logging out and in again. I suspect p4 variables need to be reloaded.
-
 - If you get an error in Switchboard asking if we're connected to Source Control. Run the command `p4 login` from the command prompt. 
 
 - Sometimes we have Unreal "ghost sessions" you can use Windows Tasks Manager to look for any instances of Unreal running in the background and close them down. 
