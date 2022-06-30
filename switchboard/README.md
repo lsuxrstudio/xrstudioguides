@@ -49,6 +49,8 @@ The following goes over how to create a new switchboard configuration.
 11. Go to Settings and change the **nDisplay Node_0 Workspace Name** to the workspace on that computer (i.e. 22suart4240-render).
 
     ![nDisplay Workspace Name](images/nDisplayWorkspaceName.png)
+
+11. Also under Setting, change the **uProject Path** to the path on the render computer.
         
 12. Choose your **Level**. For the first time you might have to press the **Refresh** button to see the levels.
     
