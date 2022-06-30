@@ -42,7 +42,7 @@ The following goes over how to create a new switchboard configuration.
     
     ![Add Unreal Device](images/addDeviceUnreal.png)
     
-10. Use **127.0.0.1** for the IP address 
+10. Use **130.39.93.73** for the IP address 
 
     ![Unreal IP Address](images/UnrealIPAddress.png)
         
