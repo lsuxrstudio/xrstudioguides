@@ -97,6 +97,8 @@ We also need a second UV set with UV's that maintain the aspect ratio of the wal
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
+Export FBX
+
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
