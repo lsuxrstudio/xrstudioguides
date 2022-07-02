@@ -43,25 +43,37 @@ Rotate the wall so that it's facing Maya's Front axis. We'll likely need to rota
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Double click the roate tool in Maya to open up its tool options. Change Step Snapping to Relative 2.55 degrees. This is the amount by which each of our panels are curved.
+
+![Step Snapping](images/step-snapping.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Select all faces except for the first column and then press the 'd' key to change pivot to the bottom of the second column of edges.
+
+![Wall Pivot](images/wall-pivot.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+With the script editor open to double check your work rotate the faces 2.55 degrees. Keep doing this for each column until the curve is complete. We're purposefully starting with right side and moving to the left since our physical wall happens to have the first column of LED panels parallel to the room's origin.
+
+![Rotate Faces](images/rotate-faces.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now you need to position the wall correctly in space. You *could* choose to keep the pivot centered and place the wall at the origin in Maya and then poistion the wall in the Unreal nDisplay config. However, since we know where our physical room origin should be, we are going to go ahead and position the wall in relation to this point. 
+
+To do this, we are going to use the 'd' key to position the wall's pivot at the center bottom. Then, we are going to freeze transformations and move the wall back 15ft (457.2cm) from the origin.  
+
+![Wall Origin](images/wall-origin.png)
+![Freeze Transforms](images/freeze-transforms.png)
+![Move Back](images/15ft.png)
 
 ![](../images/line2.png)
 
