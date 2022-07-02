@@ -2,7 +2,7 @@
 
 ### Making a LED Wall Mesh in Maya
 
-<sub>[previous](../) • [home](../README.md) • [next](../)</sub>
+<sub>[previous](../) • [home](../README.md) • [next](../unreal5-base-setup)</sub>
 
 ![](../images/line3.png)
 
