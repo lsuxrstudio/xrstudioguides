@@ -79,13 +79,19 @@ To do this, we are going to use the 'd' key to position the wall's pivot at the 
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Unreal wants two sets of UV's. Select the wall. Open up the UV editor. Go to Creaete > Planar []. In the options Check Z-axis. Then Apply. You should get a set of UV's that fill the 0 to 1 UV space. 
+
+![UV Editor](images/uv-editor.png)
+![Planar UV's](images/planar-uvs.png)
+![UV Editor](images/planar-options.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+We also need a second UV set with UV's that maintain the aspect ratio of the wall. To do this, go to Create > Planar [] again and then tick on "Keep image width/height ratio". Also, tick on create new UV set. Name this "map2".
+
+![2nd UV Set](images/2nd-uvs.png)
 
 ![](../images/line2.png)
 
