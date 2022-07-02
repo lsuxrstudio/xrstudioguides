@@ -97,9 +97,16 @@ We also need a second UV set with UV's that maintain the aspect ratio of the wal
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-Export FBX
+Select the mesh and then go to File > Export Selection. Choose FBX under Files of type. In the export options... 
 
-![alt_text](images/.png)
+- Untick everything under "Include these inputs" (History, Channels, etc). 
+- Tick on "Smoothing Groups" under Geometry
+- Untick Animation, Camera, Lights, Audio, Embed Media. 
+
+Now you can import this FBX into Unreal. [Click here for the Maya file](files/LEDWallMesh.ma) and [click here for the FBX file](files/LSULEDWall.fbx). 
+
+![Export Selection](images/export-selection.png)
+![Export Opions](images/export-options.png)
 
 ![](../images/line2.png)
 
