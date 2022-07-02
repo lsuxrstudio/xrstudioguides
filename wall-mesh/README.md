@@ -35,7 +35,9 @@ In the channel box click INPUTS > polyPlane. Adjust the number of subdivisions s
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Rotate the wall so that it's facing Maya's Front axis. We'll likely need to rotate the wall again when it's brought into Unreal.
+
+![Rotate Wall](images/3-rotate-wall.png)
 
 ![](../images/line2.png)
 
