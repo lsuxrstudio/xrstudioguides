@@ -12,6 +12,10 @@ This goes over how to make a new LED Wall Mesh in Maya.
 
 * https://docs.unrealengine.com/5.0/en-US/in-camera-vfx-quick-start-for-unreal-engine/
 
+#### Video Tutorial
+
+<div style="position: relative; padding-bottom: 58.359375%; height: 0;"><iframe src="https://www.loom.com/embed/11324c00ebfd4ffe9fd30a1c3f12158b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 <br>
 
 ---
@@ -35,7 +39,7 @@ In the channel box click INPUTS > polyPlane. Adjust the number of subdivisions s
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Rotate the wall so that it's facing Maya's Front axis. We'll likely need to rotate the wall again when it's brought into Unreal.
+Rotate the wall so that it's facing Maya's Front axis: 90 degrees in the Rotate X channel. We'll likely need to rotate the wall again when it's brought into Unreal.
 
 ![Rotate Wall](images/3-rotate-wall.png)
 
@@ -43,25 +47,21 @@ Rotate the wall so that it's facing Maya's Front axis. We'll likely need to rota
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Double click the roate tool in Maya to open up its tool options. Change Step Snapping to Relative 2.55 degrees. This is the amount by which each of our panels are curved.
-
-![Step Snapping](images/step-snapping.png)
+Go to object selection mode and select the wall. Press the 'd' and change the pivot of the wall to the second column of edges from the left by clicking on one of these edges. This allows us to use Maya's input line to make precise adjustments relative to the objects pivot.
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Select all faces except for the first column and then press the 'd' key to change pivot to the bottom of the second column of edges.
-
-![Wall Pivot](images/wall-pivot.png)
+Select the frist column of faces. Press the 'e' key to enter rotate mode. Then go to Maya's "input line" at the top right corner of the screen and type -2.55 for the Z value.
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-With the script editor open to double check your work rotate the faces 2.55 degrees. Keep doing this for each column until the curve is complete. We're purposefully starting with right side and moving to the left since our physical wall happens to have the first column of LED panels parallel to the room's origin.
+Go back to object selection mode, move the pivot to the 3rd column of edges. Then select the first and second column of faces. Go into rotation mode again and type -2.55 in the Z again. Keep doing this until you are at the center column of edges. This column is special. We're going to rotate it half of 2.55 degrees from the left and then hald of 2.55 degrees from the right. This keeps our wall centered around our origin.  
 
-![Rotate Faces](images/rotate-faces.png)
+Now keep rotating our faces around the edges for the right side. You'll use positive 2.55 on the input line for this side. 
 
 ![](../images/line2.png)
 
@@ -69,7 +69,7 @@ With the script editor open to double check your work rotate the faces 2.55 degr
 
 Now you need to position the wall correctly in space. You *could* choose to keep the pivot centered and place the wall at the origin in Maya and then poistion the wall in the Unreal nDisplay config. However, since we know where our physical room origin should be, we are going to go ahead and position the wall in relation to this point. 
 
-To do this, we are going to use the 'd' key to position the wall's pivot at the center bottom. Then, we are going to freeze transformations and move the wall back 15ft (457.2cm) from the origin.  
+To do this, we are going to use the 'd' key to position the wall's pivot at the center bottom. Then, we are going to freeze transformations and move the wall back 12ft (365.76cm) from the origin.  
 
 ![Wall Origin](images/wall-origin.png)
 ![Freeze Transforms](images/freeze-transforms.png)
