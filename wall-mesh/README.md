@@ -103,7 +103,7 @@ Select the mesh and then go to File > Export Selection. Choose FBX under Files o
 - Tick on "Smoothing Groups" under Geometry
 - Untick Animation, Camera, Lights, Audio, Embed Media. 
 
-Now you can import this FBX into Unreal. [Click here for the Maya file](files/LEDWallMesh.ma) and [click here for the FBX file](files/LSULEDWall.fbx). 
+Now you can import this FBX into Unreal. [Click here for the Maya file](files/LSULEDMeshV2.mb) and [click here for the FBX file](files/LSULEDMeshV2.fbx). 
 
 ![Export Selection](images/export-selection.png)
 ![Export Opions](images/export-options.png)
