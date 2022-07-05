@@ -83,7 +83,7 @@ The following goes over how to create a new switchboard configuration.
 
 - If you get the error message `Operator already running cstat_project a9508bb6-992c-4268-9989-27c16639908b` make sure to close out the multi user server window.
 
-- If you get the error message `Node_0: Could not retrieve changelists for project. Are the Source Control Settings correctly configured?` open a command prompt and type `p4 login` followed by the yser passwoird and enter.
+- If you get the error message `Node_0: Could not retrieve changelists for project. Are the Source Control Settings correctly configured?` This could happen because your worksapce names or file paths are incorrect in switchboard, double check these. Also, you can try opening a command prompt and type `p4 login` followed by you username and password.
 
 - If for some reason the nDisplay node doesn't join the Multi User session and changes don't propogate in real-time between machines auto-join may have been disabled switchboard json config file. Unless you specified a custom location these are in `D:\Program Files\UE_5.0\Engine\Plugins\VirtualProduction\Switchboard\Source\Switchboard\configs`. Around line #125 change `"autojoin_mu_server": false` to `"autojoin_mu_server": true`. Alternatively, you can try loading and running a different Switchboard config that works and then go back to your original config and try it again. This also appears to help.
 
