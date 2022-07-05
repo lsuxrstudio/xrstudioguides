@@ -14,7 +14,7 @@ This goes over how to make a new LED Wall Mesh in Maya.
 
 #### Video Tutorial
 
-<div style="position: relative; padding-bottom: 58.359375%; height: 0;"><iframe src="https://www.loom.com/embed/11324c00ebfd4ffe9fd30a1c3f12158b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+* https://www.loom.com/share/11324c00ebfd4ffe9fd30a1c3f12158b
 
 <br>
 
