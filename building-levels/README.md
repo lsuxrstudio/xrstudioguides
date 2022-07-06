@@ -67,8 +67,11 @@ When you've setup Perforce and you want to start making levels in Unreal follow 
 
 1. Click on source control and submit.
 
-___
 
+#### Resources
+* https://docs.unrealengine.com/5.0/en-US/using-perforce-as-source-control-for-unreal-engine/
+
+---
 
 ![](../images/line.png)
 

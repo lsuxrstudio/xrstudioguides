@@ -2,7 +2,7 @@
 
 ### Setting up Perforce on Operator and Render Nodes
 
-<sub>[previous](../) • [home](../README.md) • [next](../)</sub>
+<sub>[previous](../p4-newdepot) • [home](../README.md) • [next](../building-levels)</sub>
 
 ![](../images/line3.png)
 
@@ -14,19 +14,12 @@ This tutorial helps us get started for new classes/groups using Perforce for a r
 
 #### Guide Changes Yet To Make
 - [ ] Replace the images to match the new text about multiple users.
-- [ ] Add a bit about changing the advaned workspace settings.
-- [ ] Add another guide for setting up the VAD workstations with user names like `art4240-vad1`.
 
 #### Pre-reqs
 
 1. Download the Perforce from here: [https://www.perforce.com/downloads/helix-visual-client-p4v](https://www.perforce.com/downloads/helix-visual-client-p4v). 
 2. Install both, the command line client and visual client.
-
-#### P4 Admin
-
-1. Create new users that can be shared on the operator and render nodes such as **art4240-operator** and **art4240-render**.
-2. Make a new Depot for this group or class named something like **2022-Summer-ART-4240**
-3. Give these users permissions for **Templates**
+3. Follow the steps here [p4-newdepot](../p4-newdpot) to setup your Depot in P4 Admin.
 
 #### P4V
 
@@ -38,37 +31,35 @@ This tutorial helps us get started for new classes/groups using Perforce for a r
     
     ![New Workspace](images/newWorkspace.png)
     
-3. For Workspace Root ~~choose a directory that all computers can have in common, for instance: **D:\Perforce\22suart4240**.~~ you can pick a location like **C:\Users\virtualproduction\Perforce\22suart4240-operator**. 
-4. For Workspace Name choose something unique, for instance: **22suart4240-operator**, **22suart4240-render**, **22suart4240-vad1**.  
-5. Rt. Click > **Clear** any depots you don’t want such as OldProjects. 
+
+3. For Workspace Name choose something unique, for instance: **22suart4240-operator** or **22suart4240-render**.
+
+4. For Workspace Root, start with the the default file path, which should be `C:\Users\Virtual Production\Perforce\[WORKSPACE_RANDOM-NUMBER]`. Replace the `RANDOM NUMBER` with the year and semester, for instance `22fa` or `23sp` so you workspace root looks like `C:\Users\Virtual Production\Perforce\scrn4015-render_DMC-XR1001-01_22fa`.
+
+4. Click on the **Advanced** tab and set **Modtime...** to `true` and **rmdir** to `true` and **On submit** to `Revert unchanged files` then press `ok`
+
+5. If you have also chosen a new depot that hasn't had anything submitted to it yet. In the workspace location create a new folder with the same name as the **Depot**, don't forget this is cap sensitive.
+
+7. In **P4V** select `Connection | Edit Current Workspace` then right click on the newly created workspace and **Templates > LSUBaseTemplate** and select `Include Tree`.
+
+7. Rt. Click > **Clear** any depots you don’t want such as OldProjects. 
     
     ![Choose Depots](images/chooseDepots.png)
     
-6. Press Ok
-7. Select your Workspace Folder and Press **Get Latest**. This will download all your from your depot.  ****
+7. Press Ok
+
+7. Select your Workspace Folder and Press **Get Latest**. This will download all your from your depot.
     
     ![Get Latest](images/getLatest.png)
     
-8. On the **Render Node** repeat the same steps as above to create a new workspace called something like **22suart4240-render**. Make sure the Workspace root is the same as the operator above. Also, click Get Latest.
+8. On the **Render Node** repeat the same steps as above to create a new workspace.
 
 #### P4 Command Line
 
-1. To make sure the command line version of P4 is in sync with p4v open a command prompt and type `p4 info`  
-    
-    ![1st P4 Info](images/p4info1st.png)
-    
-2. P4 CLI Client Name and User Name should be set to match p4v. For instance...
-    - Type `p4 set P4USER=art4240-operator`
-    - Type `p4 set P4CLIENT=22suart4240-operator`
-    - Type `p4 set P4PORT=ssl:helixcore.cct.lsu.edu:1818`
-    - Type `p4 set P4IGNORE=.p4ignore`
+1. To make sure the command line version of P4 is in sync with P4V create two files called `[RENDER_WORKSPACE_NAME].p4config` and `[OPERATOR_WORKSPACE_NAME].p4config` in the root of these workspaces alongside your `.p4ignore` files. 
 
-5. Now check `p4 info` again. 
-    
-    ![2nd P4 Info](images/p4info2nd.png)
-    
-6. We’re good to go. Our Client name, host, and root all look correct now.
-7. Optionally, you could also create a files called `render.p4config` and `operator.p4config` with the following contents and then type `p4 set P4CONFIG=operator.p4config` on the operator machine and  `p4 set P4CONFIG=render.p4config` on the render machine.
+
+2. In each file put the following contents:
 
     Contents of operator.p4config:
     ```
@@ -86,19 +77,21 @@ This tutorial helps us get started for new classes/groups using Perforce for a r
     P4IGNORE=.p4ignore
     ```
 
-    Contents of vad1.p4config:
-    ```
-    P4CLIENT=22suart4240-vad1
-    P4USER=art4240-vad1
-    P4PORT=ssl:helixcore.cct.lsu.edu:1818
-    P4IGNORE=.p4ignore
-    ```
+3. On each machine, open a command prompt  `p4 set P4CONFIG="PATH TO WORKSPACE/[OPERATOR_WORKSPACE_NAME].p4config"` on the operator machine and  `p4 set P4CONFIG="PATH TO WORKSPACE/[RENDER_WORKSPACE_NAME].p4config"` on the render machine.
+
+5. Now check tha values ahave been set with `p4 set` and `p4 info`. 
+    
+    ![2nd P4 Info](images/p4info2nd.png)
+    
+6. We’re good to go. Our Client name, host, and root all look correct now.
 
 #### Resources
 
 * [maubanel/p4v-unreal](https://github.com/maubanel/p4v-unreal)
+* https://docs.unrealengine.com/5.0/en-US/using-perforce-as-source-control-for-unreal-engine/
+* https://www.perforce.com/products/helix-core/configure-helix-core-game-engine#tab-panel-76008
 
 ___
 
-| [previous](../)| [home](../README.md) | [next](../)|
+| [previous](../p4-newdepot)| [home](../README.md) | [next](../building-levels)|
 |---|---|---|
