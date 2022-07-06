@@ -12,7 +12,7 @@ Procedure for creating a new Depot in P4.
 
 ---
 
-1. In **P4 Admin** press `File | New | Depot`.`
+1. In **P4 Admin** press `File | New | Depot`.
 
 2. Enter name for new Depot (don't include spaces). The name should be `YEAR-SEMESTER-CLASS-SECTION` for example **2022-Spring-ART4240-03**
 
@@ -33,7 +33,7 @@ Procedure for creating a new Depot in P4.
 
 ![](../images/line.png)
 
-[![](https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next+Up+-+Operator+&Render+Setup)](../operator-and-render)
+![](https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next+Up+-+Operator+&Render+Setup)
 
 ![](../images/line.png)
 
