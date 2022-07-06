@@ -4,12 +4,14 @@ Below are broad tasks related to all the guides in this repo. Some README's have
 **Maybe we should use GitHub Project management system instead?**
 
 ### High Priority
-- [ ] production-organization Guide
+- [ ] production-organization guide
 - [ ] finish buidling-levels guide with opencolorio stuff.
+- [ ] calibration guide
 
 ### Medium Priority
-- [ ] p4-newworkstation Guide
-- [ ] foreground-pass Guide
+- [ ] p4-newworkstation guide
+- [ ] foreground-pass guide
+- [ ] create videos for the most important guides.
 
 ### Low Priority
 - [ ]
