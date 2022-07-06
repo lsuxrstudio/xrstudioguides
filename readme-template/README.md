@@ -1,8 +1,11 @@
+[next]: ../
+[previous]: ../
+
 ![](../images/line3.png)
 
 ### Add Title
 
-<sub>[previous](../) • [home](../README.md) • [next](../)</sub>
+<sub>[previous][previous] • [home](../README.md) • [next][next]</sub>
 
 ![](../images/line3.png)
 
