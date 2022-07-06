@@ -100,8 +100,6 @@ Typemap:
 
 5. Now check tha values ahave been set with `p4 set` and `p4 info`. 
     
-    ![2nd P4 Info](images/p4info2nd.png)
-    
 6. We’re good to go. Our Client name, host, and root all look correct now.
 
 #### Resources
