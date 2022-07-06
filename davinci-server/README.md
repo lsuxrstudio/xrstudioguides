@@ -81,12 +81,7 @@ Now, users can connect to you server by using the user name and password you mad
 
 ![](../images/line2.png)
 
-___
-
-
-![](../images/line.png)
-
-https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE
+---
 
 ![](../images/line.png)
 
