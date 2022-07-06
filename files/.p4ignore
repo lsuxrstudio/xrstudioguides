@@ -9,4 +9,3 @@ obj/
 *-Debug.*
 FileOpenOrder/
 *.DS_Store
-!Plugins/**
