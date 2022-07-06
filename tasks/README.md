@@ -7,14 +7,15 @@ Below are broad tasks related to all the guides in this repo. Some README's have
 - [ ] production-organization guide
 - [ ] finish buidling-levels guide with opencolorio stuff.
 - [ ] calibration guide
+- [ ] Swap LEDWallMesh.fbx after testing it.
 
 ### Medium Priority
-- [ ] p4-newworkstation guide
 - [ ] foreground-pass guide
 - [ ] create videos for the most important guides.
 
 ### Low Priority
-- [ ]
+- [ ] p4-newworkstation guide
+- [ ] remote-control guide.
 
 ### Maybe
 - [ ]
@@ -23,3 +24,4 @@ Below are broad tasks related to all the guides in this repo. Some README's have
 - [ ]
 
 ### Done
+- [ ]
