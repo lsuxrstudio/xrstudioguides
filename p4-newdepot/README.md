@@ -33,7 +33,7 @@ Procedure for creating a new Depot in P4.
 
 ![](../images/line.png)
 
-![](https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next+Up+-+Operator+&Render+Setup)
+![](https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next+Up)
 
 ![](../images/line.png)
 
