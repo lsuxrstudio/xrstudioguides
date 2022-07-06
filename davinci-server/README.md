@@ -8,7 +8,7 @@
 
 The following goes over configuring DaVinci Project Server.
 
-![](../images/line.png)
+---
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
