@@ -38,9 +38,9 @@ Procedure for creating a new Depot in P4.
 
 - [ ] Add the `.p4ignore` file into a changelist and submit to server. Do this before copying over the **Unreal Project**.
 
-- [ ] Now you are ready to copy over the **Unreal Projectt** files into this depot making sure the `.uproject` is in the same directory as the `.p4ignore`.  If not it will not work properly and all files, even binaries, will be included
+- [ ] Now you are ready to copy over the **Unreal Project** files into this depot making sure the `.uproject` is in the same directory as the `.p4ignore`.  If not it will not work properly and all files, even binaries, will be included
 
-- [ ]  Ensure **Depot** is added to both **Operator 1** and **Render Node** PC's in the lab. Please note that you cannot use the same workspace name twice but can use the same workspace root.  It is best practice to have Unreal program and workspaces installed on the same drive letter and directories on both **Operator 1** and **Render Node** machines.
+- [ ]  Ensure **Depot** is added to both **Operator 1** and **Render Node** PC's in the lab. Please note that you cannot use the same workspace name twice but can use the same workspace root. 
 
 - [ ] Ensure that the environment variable is set and in command prompt in **p4** enter `p4 set P4IGNORE=.p4ignore`.
 
