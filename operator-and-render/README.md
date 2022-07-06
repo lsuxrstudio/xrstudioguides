@@ -19,7 +19,7 @@ This tutorial helps us get started for new classes/groups using Perforce for a r
 
 1. Download the Perforce from here: [https://www.perforce.com/downloads/helix-visual-client-p4v](https://www.perforce.com/downloads/helix-visual-client-p4v). 
 2. Install both, the command line client and visual client.
-3. Follow the steps here [p4-newdepot](../p4-newdpot) to setup your Depot in P4 Admin.
+3. Follow the steps here [p4-newdepot](../p4-newdepot) to setup your Depot in P4 Admin.
 
 #### P4V
 
