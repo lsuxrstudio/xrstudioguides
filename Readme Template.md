@@ -139,7 +139,7 @@ Chapter introduction here.
 
 ![](../images/line.png)
 
-[![Next Up](https://fakeimg.pl/1000x100/45d7cb/000/?font=bebas&font_size=36&text=Next+Up+-)](../)
+[![Next Up](https://fakeimg.pl/1000x100/45d7cb/000/?font=museo&font_size=36&text=Next+Up+-)](../)
 
 ![](../images/line.png)
 
