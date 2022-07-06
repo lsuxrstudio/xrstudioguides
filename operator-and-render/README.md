@@ -63,21 +63,40 @@ This tutorial helps us get started for new classes/groups using Perforce for a r
 
     Contents of operator.p4config:
     ```
-    P4CLIENT=22suart4240-operator
-    P4USER=art4240-operator
+    P4CLIENT=scrn4015-operator_DESN-ART302-01_22fa
+    P4USER=scrn4015-operator
     P4PORT=ssl:helixcore.cct.lsu.edu:1818
     P4IGNORE=.p4ignore
     ```
     
     Contents of render.p4config:
     ```
-    P4CLIENT=22suart4240-render
-    P4USER=art4240-render
+    P4CLIENT=scrn4015-render_DMC-XR1001-01_22fa
+    P4USER=scrn4015-render
     P4PORT=ssl:helixcore.cct.lsu.edu:1818
     P4IGNORE=.p4ignore
     ```
 
 3. On each machine, open a command prompt  `p4 set P4CONFIG="PATH TO WORKSPACE/[OPERATOR_WORKSPACE_NAME].p4config"` on the operator machine and  `p4 set P4CONFIG="PATH TO WORKSPACE/[RENDER_WORKSPACE_NAME].p4config"` on the render machine.
+
+4. Last thing we should do is setup our typemapping. Open a command prompt and type `p4 typemap`. Under the word "Typemap" press enter and then tab and past the following:
+
+```
+Typemap:
+    binary+w //....exe
+    binary+w //....dll
+    binary+w //....lib
+    binary+w //....app
+    binary+w //....dylib
+    binary+w //....stub
+    binary+w //....ipa
+    binary+l //....uasset
+    binary+l //....umap
+    binary+l //....upk
+    binary+l //....udk
+    binary+l //....ubulk
+    binary+wS //..._BuiltData.uasset
+```
 
 5. Now check tha values ahave been set with `p4 set` and `p4 info`. 
     
