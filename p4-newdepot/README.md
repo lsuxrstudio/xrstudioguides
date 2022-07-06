@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### P4 New Depot
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+<sub>[previous](../) • [home](../README.md) • [next](../)</sub>
 
-<sub>[home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)</sub>
+![](../images/line3.png)
 
 Procedure for creating a new Depot in P4.
 
@@ -44,7 +44,13 @@ Procedure for creating a new Depot in P4.
 
 - [ ] Ensure that the environment variable is set and in command prompt in **p4** enter `p4 set P4IGNORE=.p4ignore`.
 
-<br><br>
+---
 
-| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
-|---|
+![](../images/line.png)
+
+CREATE BANNER WITH https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE
+
+![](../images/line.png)
+
+| [previous](../)| [home](../README.md) | [next](../)|
+|---|---|---|
