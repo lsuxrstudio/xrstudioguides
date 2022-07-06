@@ -2,7 +2,7 @@
 
 ### Building Levels
 
-<sub>[previous](../) • [home](../README.md) • [next](../)</sub>
+<sub>[previous](https://github.com/maubanel/p4v-unreal) • [home](../README.md) • [next](../)</sub>
 
 ![](../images/line3.png)
 
@@ -12,7 +12,10 @@ When you've setup Perforce and you want to start making levels in Unreal follow 
 
 ---
 
-#### To Do
+#### Pre-req
+1. Setup Perforce on your local machine by following the steps in this repo: https://github.com/maubanel/p4v-unreal
+
+#### Add to Guide
 - [ ] Finish the OpenColorIO section.
 - [ ] Write an alternative process with multiple levels in the Level Window. 
 
@@ -75,5 +78,5 @@ When you've setup Perforce and you want to start making levels in Unreal follow 
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md) | [next](../)|
+| [previous](https://github.com/maubanel/p4v-unreal)| [home](../README.md) | [next](../)|
 |---|---|---|
