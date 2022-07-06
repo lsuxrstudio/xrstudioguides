@@ -91,7 +91,13 @@ This tutorial helps us get started for new classes/groups using Perforce for a r
 * https://docs.unrealengine.com/5.0/en-US/using-perforce-as-source-control-for-unreal-engine/
 * https://www.perforce.com/products/helix-core/configure-helix-core-game-engine#tab-panel-76008
 
-___
+---
+
+![](../images/line.png)
+
+[![Next Up](https://fakeimg.pl/1000x100/45d7cb/000/?font_size=54&text=Next+Up+-+Building+Levels)](../building-levels)
+
+![](../images/line.png)
 
 | [previous](../p4-newdepot)| [home](../README.md) | [next](../building-levels)|
 |---|---|---|
