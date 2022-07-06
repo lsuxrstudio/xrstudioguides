@@ -75,9 +75,5 @@ When you've setup Perforce and you want to start making levels in Unreal follow 
 
 ![](../images/line.png)
 
-CREATE BANNER WITH https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE
-
-![](../images/line.png)
-
 | [previous](../)| [home](../README.md) | [next](../)|
 |---|---|---|
