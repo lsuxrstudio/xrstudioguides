@@ -137,8 +137,6 @@ Chapter introduction here.
 
 ![alt_text](images/.png)
 
----
-
 ![](../images/line.png)
 
 [![Next Up](https://fakeimg.pl/1000x100/45d7cb/000/?font_size=54&text=Next+Up+-)](../)
