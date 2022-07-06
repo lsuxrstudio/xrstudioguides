@@ -1,6 +1,10 @@
+<!-- Variables for Next and Previous Links -->
+<!-- Replace the ../ with page links -->
+
 [next]: ../
 [previous]: ../
 
+<!-- Start of Page -->
 ![](../images/line3.png)
 
 ### Add Title
@@ -140,11 +144,13 @@ Chapter introduction here.
 
 ![alt_text](images/.png)
 
-![](../images/line.png)
-
-[![Next Up](https://fakeimg.pl/1000x100/45d7cb/000/?font_size=36&text=Next+Up+-)](../)
+<!-- End of Page -->
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md) | [next](../)|
+[![Next Up](https://fakeimg.pl/1000x100/45d7cb/000/?font_size=36&text=Next+Up+-)][next]
+
+![](../images/line.png)
+
+| [previous][previous]| [home](../README.md) | [next][next]|
 |---|---|---|
