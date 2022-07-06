@@ -79,10 +79,6 @@ Now, users can connect to you server by using the user name and password you mad
 
 ![resolve project](images/resolve-project.png)
 
-![](../images/line2.png)
-
----
-
 ![](../images/line.png)
 
 | [previous](../)| [home](../README.md) | [next](../)|
