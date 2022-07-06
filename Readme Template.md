@@ -12,7 +12,6 @@ Chapter introduction here.
 
 ---
 
-
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
 ![alt_text](images/.png)
@@ -138,8 +137,7 @@ Chapter introduction here.
 
 ![alt_text](images/.png)
 
-___
-
+---
 
 ![](../images/line.png)
 
