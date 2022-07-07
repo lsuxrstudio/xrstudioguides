@@ -1,19 +1,30 @@
+<!-- Variables for Next and Previous Links -->
+<!-- Replace the ../ with page links -->
+
+[next]: ../
+[previous]: ../
+
+<!-- Start of Page -->
 ![](../images/line3.png)
 
 ### Camera Alignment and Calibration
 
-<sub>[previous](../) • [home](../README.md) • [next](../)</sub>
+<sub>[previous][previous] • [home](../README.md) • [next][next]</sub>
 
 ![](../images/line3.png)
 
 These 3 guides from Unreal walk you through this process already. However, there's a couple items they gloss over that this guide hopes to fill in.
 
 #### Resources
-* https://docs.unrealengine.com/5.0/en-US/camera-lens-calibration-quick-start-for-unreal-engine/
+1. https://docs.unrealengine.com/5.0/en-US/blackmagic-video-io-quick-start-for-unreal-engine/
 
-* https://docs.unrealengine.com/5.0/en-US/aligning-the-led-wall-to-camera-tracking-using-arucos-in-unreal-engine/
+2. https://docs.unrealengine.com/5.0/en-US/supporting-multiple-media-configurations-in-unreal-engine/
 
-* https://docs.unrealengine.com/5.0/en-US/camera-color-calibration-for-in-camera-vfx-in-unreal-engine/
+3. https://docs.unrealengine.com/5.0/en-US/camera-lens-calibration-quick-start-for-unreal-engine/
+
+4. https://docs.unrealengine.com/5.0/en-US/aligning-the-led-wall-to-camera-tracking-using-arucos-in-unreal-engine/
+
+5. https://docs.unrealengine.com/5.0/en-US/camera-color-calibration-for-in-camera-vfx-in-unreal-engine/
 
 #### Tasks
 
@@ -149,14 +160,13 @@ These 3 guides from Unreal walk you through this process already. However, there
 
 ![alt_text](images/.png)
 
-___
-
-
-![](../images/line.png)
-
-CREATE BANNER WITH https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE
+<!-- End of Page -->
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md) | [next](../)|
+[![Next Up](https://fakeimg.pl/1000x100/45d7cb/000/?font_size=36&text=Next+Up+-)][next]
+
+![](../images/line.png)
+
+| [previous][previous]| [home](../README.md) | [next][next]|
 |---|---|---|
