@@ -1,4 +1,4 @@
-# XR Studio
+# XR Studio Guides
 
 ## Table of Contents
 
