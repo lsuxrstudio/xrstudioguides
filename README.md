@@ -1,4 +1,4 @@
-# XRStudioSetup
+# XR Studio
 
 ## Table of Contents
 
