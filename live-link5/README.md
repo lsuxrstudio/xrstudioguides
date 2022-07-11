@@ -2,7 +2,7 @@
 
 <sub>[previous](../ndisplay5-config/README.md#user-content-ndisplay-config) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../hdr5-output/README.md#user-content-hdr-output)</sub>
 
-![](../images/line3.png)
+![line3](../images/line3.png)
 
 Now we have the base nDisplay config set up.  We need to add camera tracking into our **Template**.  We have an **OptiTrack** motion capture system that will track the cameras. We also are using a **Lonet Server** for focus tracking. We do this in **Unreal** using the **Live Link** plugin.  Lets get started.
 
@@ -20,7 +20,7 @@ Press **+ Add** and select **OptiTrack Soucce** with default settings. Press the
 
 ![add opti track to game engine](images/addOptiTrack.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -28,7 +28,7 @@ Make sure your tracker has a green (not yellow or red) light and the name of the
 
 ![opti track active](images/optiTrackActive.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -36,7 +36,7 @@ Now the orientation of the axis in OptiTrack is not the same as what **Unreal** 
 
 ![create a axis transform blueprint](images/liveLinkTransformBP.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -44,7 +44,7 @@ Call this new blueprint `BP_OptiTrack_Offset`.  Double click it.  It will either
 
 ![set front -Y and side to X](images/callTheBlueprint.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
@@ -52,7 +52,7 @@ Now we can open up the **LiveLink** window again and select the **RED_CAMERA** t
 
 ![add offset to pre processor](images/trackCamOpti.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
@@ -60,7 +60,7 @@ Now select **Presets** and choose `Save Preset`.  Save it to the **Stage** folde
 
 ![save opti track preset](images/savePreset.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -68,7 +68,7 @@ Now this just adds it to this tracking machine.  We also need to add it to the p
 
 ![live link plugin screen](images/liveLinkPlugin.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -77,7 +77,7 @@ Now we also need to alter the orientation and add the pre processor. Press the *
 
 ![add a frame preprocessor](images/addFramePreProc.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -85,7 +85,7 @@ Now that we have the **LiveLink** setup we just need to have it communicate to o
 
 ![add live link controller component to RedKomodo cinecam](images/liveLinkController.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
@@ -94,7 +94,7 @@ Now select the **Subject Representation** in the **Live Link Controller** and pi
 
 ![bind live link component to ActivePuck_CH20_ID1](images/selectCameraTracker.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -102,7 +102,7 @@ Now you should see in game that the camera pops up to the position of where it i
 
 ![moving camera in scene](images/cameraNowTracking.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
@@ -110,7 +110,7 @@ Now we need to add focus tracking.  Go back to the **Red Komodo** camera in the 
 
 ![add lonet live link to game engine](images/loNetDefaultSettings.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
@@ -119,7 +119,7 @@ Make sure the camera name you have in **LoNet** shows up under **Subject Name**.
 
 ![lonet green in subject name](images/lonetGreen.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -129,7 +129,7 @@ Now this will adjust more than just the focus.  You need to go to **CAMERA ROLE 
 
 ![live link lonet component](images/lonetLinkCam.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -137,7 +137,7 @@ Now we are able to see the **Current Focus Distance** change when the focal ring
 
 https://user-images.githubusercontent.com/5504953/157722365-b18b5091-1fbe-466f-9c8c-6ea4a2c872d5.mp4
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -147,11 +147,11 @@ If everything works resave the **Live Link** preset to the same file overwriting
 
 ___
 
-![](../images/line.png)
+![line](../images/line.png)
 
 ![next up monitor output](images/monitorOutput.png)
 
-![](../images/line.png)
+![line](../images/line.png)
 
 | [previous](../ndisplay5-config/README.md#user-content-ndisplay-config)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../hdr5-output/README.md#user-content-hdr-output)|
 |---|---|---|

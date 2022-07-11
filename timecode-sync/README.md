@@ -2,7 +2,7 @@
 
 <sub>[previous](../hdr5-output/README.md#user-content-hdr-output) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)</sub>
 
-![](../images/line3.png)
+![line3](../images/line3.png)
 
 We are almost ready to go.  The only thing we need to add is timecode and sync. Timecode allows us to record the live link data and sync it back later in post.  Sync is required so that the game engine updates frames at the same time as the camera and monitor. Without it you would have tearing if the game moves the camera in the scene instead of the camera tracker.
 
@@ -16,7 +16,7 @@ In our case in our **Caputure PC** we have a BlackMagic Decklink 8K card.  Our *
 
 ![add black magic timecode blueprint](images/blackMagicTC.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -24,7 +24,7 @@ Call the blueprint `BP_BlackMagic_Timecode`.
 
 ![call it BP_BlackMagic_Timecode](images/blackmagicbp.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -32,7 +32,7 @@ The black magic capture card that receives the camera signal in our capture PC t
 
 ![black magic desktop video settings](images/bmVideoSetup.jpg)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -40,7 +40,7 @@ We have setup the **BlackMagic Decklink** card so that any of the **SDI** connec
 
 ![show input and output setting in black magic deckink card](images/decklinkSettings.jpg)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
@@ -48,7 +48,7 @@ Now we are using **Assimilate Live-FX** to record and feed timecode to our opert
 
 ![select settings button in live effects](images/Settings.jpg)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
@@ -56,7 +56,7 @@ Now select **Video IO..**.
 
 ![select Video IO..](images/videoIO.jpg)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -64,7 +64,7 @@ Select the **DeckLink 8K Pro** as the device that we are inputting.  The camera 
 
 ![set input and output](images/forwardVideo.jpg)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -72,7 +72,7 @@ Now go to the **Operator** machine and we have another black magic card set up t
 
 ![check operator video input](images/videoInCapture.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -80,7 +80,7 @@ Quit the black magic software and open the project in **Unreal**. Now open up **
 
 ![set ultra studio 4k dci at 30 fps as the input](images/setUp4KMini.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
@@ -88,7 +88,7 @@ Now set the **Timecode Format** to `LTC`.
 
 ![select ltc timecode](images/selectMini.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -96,7 +96,7 @@ Now to make this all work the final step is to open **Edit | Project Settings** 
 
 ![add BP_Blackmagic_Timecode to project settings](images/timecodeProjectSettings.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -105,7 +105,7 @@ To see the timecode open up **Window | Virtual Production | Timecode Provider**.
 
 ![open up window timecode provider](images/timecodeProvider.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -113,7 +113,7 @@ Double check that the timecode in Unreal is the same as our source (in this case
 
 ![check timecode in unreal and in camera](images/timecodeWorking.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -122,7 +122,7 @@ Now we can stripe timecode to our digital content in Unreal.  We also want to sy
 
 ![create blueprint for genlock](images/customTimestepBP.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -130,7 +130,7 @@ Now select the same input card settings we picked for the timecode with **UltraS
 
 ![set genlock settings to same as camera](images/genlockSettings.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -138,7 +138,7 @@ Open up **Edit | Project Settings** and set the **Framerate | Advanced | Custom 
 
 ![add genlock blueprint to project settings](images/projectSyncSettings.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -146,7 +146,7 @@ Go to the **Render Node** pc and check the **NVidia Control Panel**.  Select **S
 
 ![make sure GPU is set to external house signal](images/syncDisplays.jpg)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -154,7 +154,7 @@ Go to **View System Topology** and make sure that **External Sync Signal** is se
 
 ![confirm sync is working in external sync signal](images/confirmSync.jpg)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -162,7 +162,7 @@ Now to confirm sync in game type `~ stat fps` then press enter.  You will see a 
 
 ![confirm sync](images/syncTimecode.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 20.`\|`BTS`| :large_blue_diamond: :large_blue_diamond:
 
@@ -170,11 +170,11 @@ At this point you can also set Optitrack Live Link source to use Timecode. This 
 
 ![Optitrack Timecode](images/optitrack-timecode.png)
 
-![](../images/line.png)
+![line](../images/line.png)
 
 ![that is all end of walk through](images/thatisall.png)
 
-![](../images/line.png)
+![line](../images/line.png)
 
 | [previous](../hdr5-output/README.md#user-content-hdr-output)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
 |---|---|

@@ -2,7 +2,7 @@
 
 <sub>[previous](../) • [home](../README.md) • [next](../)</sub>
 
-![](../images/line3.png)
+![line3](../images/line3.png)
 
 The following goes over configuring DaVinci Project Server.
 
@@ -12,7 +12,7 @@ The following goes over configuring DaVinci Project Server.
 
 Download and install DaVinci Project Server from Blackmagic Design website: https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion. 
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -38,7 +38,7 @@ When inside one of the project libraries (click the little "i") you can "Manage 
 
 ![manage members](images/manage-members.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -46,7 +46,7 @@ Run the following command in PowerShell to open port 5432 so computers can conne
 
 `New-NetFirewallRule -DisplayName "AllowPostreSQL" -Direction Inbound -Protocol TCP –LocalPort 5432 -Action Allow`
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -66,7 +66,7 @@ host	all	all	10.14.0.0/16	md5
 
 Restart the PostgreSQL service by going to Run > services.msc. Then right clicking on PostgreSQL > restart.
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
@@ -74,7 +74,7 @@ Now, users can connect to you server by using the user name and password you mad
 
 ![resolve project](images/resolve-project.png)
 
-![](../images/line.png)
+![line](../images/line.png)
 
 | [previous](../)| [home](../README.md) | [next](../)|
 |---|---|---|

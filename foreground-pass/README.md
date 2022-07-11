@@ -2,7 +2,7 @@
 
 <sub>[previous](../) • [home](../README.md) • [next](../)</sub>
 
-![](../images/line3.png)
+![line3](../images/line3.png)
 
 Steps for using UE4 Layers and Composure with LiveFX to place a virtual object in front of the physical camera's video output.
 
@@ -51,11 +51,11 @@ Steps for using UE4 Layers and Composure with LiveFX to place a virtual object i
 
 ---
 
-![](../images/line.png)
+![line](../images/line.png)
 
 CREATE BANNER WITH https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE
 
-![](../images/line.png)
+![line](../images/line.png)
 
 | [previous](../)| [home](../README.md) | [next](../)|
 |---|---|---|

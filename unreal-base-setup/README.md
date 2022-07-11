@@ -1,10 +1,10 @@
-![](../images/line3.png)
+![line3](../images/line3.png)
 
 ### Setting Up Project
 
 [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../ndisplay-config/README.md#user-content-ndisplay-config)</sub>
 
-![](../images/line3.png)
+![line3](../images/line3.png)
 
 How to create an Unreal project from scratch in Unreal 4.27 for an in-camera virual production using LSU's equipment in their XR lab in room 1001 at the DMC. UE5 is still in Beta and has not ported over the virutal production capablities from UE4 yet.
 
@@ -19,7 +19,7 @@ Run the **Epic Games Launcher** and run the latest version of Unreal. Selet the 
 
 ![start game launger and create blank film template](images/SelectNewProject.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ Select whether you want starter content or not and whether you want to enable or
 
 ![select config and name project](images/nameProject.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -39,7 +39,7 @@ You will need to restart the engine for this to take place.
 
 ![disable vr and open xr plugins](images/undoPlugins.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -48,7 +48,7 @@ Make sure **SwitchBoardListener is running**.  You can find it in **C:\Program F
 
 ![create shortcut to switchboard listener and run](images/shortCut.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
@@ -56,7 +56,7 @@ Now you know if it working by making sure the terminal does not display any erro
 
 ![switchboard running](images/switchBoardRunning.PNG)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
@@ -64,7 +64,7 @@ OK, we need to quit Unreal and set up a **Perforce Depot** (Project).  Either ad
 
 ![new Templates depot](images/createDepotP4.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -73,7 +73,7 @@ Now we need to add this new depot to the workspace (it does not know it is there
 ![add depot to workspace](images/SetDepotToWorkspace.png)
 
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -83,7 +83,7 @@ Create a directory in your workspace drive (mine is D:\perforce) with the exact 
 
 
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -92,7 +92,7 @@ Now drag **readme.txt** to the changelist and submit it to the server.
 ![alt_text](images/addToChangelist.png)
 
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
@@ -101,7 +101,7 @@ Now drag **readme.txt** to the changelist and submit it to the server.
 ![template depot](images/templateDepot.png)
 
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -109,7 +109,7 @@ Now drag the entire Unreal folder you created into this new folder. Right click 
 
 ![include all key folders and add and submit](images/addKeyFolders.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -118,7 +118,7 @@ Now launch the game from **P4V** by double clicking an launching Unreal from the
 
 ![launch game from P4V](images/runGameFromP4V.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -126,7 +126,7 @@ If all works well the source control will default to being connected.  Now if no
 
 ![alt_text](images/SetUpSourceControl.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -134,7 +134,7 @@ Now you will create two folders `Stage` and `Scenes`.  The stage folder will hav
 
 ![mnove the main scene to Scenes folder](images/moveMainScene.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 

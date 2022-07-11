@@ -2,7 +2,7 @@
 
 <sub>[previous](../) • [home](../README.md) • [next](../unreal5-base-setup)</sub>
 
-![](../images/line3.png)
+![line3](../images/line3.png)
 
 This goes over how to make a new LED Wall Mesh in Maya.
 
@@ -24,7 +24,7 @@ Create a plane in Maya by clicking the create plane button.
 
 ![Create Plane](images/1-create-plane.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -32,7 +32,7 @@ In the channel box click INPUTS > polyPlane. Adjust the number of subdivisions s
 
 ![Input Polyplane](images/2-dimensions.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -40,19 +40,19 @@ Rotate the wall so that it's facing Maya's Front axis: 90 degrees in the Rotate 
 
 ![Rotate Wall](images/3-rotate-wall.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Go to object selection mode and select the wall. Press the 'd' and change the pivot of the wall to the second column of edges from the left by clicking on one of these edges. This allows us to use Maya's input line to make precise adjustments relative to the objects pivot.
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
 Select the frist column of faces. Press the 'e' key to enter rotate mode. Then go to Maya's "input line" at the top right corner of the screen and type -2.55 for the Z value.
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
@@ -60,7 +60,7 @@ Go back to object selection mode, move the pivot to the 3rd column of edges. The
 
 Now keep rotating our faces around the edges for the right side. You'll use positive 2.55 on the input line for this side. 
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -72,7 +72,7 @@ To do this, we are going to use the 'd' key to position the wall's pivot at the 
 ![Freeze Transforms](images/freeze-transforms.png)
 ![Move Back](images/15ft.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -82,7 +82,7 @@ Unreal wants two sets of UV's. Select the wall. Open up the UV editor. Go to Cre
 ![Planar UV's](images/planar-uvs.png)
 ![UV Editor](images/planar-options.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -90,7 +90,7 @@ We also need a second UV set with UV's that maintain the aspect ratio of the wal
 
 ![2nd UV Set](images/2nd-uvs.png)
 
-![](../images/line2.png)
+![line2](../images/line2.png)
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
@@ -108,11 +108,11 @@ Now you can import this FBX into Unreal. [Click here for the Maya file](files/LS
 ___
 
 
-![](../images/line.png)
+![line](../images/line.png)
 
 ![](https://via.placeholder.com/1000x100/45D7CA/000000/?text=Unreal+5+Base+Setup)
 
-![](../images/line.png)
+![line](../images/line.png)
 
 | [previous](../)| [home](../README.md) | [next](../unreal5-base-setup)|
 |---|---|---|

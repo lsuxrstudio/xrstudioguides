@@ -2,7 +2,7 @@
 
 <sub>[previous](../) • [home](../README.md) • [next](../operator-and-render)</sub>
 
-![](../images/line3.png)
+![line3](../images/line3.png)
 
 Procedure for creating a new Depot in P4.
 
@@ -29,11 +29,11 @@ Procedure for creating a new Depot in P4.
 
 ---
 
-![](../images/line.png)
+![line](../images/line.png)
 
 [![Next Up](https://fakeimg.pl/1000x100/45d7cb/000/?font_size=54&text=Next+Up+-+Set+Up+Operator+and+Render)](../operator-and-render)
 
-![](../images/line.png)
+![line](../images/line.png)
 
 | [previous](../)| [home](../README.md) | [next](../operator-and-render)|
 |---|---|---|

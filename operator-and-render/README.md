@@ -2,7 +2,7 @@
 
 <sub>[previous](../p4-newdepot) • [home](../README.md) • [next](../building-levels)</sub>
 
-![](../images/line3.png)
+![line3](../images/line3.png)
 
 This tutorial helps us get started for new classes/groups using Perforce for a render node and operator in LSU XR Studio.
 
@@ -108,11 +108,11 @@ Typemap:
 
 ---
 
-![](../images/line.png)
+![line](../images/line.png)
 
 [![Next Up](https://fakeimg.pl/1000x100/45d7cb/000/?font_size=54&text=Next+Up+-+Building+Levels)](../building-levels)
 
-![](../images/line.png)
+![line](../images/line.png)
 
 | [previous](../p4-newdepot)| [home](../README.md) | [next](../building-levels)|
 |---|---|---|

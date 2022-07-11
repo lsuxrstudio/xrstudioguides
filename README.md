@@ -61,4 +61,3 @@ The TLDR's are for students and faculty already trained on the system for a quic
 <details><summary>Dev Tips</summary>
 make git m="add commit message"
 </details>
-

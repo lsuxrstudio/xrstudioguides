@@ -2,7 +2,7 @@
 
 <sub>[previous](https://github.com/maubanel/p4v-unreal) • [home](../README.md) • [next](../)</sub>
 
-![](../images/line3.png)
+![line3](../images/line3.png)
 
 When you've setup Perforce and you want to start making levels in Unreal follow the procedures below to make sure you're staying in sync with perforce and each level is setup for nDisplay.
 
@@ -74,7 +74,7 @@ When you've setup Perforce and you want to start making levels in Unreal follow 
 
 ---
 
-![](../images/line.png)
+![line](../images/line.png)
 
 | [previous](https://github.com/maubanel/p4v-unreal)| [home](../README.md) | [next](../)|
 |---|---|---|

@@ -1,6 +1,6 @@
 ### Operator 1 Start-Up Checklist
 
-![](../images/line3.png)
+![line3](../images/line3.png)
 
 <sub>[home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)</sub>
 
