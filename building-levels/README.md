@@ -11,9 +11,11 @@ When you've setup Perforce and you want to start making levels in Unreal follow 
 ---
 
 #### Pre-req
+
 1. Setup Perforce on your local machine by following the steps in this repo: https://github.com/maubanel/p4v-unreal
 
 #### Add to Guide
+
 - [ ] Finish the OpenColorIO section.
 - [ ] Write an alternative process with multiple levels in the Level Window. 
 
