@@ -4,7 +4,6 @@
 
 ![](../images/line3.png)
 
-
 Steps for using UE4 Layers and Composure with LiveFX to place a virtual object in front of the physical camera's video output.
 
 <br>
