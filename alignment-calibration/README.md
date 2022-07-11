@@ -26,10 +26,9 @@ These 3 guides from Unreal walk you through this process already. However, there
 
 #### Notes
 
-<br>
+<br id="chbreak">
 
 ---
-
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 

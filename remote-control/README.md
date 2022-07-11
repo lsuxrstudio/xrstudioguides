@@ -6,7 +6,7 @@
 
 This guide get's you started with using Remote Control for Virtual Production.
 
-<br>
+<br id="chbreak">
 
 ---
 

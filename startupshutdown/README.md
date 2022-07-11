@@ -2,9 +2,11 @@
 
 <sub>[previous](/README.md) • [home](/README.md) • [next](/README.md)</sub>
 
----
+![line3](../images/line3.png)
 
 The following section goes over the startup and shutdown procedures for hardware in the LSU Virtual Production Studio.
+
+<br id="chbreak">
 
 ---
 

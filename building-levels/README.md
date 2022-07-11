@@ -6,7 +6,7 @@
 
 When you've setup Perforce and you want to start making levels in Unreal follow the procedures below to make sure you're staying in sync with perforce and each level is setup for nDisplay.
 
-<br>
+<br id="chbreak">
 
 ---
 

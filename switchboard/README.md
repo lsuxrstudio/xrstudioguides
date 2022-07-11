@@ -2,9 +2,11 @@
 
 <sub>[previous](/README.md) • [home](/README.md) • [next](/README.md)</sub>
 
+![line3](../images/line3.png)
+
 The following goes over how to create a new switchboard configuration.
 
-<br>
+<br id="chbreak">
 
 ---
 

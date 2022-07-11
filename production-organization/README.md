@@ -6,7 +6,7 @@
 
 This guide goes over 1) ingesting media using Hedge and Parachute, 2) Folder Organization, and 3) Bin managment in Premiere and/or Davinci Resolve.
 
-<br>
+<br id="chbreak">
 
 ---
 

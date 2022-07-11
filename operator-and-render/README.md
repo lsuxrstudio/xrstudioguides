@@ -6,7 +6,7 @@
 
 This tutorial helps us get started for new classes/groups using Perforce for a render node and operator in LSU XR Studio.
 
-<br>
+<br id="chbreak">
 
 ---
 

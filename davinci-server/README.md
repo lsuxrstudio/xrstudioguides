@@ -6,6 +6,8 @@
 
 The following goes over configuring DaVinci Project Server.
 
+<br id="chbreak">
+
 ---
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:

@@ -6,7 +6,7 @@
 
 This helps make sure your display settings are setup correctly on the render node.
 
-<br>
+<br id="chbreak">
 
 ---
 
