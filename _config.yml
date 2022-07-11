@@ -7,3 +7,9 @@ markdown: GFM
 
 plugins:
   - jemoji
+
+# Aux links for the upper right navigation
+
+aux_links:
+  "XR Studio Guides on GitHub":
+    - "//lsuxrstudio.github.io/XRStudioSetup"
