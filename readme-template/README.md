@@ -11,7 +11,7 @@
 
 Chapter introduction here.
 
-<br>
+<br id="chbreak">
 
 ---
 

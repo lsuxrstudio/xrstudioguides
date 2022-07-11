@@ -10,7 +10,6 @@ The LED wall wants to receive a linear HDR signal.  Unreal has been built to out
 
 ---
 
-
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
 Make sure the **OCIO** plugin is enabled. Click on **View Options** and turn on **Engine Content** and **Plugin Content**.  Search of OCIO.  Now none of the files will show up in Unreal so you will have to right click on the **OCIO** folder and select **Open in Explorer**.
@@ -37,7 +36,7 @@ Create a new folder inside of **Stages** called `OCIO`.
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on **Stages | OCIO** and select **Open in Explorer** and now paste the config file and folder into this folder.  Again, this will not show up in Unreal so you will have to confirm it in Explorer. Please note, since it doesn't show up in Unreal you need to use **P4V** to commit the files to source control.  This is very important as your nDisplay machine will not OCIO setup if this is not done.
+Right click on **Stages > OCIO** and select **Open in Explorer** and now paste the config file and folder into this folder.  Again, this will not show up in Unreal so you will have to confirm it in Explorer. Please note, since it doesn't show up in Unreal you need to use **P4V** to commit the files to source control.  This is very important as your nDisplay machine will not OCIO setup if this is not done.
 
 ![paste files in OCIO folder](images/copyContent.png)
 
@@ -62,7 +61,7 @@ Open up the **SRGBtoPQ** file and load the `simple.config.ocio` into the **Confi
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Next to **Desired Color Space** press the **+** button next to **Desired Color Space** three times.  In the slot `0` add **Utility | Utility - Linear -sRGB**.  On `1` select **Output | LED Walls - PQ**.  We also need a third output for anyone who is working in Unreal Editor (like operator 1) to get the output color into a sRGB computer monitor color.
+Next to **Desired Color Space** press the **+** button next to **Desired Color Space** three times.  In the slot `0` add **Utility > Utility - Linear -sRGB**.  On `1` select **Output > LED Walls - PQ**.  We also need a third output for anyone who is working in Unreal Editor (like operator 1) to get the output color into a sRGB computer monitor color.
 
 ![add an sRGB to PQ converter](images/conversion.png)
 
@@ -71,7 +70,7 @@ Next to **Desired Color Space** press the **+** button next to **Desired Color S
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open the **LSUnDisplayConfig** Blueprint and select the  **OCIO | Configuration Source** selecting the `SRGBtoPQ` item.  Then select the **Source Color Space** as `Utility - Linear - sRGB` and **Destination Color Space** as `Output - LED Walls - PQ`.
+Open the **LSUnDisplayConfig** Blueprint and select the  **OCIO > Configuration Source** selecting the `SRGBtoPQ` item.  Then select the **Source Color Space** as `Utility - Linear - sRGB` and **Destination Color Space** as `Output - LED Walls - PQ`.
 
 ![assign ocio to ndisplay config and pick source and destination color](images/assignOCIO.png)
 
@@ -95,7 +94,7 @@ Double check that in game these settings carry over into the **LSUDisplayConfig*
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-Go back to the game editor and click on **Lit** and enable **OCIO Display | Enable Display** with the display going from **Linesar - sRGB to sRGB Monitor**.
+Go back to the game editor and click on **Lit** and enable **OCIO Display > Enable Display** with the display going from **Linesar - sRGB to sRGB Monitor**.
 
 ![set up color transform in engine](images/inGameColor.png)
 
@@ -120,7 +119,7 @@ Now we need to turn off some of the game rendering features that are trying a mi
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-In the **Post Production Volume** set the **Bloom | Intensity** to `0`, the **Vignette Intensity** to `0`, the **Tone Curve Amount** to `0`, the **Expand Gamut** to `0` and the **Blue Correction** to `0`.
+In the **Post Production Volume** set the **Bloom > Intensity** to `0`, the **Vignette Intensity** to `0`, the **Tone Curve Amount** to `0`, the **Expand Gamut** to `0` and the **Blue Correction** to `0`.
 
 ![adjust post production volume](images/adjustmentPostVolume.png)
 
