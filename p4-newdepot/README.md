@@ -1,12 +1,8 @@
-![](../images/line3.png)
-
-
 ### P4 New Depot
 
 <sub>[previous](../) • [home](../README.md) • [next](../operator-and-render)</sub>
 
 ![](../images/line3.png)
-
 
 Procedure for creating a new Depot in P4.
 

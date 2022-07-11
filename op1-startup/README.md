@@ -1,5 +1,3 @@
-![](../images/line3.png)
-
 ### Operator 1 Start-Up Checklist
 
 ![](../images/line3.png)

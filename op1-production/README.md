@@ -1,5 +1,3 @@
-![](../images/line3.png)
-
 ### Operator 1 Production
 
 ![](../images/line3.png)

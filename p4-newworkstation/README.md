@@ -1,12 +1,8 @@
-![](../images/line3.png)
-
-
 ### Perforce Setup on New Workstation 
 
 <sub>[previous](../) • [home](../README.md) • [next](../)</sub>
 
 ![](../images/line3.png)
-
 
 The following walks you through the basics of setting up a new workstation with Perforce and Unreal.
 

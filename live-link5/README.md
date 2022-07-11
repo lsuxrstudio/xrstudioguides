@@ -1,19 +1,14 @@
-![](../images/line3.png)
-
-
 ### Live Link
 
 <sub>[previous](../ndisplay5-config/README.md#user-content-ndisplay-config) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../hdr5-output/README.md#user-content-hdr-output)</sub>
 
 ![](../images/line3.png)
 
-
 Now we have the base nDisplay config set up.  We need to add camera tracking into our **Template**.  We have an **OptiTrack** motion capture system that will track the cameras. We also are using a **Lonet Server** for focus tracking. We do this in **Unreal** using the **Live Link** plugin.  Lets get started.
 
 <br>
 
 ---
-
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
@@ -50,7 +45,6 @@ Call this new blueprint `BP_OptiTrack_Offset`.  Double click it.  It will either
 ![set front -Y and side to X](images/callTheBlueprint.png)
 
 ![](../images/line2.png)
-
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 

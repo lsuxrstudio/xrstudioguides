@@ -1,13 +1,10 @@
-![](../images/line3.png)
-
-
 ### Render Node Display Settings
+
 <sub>[previous](../) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../)</sub>
 
 ![](../images/line3.png)
 
 This helps make sure your display settings are setup correctly on the render node.
-
 
 <br>
 

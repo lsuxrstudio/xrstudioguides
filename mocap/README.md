@@ -10,7 +10,6 @@ This guide walks you through setting up OptiTrack Motive for camera tracking in 
 
 ---
 
-
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
 Turn on the power strip for the motion capture cameras at the end of the "brain bar".

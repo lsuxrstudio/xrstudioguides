@@ -1,5 +1,3 @@
-![](../images/line3.png)
-
 ### Operator 1 Shut-Down Checklist
 
 ![](../images/line3.png)

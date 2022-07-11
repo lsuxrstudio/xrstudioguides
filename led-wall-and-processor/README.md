@@ -12,7 +12,6 @@ This is the procedure for turning on and off the LED wall and processor. It star
 
 ---
 
-
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
 First, check and make sure the circuit breakers are all on. If not, turn them each on. Blue lights should start flashing on the LED wall. If one or two is **RED**, turn that row off and on again.

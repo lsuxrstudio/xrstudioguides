@@ -1,7 +1,6 @@
 ### Camera Alignment and Calibration
 
-<!-- Variables for Next and Previous Links -->
-<!-- Replace the ../ with page links -->
+<!-- Variables for Next and Previous Links. Replace the ../ with page links -->
 
 [next]: ../
 [previous]: ../
@@ -9,7 +8,6 @@
 <sub>[previous][previous] • [home](../README.md) • [next][next]</sub>
 
 ![](../images/line3.png)
-
 
 These 3 guides from Unreal walk you through this process already. However, there's a couple items they gloss over that this guide hopes to fill in.
 
@@ -98,7 +96,6 @@ These 3 guides from Unreal walk you through this process already. However, there
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
-
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 

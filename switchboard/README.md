@@ -1,12 +1,6 @@
-![](../images/line3.png)
-
-
-# Switchboard New Config
+### Switchboard New Config
 
 <sub>[previous](/README.md) • [home](/README.md) • [next](/README.md)</sub>
-
-![](../images/line3.png)
-
 
 The following goes over how to create a new switchboard configuration.
 
@@ -14,14 +8,14 @@ The following goes over how to create a new switchboard configuration.
 
 ---
 
-## Pre-reqs
+#### Pre-reqs
 
 1. Before proceeding make sure you’ve setup your Perfoce workspaces. See [Setting up Perforce on Operator and Render Nodes](../operator-and-render/README.md) 
 2. Make sure you've setup your scene for nDisplay and camera tracking. It's easiest to start off with the LSUBaseTemplate and build your environment on top of that, but you may also build these components from scratch, or migrate your project into the LSUBaseTemplate, see: [LSU Base Template Migration](../template-migration/README.md).
 3. It’s useful to connect the project to source control from within the editor first. This way switchboard can auto-populate some of the fields below.  
 4. Make sure to close Unreal if you're going to launch Switchboard from outside the editor. 
 
-## Switchboard
+#### Switchboard
 
 1. If it's not already running, open **Switchboard Listener** using the desktop shortcut. It's also located at D:\Program Files\UE_5.0\Engine\Binaries\Win64\SwitchboardListener.exe.
 2. Open **Switchboard** using the desktop shortcut It's also located at D:\Program Files\UE_5.0\Engine\Plugins\VirtualProduction\Switchboard\Source\Switchboard\switchboard.bat.
@@ -66,7 +60,7 @@ The following goes over how to create a new switchboard configuration.
 
 15. After about a minute the Unreal editor should open up on the operator and an Unreal build should  open on the render node(s).
 
-## Troubleshooting
+#### Troubleshooting
 
 - If switchboard throws an error that says “Could not start program p4” this can be for a couple reasons. One fix is to double check your uProject paths and workspace names are correct in the Switchboard settings. These should be different for the operator and render nodes. Another fix could be to log out and then back in to P4V. 
 
@@ -91,7 +85,7 @@ The following goes over how to create a new switchboard configuration.
 
 - Sometimes we might get a switchboard error saying `Node_0: nDisplay uasset transfer failed: Error while trying to write to D:\Perforce\22suart4240\2022-Summer-ART-4240-01\UnkownWanderer\Content\Stages\LSUnDisplayConfig.uasset`. I suspect this has to do with Perforce so you can double check what's checked out there, or simply logging off and on both nodes also seems to address this.
 
-## Resources
+#### Resources
 
 [In-Camera VFX Quick Start](https://docs.unrealengine.com/5.0/en-US/in-camera-vfx-quick-start-for-unreal-engine/)
 

@@ -1,12 +1,8 @@
-![](../images/line3.png)
-
-
 ### Making a LED Wall Mesh in Maya
 
 <sub>[previous](../) • [home](../README.md) • [next](../unreal5-base-setup)</sub>
 
 ![](../images/line3.png)
-
 
 This goes over how to make a new LED Wall Mesh in Maya.
 
@@ -21,7 +17,6 @@ This goes over how to make a new LED Wall Mesh in Maya.
 <br>
 
 ---
-
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 

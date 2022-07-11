@@ -1,7 +1,6 @@
 ### Add Title
 
-<!-- Variables for Next and Previous Links -->
-<!-- Replace the ../ with page links -->
+<!-- Variables for Next and Previous Links. Replace the ../ with page links -->
 
 [next]: ../
 [previous]: ../
@@ -9,7 +8,6 @@
 <sub>[previous][previous] • [home](../README.md) • [next][next]</sub>
 
 ![](../images/line3.png)
-
 
 Chapter introduction here.
 
@@ -82,7 +80,6 @@ Chapter introduction here.
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
-
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
