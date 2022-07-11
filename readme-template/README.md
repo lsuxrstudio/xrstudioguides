@@ -147,6 +147,6 @@ Chapter introduction here.
 
 ![line](../images/line.png)
 
-|-|-|-|
+|:arrow_left:|:house:|:arrow_right:|
 |---|---|---|
 | [previous][previous]| [home](../README.md) | [next][next]|
