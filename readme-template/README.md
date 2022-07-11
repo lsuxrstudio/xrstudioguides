@@ -1,3 +1,8 @@
+---
+nav_exclude: true
+nav_order: 102030
+---
+
 ### Add Title
 
 <!-- Variables for Next and Previous Links. Replace the ../ with page links -->
@@ -147,6 +152,5 @@ Chapter introduction here.
 
 ![line](../images/line.png)
 
-|:arrow_left:|:house:|:arrow_right:|
-|---|---|---|
-| [previous][previous]| [home](../README.md) | [next][next]|
+| [previous][previous] | [home](../README.md) | [next][next] |
+| --- | --- | --- |
