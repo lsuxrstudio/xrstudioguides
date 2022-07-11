@@ -14,6 +14,7 @@ Unreal tells you it can't save a file.
 - Disconnect source control in Unreal
 - Save your file
 - Reconnect source control in Unreal
+- Submit
 
 ---
 
@@ -25,8 +26,16 @@ Run `p4 retype -t binary //DEPOT/...`.  This will unlock **ALL** the files in th
  
 ---
 
+### Symptoms 
+Project files are locked.
+
+### Resolution
+Open P4V and rt. click the top folder with your locked files and choose **Unlock**.
+
+---
+
 ### Symptoms
-p4 info doen't show a root and says somehting like "Client Disconnected"
+p4 info doen't show a root and says something like "Client Disconnected"
 
 ### Cause
 p4 doens't know what the client running is called. 
@@ -46,7 +55,7 @@ Sometimes we might get a mapping error in perforce.
 ---
 
 ### Symptoms
-Getting latest from p4 doens't download all of the files.
+Getting latest from p4 doesn't download all of the files.
 
 ### Resolution
 Open a command prompt and `cd` into your workspace directory and run `p4 sync`
@@ -62,10 +71,10 @@ Run **Task Manager** and look for stray **Unreal** instances that are still arou
 ---
 
 ### Symptoms
-Swtichboard gives a socket error when trying to sync changes.
+Switchboard gives a socket error when trying to sync changes.
 
 ### Cause
-Switchboard listenter isn't running
+Switchboard listener isn't running
 
 ### Resolution
 Open up Switchboard Listener by double clicking its icon on the desktop.
