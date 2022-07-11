@@ -28,7 +28,7 @@ Create a plane in Maya by clicking the create plane button.
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-In the channel box click INPUTS > polyPlane. Adjust the number of subdivisions so that it matches the number of subdivisions the wall has. For instance our wall is 14x6. So give it 14 subdivisions for the width and 6 subdivisions for the height. Also, adjust the width and height to match the wall. Fo instance our wall has 50cmx50cm LED tiles so  its width is 50cm x 14 = 700cm and its height is 50cm x 6 = 300cm.  
+In the channel box click **INPUTS > polyPlane**. Adjust the number of subdivisions so that it matches the number of subdivisions the wall has. For instance our wall is 14x6. So give it 14 subdivisions for the width and 6 subdivisions for the height. Also, adjust the width and height to match the wall. Fo instance our wall has 50cmx50cm LED tiles so  its width is 50cm x 14 = 700cm and its height is 50cm x 6 = 300cm.  
 
 ![Input Polyplane](images/2-dimensions.png)
 
@@ -76,7 +76,7 @@ To do this, we are going to use the 'd' key to position the wall's pivot at the 
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Unreal wants two sets of UV's. Select the wall. Open up the UV editor. Go to Creaete > Planar []. In the options Check Z-axis. Then Apply. You should get a set of UV's that fill the 0 to 1 UV space. 
+Unreal wants two sets of UV's. Select the wall. Open up the UV editor. Go to **Create > Planar []**. In the options Check Z-axis. Then Apply. You should get a set of UV's that fill the 0 to 1 UV space. 
 
 ![UV Editor](images/uv-editor.png)
 ![Planar UV's](images/planar-uvs.png)
@@ -86,7 +86,7 @@ Unreal wants two sets of UV's. Select the wall. Open up the UV editor. Go to Cre
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We also need a second UV set with UV's that maintain the aspect ratio of the wall. To do this, go to Create > Planar [] again and then tick on "Keep image width/height ratio". Also, tick on create new UV set. Name this "map2".
+We also need a second UV set with UV's that maintain the aspect ratio of the wall. To do this, go to **Create > Planar []** again and then tick on "Keep image width/height ratio". Also, tick on create new UV set. Name this "map2".
 
 ![2nd UV Set](images/2nd-uvs.png)
 
@@ -103,7 +103,7 @@ Select the mesh and then go to File > Export Selection. Choose FBX under Files o
 Now you can import this FBX into Unreal. [Click here for the Maya file](files/LSULEDMeshV2.mb) and [click here for the FBX file](files/LSULEDMeshV2.fbx). 
 
 ![Export Selection](images/export-selection.png)
-![Export Opions](images/export-options.png)
+![Export Options](images/export-options.png)
 
 ___
 

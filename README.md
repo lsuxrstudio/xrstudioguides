@@ -1,4 +1,6 @@
-# XR Studio Guides
+# About
+
+A collection of guides for operating the LSU XR Studio for Virtual Production.
 
 ## Table of Contents
 
