@@ -147,10 +147,5 @@ Chapter introduction here.
 
 ![](../images/line.png)
 
+|---|---|---|
 |[previous][previous]|[home](../README.md)|[next][next]|
-|---|---|---|
-
-
-|blah|boo|bee|
-|---|---|---|
-|one|two|three|
