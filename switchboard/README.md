@@ -1,10 +1,12 @@
 ![](../images/line3.png)
 
+
 # Switchboard New Config
 
 <sub>[previous](/README.md) • [home](/README.md) • [next](/README.md)</sub>
 
 ![](../images/line3.png)
+
 
 The following goes over how to create a new switchboard configuration.
 

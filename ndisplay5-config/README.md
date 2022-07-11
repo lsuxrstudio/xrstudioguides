@@ -1,10 +1,12 @@
 ![](../images/line3.png)
 
+
 ### nDisplay Config
 
 <sub>[previous](../unreal5-base-setup/README.md#setting-up#user-content-setting-up) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../live-link5/README.md#user-content-live-link)</sub>
 
 ![](../images/line3.png)
+
 
 The heart of how the multi view system works in Unreal is through a plugin called nDisplay.  
 

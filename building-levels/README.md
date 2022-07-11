@@ -1,10 +1,9 @@
-![](../images/line3.png)
-
 ### Building Levels
 
 <sub>[previous](https://github.com/maubanel/p4v-unreal) • [home](../README.md) • [next](../)</sub>
 
 ![](../images/line3.png)
+
 
 When you've setup Perforce and you want to start making levels in Unreal follow the procedures below to make sure you're staying in sync with perforce and each level is setup for nDisplay.
 
@@ -29,9 +28,9 @@ When you've setup Perforce and you want to start making levels in Unreal follow 
     
 1. Rename this template folder *and* Unreal project to a new project name. Be mindful to keep the name under 20 characters for Unreal.
 
-1. Before opening Unreal, open P4V to make sure you're logged in to the right workspace with the right user name. For VAD computers this should be your own username. For Operator and Render computers this shuold be a generic login like art4240-render.
+1. Before opening Unreal, open P4V to make sure you're logged in to the right workspace with the right user name. For VAD computers this should be your own username. For Operator and Render computers this should be a generic login like art4240-render.
 
-1. Then, in P4V make sure you have your Unreal project folder hilighted and then click **Submit** to make sure there are no lingering changes.
+1. Then, in P4V make sure you have your Unreal project folder highlighted and then click **Submit** to make sure there are no lingering changes.
 
 1. Next, click **Get Latest** to make sure you have all the up to date files.
 

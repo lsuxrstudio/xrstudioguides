@@ -1,10 +1,12 @@
 ![](../images/line3.png)
 
+
 ### Organizing Production Content
 
 <sub>[previous](../) • [home](../README.md) • [next](../)</sub>
 
 ![](../images/line3.png)
+
 
 This guide goes over 1) ingesting media using Hedge and Parachute, 2) Folder Organization, and 3) Bin managment in Premiere and/or Davinci Resolve.
 

@@ -1,10 +1,12 @@
 ![](../images/line3.png)
 
+
 ### Setting Up Project
 
 [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../ndisplay5-config/README.md#user-content-ndisplay-config)</sub>
 
 ![](../images/line3.png)
+
 
 How to create an Unreal project from scratch in Unreal 5.0.X for an in-camera virual production using LSU's equipment in their XR lab in room 1001 at the DMC.
 

@@ -2,7 +2,7 @@
 
 <sub>[previous](../) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 This guide walks you through setting up OptiTrack Motive for camera tracking in Unreal in LSU's XR Studio.
 
@@ -17,7 +17,7 @@ Turn on the power strip for the motion capture cameras at the end of the "brain 
 
 ![image](https://user-images.githubusercontent.com/1238349/159527518-71f08c07-f31b-4a25-ab9c-7991d871c9ca.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -25,14 +25,14 @@ Attach the OptiTrack Active Puck with IMU to the physical camera and turn it on 
 
 ![image](https://user-images.githubusercontent.com/1238349/159523706-e77969f4-0aae-4b42-b2d7-902373e5f7dd.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open up Motive and go to the **Create Layout**.
 
 ![image](https://user-images.githubusercontent.com/1238349/159526528-f3f78b22-327d-4b7d-b4aa-793554fd6e94.png)
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -40,7 +40,7 @@ Drag a bounding box around the 8 markers of the active tracker. If all 8 markers
 
 ![image](https://user-images.githubusercontent.com/1238349/159531200-96813136-3e98-4d1e-ba95-7c6fa4d2599d.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
@@ -50,7 +50,7 @@ The rigid body should turn orange to indicate the IMU is being tracked. If not, 
 
 ![image](https://user-images.githubusercontent.com/1238349/159532224-0ac8a125-0b65-4b8f-9124-5793de9c4570.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
@@ -58,7 +58,7 @@ Switch to the capture layout to begin streaming data to Unreal.
 
 ![image](https://user-images.githubusercontent.com/1238349/159532480-72d8ab2c-5d4e-4332-b902-d3293a709dbc.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 

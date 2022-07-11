@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### nDisplay Config
 
 <sub>[previous](../unreal-base-setup/README.md#setting-up#user-content-setting-up) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../live-link/README.md#user-content-live-link)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 The heart of how the multi view system works in Unreal is through a plugin called nDisplay.  
 
@@ -19,7 +19,7 @@ First we need a 3-D representation of our wall in exact dimesions.  Download the
 
 ![download static mesh](images/downloadFBXWall.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ Drag the fbx you downloaded above into Unreal and accept the default settings fo
 
 ![import lsu_led_wall.fbx](images/dragSceenToStage.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -36,7 +36,7 @@ Open up the static mesh and it is an exact replica of our screen.  It contains t
 ![wall uv 0](images/uv0.png)
 ![wall uv1](images/uv1.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -44,7 +44,7 @@ The only change we need to make to this static mesh is to set **Use Full Precisi
 
 ![use full precision UVs](images/fullPrecisionUvs.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
@@ -53,7 +53,7 @@ Now the only other special thing is that we have calibrated world 0,0 in our spa
 ![pivot point in engine](images/pivotPoint.png)
 ![00 in stage](images/pivotPoint2.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
@@ -62,7 +62,7 @@ Select the **Stages** folder. Press the green <kbd>Add/Import</kbd> button and a
 
 ![add nDisplay Config to project](images/nDisplayConfig.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -70,7 +70,7 @@ Open up the **LSUnDisplayConfig** file.  Press the green <kbd>Add Component</kbd
 
 ![add two components icvx camera and static mesh](images/addCamAndStaticMesh.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -78,7 +78,7 @@ Click on the **StaticMesh** component and add the **LSU_LED_Wall** to the mesh i
 
 ![add lsu_led_wall to static mesh component](images/staticMeshWall.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -86,7 +86,7 @@ Rotate the mesh so it is in the front of the stage.  The letters should be right
 
 ![rotate mesh to front of room](images/rotateMesh.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
@@ -94,7 +94,7 @@ Now zero out the **Transform** on the static mesh for the screen and the screen 
 
 ![lift the screen off the ground](images/LiftScreen.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -102,7 +102,7 @@ Since our resolution is less than a 4K screen we can use a single cluster node t
 
 ![add new cluster node](images/clusterNode.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -111,7 +111,7 @@ You can leave the the node named **Node_0**). Make sure the **Parent** is set **
 
 ![enter new cluster node settings](images/node0Settings.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
   
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
@@ -122,7 +122,7 @@ Select the **viewport**, likely called `VP_0`, under the Cluster panel. In the D
 ![set mesh and view origin](images/SetUpMeshWallConfig.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -130,7 +130,7 @@ Now you can move the ICVFX camera around and the frustum should move as well.  W
 
 ![inner frustum](images/gpuSettings.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -140,7 +140,7 @@ Add **CineCamera** actor to our **Main** level. Also add one copy of the **LSUnD
 
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -149,7 +149,7 @@ Place the **CineCamera** actor in the **World Outliner** to be a child of **LSUn
 ![make camera child of nDisplay](images/makeCamChild.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -159,7 +159,7 @@ Go to the **LSUnDisplayConfig** and click on the **ICVX Camera** component and s
 
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -169,7 +169,7 @@ Now do the same thing with the **LSUnDisplayConfig** in game and click on the **
 
 
 ![turn off camera preview](images/turnOffPreviewSettings.png)
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -177,7 +177,7 @@ Go to **Edit | Editor Preferences** and go to Level Editor - Viewports | Look an
 
 ![camera preview gets in way of scene](images/turnOffCameraPreview.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`BTS`| :large_blue_diamond: :large_blue_diamond:
 

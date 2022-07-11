@@ -1,4 +1,3 @@
-![](../images/line3.png)
 ### HDR Output
 
 <sub>[previous](../live-link5/README.md#user-content-live-link) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../timecode-sync/README.md#user-content-timecode--sync)</sub>

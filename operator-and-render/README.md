@@ -1,10 +1,12 @@
 ![](../images/line3.png)
 
+
 ### Setting up Perforce on Operator and Render Nodes
 
 <sub>[previous](../p4-newdepot) • [home](../README.md) • [next](../building-levels)</sub>
 
 ![](../images/line3.png)
+
 
 This tutorial helps us get started for new classes/groups using Perforce for a render node and operator in LSU XR Studio.
 

@@ -1,5 +1,3 @@
-![](../images/line3.png)
-
 ### DaVinci Project Server Setup
 
 <sub>[previous](../) • [home](../README.md) • [next](../)</sub>

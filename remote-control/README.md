@@ -1,10 +1,12 @@
 ![](../images/line3.png)
 
+
 ### Getting Started with Unreal Remote Control
 
 <sub>[previous](../) • [home](../README.md) • [next](../)</sub>
 
 ![](../images/line3.png)
+
 
 This guide get's you started with using Remote Control for Virtual Production.
 

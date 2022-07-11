@@ -1,17 +1,15 @@
+### Camera Alignment and Calibration
+
 <!-- Variables for Next and Previous Links -->
 <!-- Replace the ../ with page links -->
 
 [next]: ../
 [previous]: ../
 
-<!-- Start of Page -->
-![](../images/line3.png)
-
-### Camera Alignment and Calibration
-
 <sub>[previous][previous] • [home](../README.md) • [next][next]</sub>
 
 ![](../images/line3.png)
+
 
 These 3 guides from Unreal walk you through this process already. However, there's a couple items they gloss over that this guide hopes to fill in.
 

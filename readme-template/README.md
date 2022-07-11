@@ -1,17 +1,15 @@
+### Add Title
+
 <!-- Variables for Next and Previous Links -->
 <!-- Replace the ../ with page links -->
 
 [next]: ../
 [previous]: ../
 
-<!-- Start of Page -->
-![](../images/line3.png)
-
-### Add Title
-
 <sub>[previous][previous] • [home](../README.md) • [next][next]</sub>
 
 ![](../images/line3.png)
+
 
 Chapter introduction here.
 
