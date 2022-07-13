@@ -6,7 +6,7 @@
 
 The following goes over how to migrate your project into the LSUBaseTemplate that has a basic configuration setup for you. In a lot of cases, if you’re making something for the wall you should just start with the LSUBaseTemplate. This is a guide in case we didn’t do that.
 
-<br id="chbreak">
+<br>
 
 ---
 

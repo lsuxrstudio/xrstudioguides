@@ -6,7 +6,7 @@
 
 The following walks you through the basics of setting up a new workstation with Perforce and Unreal.
 
-<br id="chbreak">
+<br>
 
 ---
 

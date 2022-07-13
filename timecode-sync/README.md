@@ -6,7 +6,7 @@
 
 We are almost ready to go.  The only thing we need to add is timecode and sync. Timecode allows us to record the live link data and sync it back later in post.  Sync is required so that the game engine updates frames at the same time as the camera and monitor. Without it you would have tearing if the game moves the camera in the scene instead of the camera tracker.
 
-<br id="chbreak">
+<br>
 
 ---
 

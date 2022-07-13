@@ -6,7 +6,7 @@
 
 This guide walks you through setting up OptiTrack Motive for camera tracking in Unreal in LSU's XR Studio.
 
-<br id="chbreak">
+<br>
 
 ---
 

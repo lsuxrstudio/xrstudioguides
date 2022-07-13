@@ -8,7 +8,7 @@
 
 This is the procedure for turning on and off the LED wall and processor. It starts off assuming everything is off.
 
-<br id="chbreak">
+<br>
 
 ---
 

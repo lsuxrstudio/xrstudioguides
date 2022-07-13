@@ -6,7 +6,7 @@
 
 The following goes over how to create a new switchboard configuration.
 
-<br id="chbreak">
+<br>
 
 ---
 

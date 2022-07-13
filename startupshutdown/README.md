@@ -6,7 +6,7 @@
 
 The following section goes over the startup and shutdown procedures for hardware in the LSU Virtual Production Studio.
 
-<br id="chbreak">
+<br>
 
 ---
 
