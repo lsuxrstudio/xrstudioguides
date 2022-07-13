@@ -49,23 +49,6 @@ The only change we need to make to this static mesh is to set **Use Full Precisi
 
 ![use full precision UVs](images/fullPrecisionUvs.png)
 
-
-![line2](../images/line2.png)
-
-~~##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:~~
-
-~~Drag a copy of **SM_LSUWall** into the main level. Set the Location to `0,0,0`. Rotate the screen by `90°` on the **Z** axis.-~~
-
-~~![rotate wall 90 degrees and 0 out location](images/wallHeight.png)~~
-
-![line2](../images/line2.png)
-
-~~##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:~~
-
-~~Set the Floor **Transform | Location | Z** to `15`.~~
-
-![set floor height to 15](images/floor.png)
-
 ![line2](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
