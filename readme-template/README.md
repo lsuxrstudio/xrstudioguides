@@ -3,6 +3,8 @@ nav_exclude: true
 nav_order: 102030
 ---
 
+<!-- This top YAML is only put here for the template to be exluded from the navigation. You should remove it for actual guides. -->
+
 ### Add Title
 
 <!-- Variables for Next and Previous Links. Replace the ../ with page links -->
