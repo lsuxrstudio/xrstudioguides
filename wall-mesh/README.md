@@ -114,7 +114,7 @@ Now you can import this FBX into Unreal. [Click here for the Maya file](files/LS
 
 ![line](../images/line.png)
 
-[![Next Up](https://fakeimg.pl/1000x100/45d7cb/000/?font_size=36&text=Next+Up+-)][next]
+[![Next Up](https://fakeimg.pl/1000x100/45d7cb/000/?font_size=36&text=Next+Up+-Unreal+5+Base+Setup)][next]
 
 ![line](../images/line.png)
 
