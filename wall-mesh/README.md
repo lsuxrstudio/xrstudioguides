@@ -1,6 +1,11 @@
 ### Making a LED Wall Mesh in Maya
 
-<sub>[previous](../) • [home](../README.md) • [next](../unreal5-base-setup)</sub>
+<!-- Variables for Next and Previous Links. Replace the ../ with page links -->
+
+[next]: ../unreal5-base-setup
+[previous]: ../
+
+<sub>[previous][previous] • [home](../README.md) • [next][next]</sub>
 
 ![line3](../images/line3.png)
 
@@ -105,14 +110,13 @@ Now you can import this FBX into Unreal. [Click here for the Maya file](files/LS
 ![Export Selection](images/export-selection.png)
 ![Export Options](images/export-options.png)
 
-___
-
-
-![line](../images/line.png)
-
-![](https://via.placeholder.com/1000x100/45D7CA/000000/?text=Unreal+5+Base+Setup)
+<!-- End of Page -->
 
 ![line](../images/line.png)
 
-| [previous](../)| [home](../README.md) | [next](../unreal5-base-setup)|
-|---|---|---|
+[![Next Up](https://fakeimg.pl/1000x100/45d7cb/000/?font_size=36&text=Next+Up+-)][next]
+
+![line](../images/line.png)
+
+| [previous][previous] | [home](../README.md) | [next][next] |
+| --- | --- | --- |
