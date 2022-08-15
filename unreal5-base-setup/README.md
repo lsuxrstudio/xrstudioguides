@@ -21,7 +21,7 @@ Run the **Epic Games Launcher** and run the latest version of Unreal. Selet the 
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-We need to download two external plugins. **Opti Track** for the **Live Link** support in **Motive** that handles camera tracking. For focus we are using **LOLED Indie Mark** encoders which require a server to be installed as well as a plugin for Unreal **Lonet 2 - Live Link**.
+We need to download two external plugins. **Opti Track** for the **Live Link** support in **Motive** that handles camera tracking. For focus we are using **LOLED Indie Mark[]** encoders which require a server to be installed as well as a plugin for Unreal **[Lonet 2 - Live Link](https://loledvirtual.com/documentation/software-downloads/files)**.
 
 ![select config and name project](images/twoExternalPlugins.png)
 
