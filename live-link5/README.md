@@ -31,9 +31,10 @@ Make sure your tracker has a green (not yellow or red) light and the name of the
 ![line2](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-Now we can open up the **LiveLink** window again and select the **RED_CAMERA** tracker in the **Subject Name** window.  Now in the **Pre Processor** press the **+** key and assign the **BP_Optitrack_Offset** blueprint that you just created in preprocessor slot `0`.
 
-![add offset to pre processor](images/trackCamOpti.png)
+Now select **Presets** and choose `Save Preset`.  Save it to the **Stage** folder and call it `LiveLinkPreset`. Press the <kbd>Save</kbd> button.
+
+![save opti track preset](images/savePreset.png)
 
 ![line2](../images/line2.png)
 
@@ -50,9 +51,7 @@ Now we can open up the **LiveLink** window again and select the **RED_CAMERA** t
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Now select **Presets** and choose `Save Preset`.  Save it to the **Stage** folder and call it `LiveLinkPreset`. Press the <kbd>Save</kbd> button.
 
-![save opti track preset](images/savePreset.png)
 
 ![line2](../images/line2.png)
 
