@@ -100,7 +100,9 @@ https://user-images.githubusercontent.com/5504953/157722365-b18b5091-1fbe-466f-9
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
+If everything works resave the **Live Link** preset to the same file overwriting the old one.  Now we have live camera and lense tracking.
 
+![save live link](images/resaveLiveLinkPreset.png)
 
 ![line2](../images/line2.png)
 
@@ -130,9 +132,7 @@ https://user-images.githubusercontent.com/5504953/157722365-b18b5091-1fbe-466f-9
 
 ##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-If everything works resave the **Live Link** preset to the same file overwriting the old one.  Now we have live camera and lense tracking.
 
-![save live link](images/resaveLiveLinkPreset.png)
 
 ___
 
