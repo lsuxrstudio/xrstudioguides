@@ -72,9 +72,9 @@ Now you should see in game that the camera pops up to the position of where it i
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Make sure the camera name you have in **LoNet** shows up under **Subject Name**.  Make sure the light is green.  Turn on **Rebroadcast Subjects**.
+Now we need to add focus tracking.  Go back to the **Red Komodo** camera in the editor and go to the **Live Link** tab. Select **+ Source** and select the **LONET 2 LiveLink** live link input and press the <kbd>OK</kbd> key.
 
-![lonet green in subject name](images/lonetGreen.png)
+![add lonet live link to game engine](images/loNetDefaultSettings.png)
 
 ![line2](../images/line2.png)
 
@@ -99,9 +99,7 @@ Make sure the camera name you have in **LoNet** shows up under **Subject Name**.
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now we need to add focus tracking.  Go back to the **Red Komodo** camera in the editor and go to the **Live Link** tab. Select **+ Source** and select the **LONET 2 LiveLink** live link input and press the <kbd>OK</kbd> key.
 
-![add lonet live link to game engine](images/loNetDefaultSettings.png)
 
 ![line2](../images/line2.png)
 
