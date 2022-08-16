@@ -104,36 +104,6 @@ If everything works resave the **Live Link** preset to the same file overwriting
 
 ![save live link](images/resaveLiveLinkPreset.png)
 
-![line2](../images/line2.png)
-
-##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
-
-
-![line2](../images/line2.png)
-
-
-##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-
-
-![line2](../images/line2.png)
-
-##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-
-
-![line2](../images/line2.png)
-
-##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
-
-
-![line2](../images/line2.png)
-
-##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-
-
 ___
 
 ![line](../images/line.png)
