@@ -80,7 +80,11 @@ Now we need to add focus tracking.  Go back to the **Red Komodo** camera in the 
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now that we have the **LiveLink** setup we just need to have it communicate to our in game camera.  Go back  to the **Main** level and select the **RedKomodo** cinecamera.  Press the green <kbd>+ Add Component</kbd> button and select a **Live Link Controller** component. Call this component `Camera Focus`.
 
+Now this will adjust more than just the focus.  You need to go to **CAMERA ROLE | Settings | Update Flags** and turn off all adjustments except for **Apply Focus Distance**.  Otherwise you will not be able to set aperature, zoom etc...
+
+![live link lonet component](images/lonetLinkCam.png)
 
 ![line2](../images/line2.png)
 
@@ -112,11 +116,7 @@ Now we need to add focus tracking.  Go back to the **Red Komodo** camera in the 
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now that we have the **LiveLink** setup we just need to have it communicate to our in game camera.  Go back  to the **Main** level and select the **RedKomodo** cinecamera.  Press the green <kbd>+ Add Component</kbd> button and select a **Live Link Controller** component. Call this component `Camera Focus`.
 
-Now this will adjust more than just the focus.  You need to go to **CAMERA ROLE | Settings | Update Flags** and turn off all adjustments except for **Apply Focus Distance**.  Otherwise you will not be able to set aperature, zoom etc...
-
-![live link lonet component](images/lonetLinkCam.png)
 
 ![line2](../images/line2.png)
 
