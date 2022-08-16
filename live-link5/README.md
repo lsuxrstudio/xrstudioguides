@@ -40,6 +40,9 @@ Now select **Presets** and choose `Save Preset`.  Save it to the **Stage** folde
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now this just adds it to this tracking machine.  We also need to add it to the project configuraiton so that all the other machines can get this offset as well.  Open up the **Edit | Project Settings** folder and select **Live Link** plugin settings.  Assign `LiveLinkPreset` to **Default Live Link Preset**. 
+
+![live link plugin screen](images/liveLinkPlugin.png)
 
 ![line2](../images/line2.png)
 
@@ -57,9 +60,7 @@ Now select **Presets** and choose `Save Preset`.  Save it to the **Stage** folde
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now this just adds it to this tracking machine.  We also need to add it to the project configuraiton so that all the other machines can get this offset as well.  Open up the **Edit | Project Settings** folder and select **Live Link** plugin settings.  Assign `LiveLinkPreset` to **Default Live Link Preset**. 
 
-![live link plugin screen](images/liveLinkPlugin.png)
 
 ![line2](../images/line2.png)
 
