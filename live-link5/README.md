@@ -56,19 +56,25 @@ Now that we have the **LiveLink** setup we just need to have it communicate to o
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
+Now select the **Subject Representation** in the **Live Link Controller** and pick `RED_Camera`.
 
+![bind live link component to ActivePuck_CH20_ID1](images/selectCameraTracker.png)
 
 ![line2](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now you should see in game that the camera pops up to the position of where it is tracking in **OptiTrack Motive**.
 
+![moving camera in scene](images/cameraNowTracking.png)
 
 ![line2](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Make sure the camera name you have in **LoNet** shows up under **Subject Name**.  Make sure the light is green.  Turn on **Rebroadcast Subjects**.
 
+![lonet green in subject name](images/lonetGreen.png)
 
 ![line2](../images/line2.png)
 
@@ -81,17 +87,13 @@ Now that we have the **LiveLink** setup we just need to have it communicate to o
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-Now select the **Subject Representation** in the **Live Link Controller** and pick `RED_Camera`.
 
-![bind live link component to ActivePuck_CH20_ID1](images/selectCameraTracker.png)
 
 ![line2](../images/line2.png)
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-Now you should see in game that the camera pops up to the position of where it is tracking in **OptiTrack Motive**.
 
-![moving camera in scene](images/cameraNowTracking.png)
 
 ![line2](../images/line2.png)
 
@@ -106,9 +108,7 @@ Now we need to add focus tracking.  Go back to the **Red Komodo** camera in the 
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Make sure the camera name you have in **LoNet** shows up under **Subject Name**.  Make sure the light is green.  Turn on **Rebroadcast Subjects**.
 
-![lonet green in subject name](images/lonetGreen.png)
 
 ![line2](../images/line2.png)
 
