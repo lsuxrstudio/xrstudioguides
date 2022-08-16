@@ -31,26 +31,20 @@ Make sure your tracker has a green (not yellow or red) light and the name of the
 ![line2](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+Now we can open up the **LiveLink** window again and select the **RED_CAMERA** tracker in the **Subject Name** window.  Now in the **Pre Processor** press the **+** key and assign the **BP_Optitrack_Offset** blueprint that you just created in preprocessor slot `0`.
 
-Now the orientation of the axis in OptiTrack is not the same as what **Unreal** expects.  The camera would not mimic the movement on set correctly.  We need to select the **Stage** folder and press the <kbd>+ Add</kbd> button and select **Blueprint**.  Open up **All Classes** and this time we will search for the `LiveLinkTransformAxisSwitchPreProcessor(TransformAxisSwitch)`.
-
-![create a axis transform blueprint](images/liveLinkTransformBP.png)
+![add offset to pre processor](images/trackCamOpti.png)
 
 ![line2](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Call this new blueprint `BP_OptiTrack_Offset`.  Double click it.  It will either look like a normal blueprint or come in a reduced form.  In either case you want to set the **Front Axis** (what Unreal thinks of facing forward or **X**) as `-Y-axis` coming from **OptiTrack** (inverting the Y axis as the positive direction is wrong).  Set the **Right Axis** to the `X-Axis`.
-
-![set front -Y and side to X](images/callTheBlueprint.png)
 
 ![line2](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Now we can open up the **LiveLink** window again and select the **RED_CAMERA** tracker in the **Subject Name** window.  Now in the **Pre Processor** press the **+** key and assign the **BP_Optitrack_Offset** blueprint that you just created in preprocessor slot `0`.
 
-![add offset to pre processor](images/trackCamOpti.png)
 
 ![line2](../images/line2.png)
 
