@@ -36,7 +36,7 @@ First make sure you have the following plugins enabled:
 
 Still in PowerShell open port 3000 with the following command. 
 
-`New-NetFirewallRule -DisplayName "UnrealRemote" -Direction Inbound -Action Allow -Protocol TCP -LocalPort 3000`
+`netsh advfirewall firewall add rule name="Unreal Remote 30000" dir=in action=allow protocol=TCP localport=30000`
 
 ![alt_text](images/.png)
 
