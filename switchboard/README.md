@@ -91,6 +91,8 @@ The following goes over how to create a new switchboard configuration.
 
 - Sometimes we might get a switchboard error saying `Node_0: nDisplay uasset transfer failed: Error while trying to write to D:\Perforce\22suart4240\2022-Summer-ART-4240-01\UnkownWanderer\Content\Stages\LSUnDisplayConfig.uasset`. I suspect this has to do with Perforce so you can double check what's checked out there, or simply logging off and on both nodes also seems to address this.
 
+- If unreal crashes on render node try running the unreal project project on the the node and not through switchboard.
+
 #### Resources
 
 [In-Camera VFX Quick Start](https://docs.unrealengine.com/5.0/en-US/in-camera-vfx-quick-start-for-unreal-engine/)
