@@ -44,14 +44,19 @@ Right click on **Stages > OCIO** and select **Open in Explorer** and now paste t
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Click on the **OCIO** folder and right click on the <kbd>+ Add</kbd> button and select the **Miscellaneous 
-| OpenColorIO Configuration** node. Call it `SRGBtoPQ`.  SRGB is the native format that Unreal outputs for games and PQ is an **HDR** format that our **Brompton** processors are set up to receive.
+Now these files will not show up in the browser or in the repository.  We need to open up **P4V** and manually **Add** and **Submit** these files.
 
-![creat OCIO Asset](images/createOCIOAsset.png)
+![submit ocio files manually](images/submitManuallyP4.png)
+
 
 ![line2](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
+
+Click on the **OCIO** folder and right click on the <kbd>+ Add</kbd> button and select the **Miscellaneous 
+| OpenColorIO Configuration** node. Call it `SRGBtoPQ`.  SRGB is the native format that Unreal outputs for games and PQ is an **HDR** format that our **Brompton** processors are set up to receive.
+
+![creat OCIO Asset](images/createOCIOAsset.png)
 
 Open up the **SRGBtoPQ** file and load the `simple.config.ocio` into the **Configuration File** slote.
 
