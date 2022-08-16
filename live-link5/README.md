@@ -91,6 +91,9 @@ Now this will adjust more than just the focus.  You need to go to **CAMERA ROLE 
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
+Now we are able to see the **Current Focus Distance** change when the focal ring is moved on the camera.
+
+https://user-images.githubusercontent.com/5504953/157722365-b18b5091-1fbe-466f-9c8c-6ea4a2c872d5.mp4
 
 
 ![line2](../images/line2.png)
@@ -122,9 +125,6 @@ Now this will adjust more than just the focus.  You need to go to **CAMERA ROLE 
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
-Now we are able to see the **Current Focus Distance** change when the focal ring is moved on the camera.
-
-https://user-images.githubusercontent.com/5504953/157722365-b18b5091-1fbe-466f-9c8c-6ea4a2c872d5.mp4
 
 ![line2](../images/line2.png)
 
