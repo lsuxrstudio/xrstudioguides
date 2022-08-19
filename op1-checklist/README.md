@@ -12,6 +12,8 @@ Operator 1 steps when running a Ue5 project in Switchboard
 
 - [ ] Double check that switchboard has the correct config loaded
 
+- [ ] Check p4 set on both operator and render node to make sure they are correct
+
 - [ ] Make sure switchboard listerner is running
 
 - [ ] Kill multplayer session window
