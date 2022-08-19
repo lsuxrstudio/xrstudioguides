@@ -8,8 +8,11 @@ How to create an Unreal project from scratch in Unreal 5.0.X for an in-camera vi
 
 <br>
 
----
+##### Guide To Do's:
+- [ ] Remember to re-initialitze timecode and genlock and verify it's working via stat command.
+- [ ] add sync policy set to nvidia
 
+---
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
