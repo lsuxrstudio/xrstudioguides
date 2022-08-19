@@ -12,8 +12,9 @@ The TLDR's are for students and faculty already trained on the system for a quic
 * [Add and Create new Config for Switchboard](switchboard/README.md)
 * [Operator 1 Start-Up Checklist](op1-startup/README.md)
 * [Operator 1 Shut-Down Checklist](op1-shutdown/README.md)
-* [Camera Tracker Start-Up Checklist](mocap/README.md)
 * [Operator 1 Production Checklist](op1-production/README.md)
+* [Operator 1 Switchboard Checklist](op1-checklist/README.md)
+* [Camera Tracker Start-Up Checklist](mocap/README.md)
 * [Camera Tracking Info]()
 
 ### Unreal
