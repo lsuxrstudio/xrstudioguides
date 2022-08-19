@@ -1,4 +1,4 @@
-### Operator 1 Start-Up Checklist
+### Operator 1 Switchboard Checklist
 
 ![line3](../images/line3.png)
 
