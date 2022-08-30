@@ -24,11 +24,13 @@ The following goes over how to migrate your project into the LSUBaseTemplate tha
     ![Paste Template](images/pasteTempate.png)
     
 2. Rename the template folder and Unreal project to your project name followed by “LSUXR” at the end to remind you that this is your level brought into the template. For instance, cfair_shatter-LSUXR. However, be mindful to keep the name under 20 characters for Unreal.
-3. If you have special plugins enabled in your orignal project such as Landmass or Water, open the new project and enable them.
+3. If you have special plugins enabled in your orignal project such as Landmass or Water, open the new project and enable them. 
 4. Open your original project (ie, cfair_shatter)
 5. Rt. Click the Level you want to export Asset Actions > Migrate 
     
     ![Migrate Asset](images/migrateAsset.png)
+
+6. If you get an error that says it can’t find certain plugin folders and you’ve already enabled them just click the “No” button. 
 
 6. Choose the template directory you had renamed earlier (cfair_shatter-LSUXR) 
 
