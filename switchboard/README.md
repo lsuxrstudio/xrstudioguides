@@ -93,6 +93,10 @@ The following goes over how to create a new switchboard configuration.
 
 - If unreal crashes on render node try running the unreal project project on the the node and not through switchboard.
 
+- If multi user session window does open when launching from unreal go into your switchboard settings and turn off launch switchboard in “UI” mode. 
+
+- A lot of p4 issues can be solved by running the p4setup.bat file in your root workspace directory AND the directory where your .uproject resides. 
+
 #### Resources
 
 [In-Camera VFX Quick Start](https://docs.unrealengine.com/5.0/en-US/in-camera-vfx-quick-start-for-unreal-engine/)
