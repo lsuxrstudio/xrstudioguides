@@ -35,7 +35,12 @@ The following goes over how to create a new switchboard configuration.
     ![Add New Switchboard Config](images/addNewSwitchboardConfig.png)
         
 6. If it didn’t, you can check what they are by opening Perforce and copy pasting them in.
-7. Click Add Device > **nDisplay**
+
+6. You can find the P4 Project Path by opening P4V and going to View > Workspaces and then double clicking your workspace. Thhe **Workspace** name is labled "Workspace" the **P4 Project Path** is the first part of your "View" mapping, ie //2023-Spring-ART-4240-02-VP.
+
+<img width="729" alt="image" src="https://user-images.githubusercontent.com/1238349/214415450-5fdc90c9-ebfc-4ace-8165-36abc1cd35b8.png">
+
+8. Click Add Device > **nDisplay**
 
     ![Add nDisplay](images/addNDisplay.png)
         
