@@ -35,7 +35,12 @@ The following goes over how to create a new switchboard configuration.
     ![Add New Switchboard Config](images/addNewSwitchboardConfig.png)
         
 6. If it didn’t, you can check what they are by opening Perforce and copy pasting them in.
-7. Click Add Device > **nDisplay**
+
+6. You can find the P4 Project Path by opening P4V and going to View > Workspaces and then double clicking your workspace. Thhe **Workspace** name is labled "Workspace" the **P4 Project Path** is the first part of your "View" mapping, ie //2023-Spring-ART-4240-02-VP.
+
+<img width="729" alt="image" src="https://user-images.githubusercontent.com/1238349/214415450-5fdc90c9-ebfc-4ace-8165-36abc1cd35b8.png">
+
+8. Click Add Device > **nDisplay**
 
     ![Add nDisplay](images/addNDisplay.png)
         
@@ -96,6 +101,9 @@ The following goes over how to create a new switchboard configuration.
 - If multi user session window does open when launching from unreal go into your switchboard settings and turn off launch switchboard in “UI” mode. 
 
 - A lot of p4 issues can be solved by running the p4setup.bat file in your root workspace directory AND the directory where your .uproject resides. 
+- When you've acceidently removed files after adding them and before sumitting themn. Revert. Sometimes you can't in the GUI. Send files to a  numbered changelist using P4V. Rt. Click **default** change list and select **New Pending Changelist**. Then open up terminal and use `p4 revert -c 10 //...`. Replace the **10** with the changelist number shown in P4V. See: https://portal.perforce.com/s/article/3453.
+
+- If the changlist doesn't populate on the render node and you get no errors in the debug log, restart the switchbaord listener on the render node and try again.
 
 #### Resources
 
