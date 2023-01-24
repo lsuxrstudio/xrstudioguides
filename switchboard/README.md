@@ -93,6 +93,8 @@ The following goes over how to create a new switchboard configuration.
 
 - If unreal crashes on render node try running the unreal project project on the the node and not through switchboard.
 
+- When you've acceidently removed files after adding them and before sumitting themn. Revert. Sometimes you can't in the GUI. Send files to a  numbered changelist using P4V. Rt. Click send to change listed. Then open up terminal and use `p4 revert -c 10 //...`.See: https://portal.perforce.com/s/article/3453.
+
 #### Resources
 
 [In-Camera VFX Quick Start](https://docs.unrealengine.com/5.0/en-US/in-camera-vfx-quick-start-for-unreal-engine/)
