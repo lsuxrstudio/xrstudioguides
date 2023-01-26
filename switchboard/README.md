@@ -107,7 +107,7 @@ The following goes over how to create a new switchboard configuration.
 
 - If you get an error in unreal after launching from switchboard that says cant join multi user session and it looks like an old session, turn on Clean History in the Switchboard settings.
 
-- If nDisplay node quite abruptly after launching it could be be an issue with multi user session. Try manually closing the server and then restarting it. 
+- If nDisplay node quite abruptly after launching it could be be an issue with multi user session. Try manually closing the server and then restarting it. It could also be an optitrack issue. If optitrack isnt tracking try removing the optitrack source from live link and readd. Also make sure optitrack is broadcasting on the right IP address. 
 
 #### Resources
 
