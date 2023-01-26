@@ -105,6 +105,8 @@ The following goes over how to create a new switchboard configuration.
 
 - If the changlist doesn't populate on the render node and you get no errors in the debug log, restart the switchbaord listener on the render node and try again.
 
+- If you get an error in unreal after launching from switchboard that says cant join multi user session and it looks like an old session, turn on Clean History in the Switchboard settings.
+
 #### Resources
 
 [In-Camera VFX Quick Start](https://docs.unrealengine.com/5.0/en-US/in-camera-vfx-quick-start-for-unreal-engine/)
