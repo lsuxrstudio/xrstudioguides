@@ -10,7 +10,6 @@ The following goes over how to create a new switchboard configuration.
 
 ### Guide To Do's 
 - [ ] replace screenshot showing 127.0.0.1 with actual IP
-- [ ] change C: to D: for engine path on node
 
 ---
 
