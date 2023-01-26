@@ -107,6 +107,8 @@ The following goes over how to create a new switchboard configuration.
 
 - If you get an error in unreal after launching from switchboard that says cant join multi user session and it looks like an old session, turn on Clean History in the Switchboard settings.
 
+- If nDisplay node quite abruptly after launching it could be be an issue with multi user session. Try manually closing the server and then restarting it. 
+
 #### Resources
 
 [In-Camera VFX Quick Start](https://docs.unrealengine.com/5.0/en-US/in-camera-vfx-quick-start-for-unreal-engine/)
