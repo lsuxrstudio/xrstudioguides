@@ -12,7 +12,7 @@ The heart of how the multi view system works in Unreal is through a plugin calle
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-First we need a 3-D representation of our wall in exact dimesions.  Download the static mesh [LSU_LED_Wall.FBX](../files/LSU_LED_Wall.FBX).
+First we need a 3-D representation of our wall in exact dimesions.  Download the static mesh [LSU_LED_Wall.FBX](https://github.com/lsuxrstudio/xrstudioguides/blob/main/files/LSU_LED_Wall.fbx?raw=true).
 
 ![download static mesh](images/downloadFBXWall.png)
 
