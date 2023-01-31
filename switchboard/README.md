@@ -37,7 +37,7 @@ The following goes over how to create a new switchboard configuration.
 
 6. You can find the P4 Project Path by opening P4V and going to View > Workspaces and then double clicking your workspace. Thhe **Workspace** name is labled "Workspace" the **P4 Project Path** is the first part of your "View" mapping, ie //2023-Spring-ART-4240-02-VP.
 
-<img width="729" alt="image" src="https://user-images.githubusercontent.com/1238349/214415450-5fdc90c9-ebfc-4ace-8165-36abc1cd35b8.png">
+    <img width="729" alt="image" src="https://user-images.githubusercontent.com/1238349/214415450-5fdc90c9-ebfc-4ace-8165-36abc1cd35b8.png">
 
 8. Click Add Device > **nDisplay**
 
