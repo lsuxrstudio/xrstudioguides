@@ -108,6 +108,8 @@ The following goes over how to create a new switchboard configuration.
 
 - If nDisplay node quite abruptly after launching it could be be an issue with multi user session. Try manually closing the server and then restarting it. It could also be an optitrack issue. If optitrack isnt tracking try removing the optitrack source from live link and readd. Also make sure optitrack is broadcasting on the right IP address. 
 
+- If you get a Warning in Switchboard that says `Node_0 already running unreal` check for "ghost sessions" using Task Manager. Close them down by right clicking them and choosing **End Task**. 
+
 #### Resources
 
 [In-Camera VFX Quick Start](https://docs.unrealengine.com/5.0/en-US/in-camera-vfx-quick-start-for-unreal-engine/)
