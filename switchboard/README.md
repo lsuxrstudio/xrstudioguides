@@ -72,7 +72,7 @@ The following goes over how to create a new switchboard configuration.
 
 #### Troubleshooting
 
-- If switchboard throws an error that says “Could not start program p4” this can be for a couple reasons. One fix is to double check your uProject paths and workspace names are correct in the Switchboard settings. These should be different for the operator and render nodes. Another fix could be to log out and then back in to P4V. 
+- If switchboard throws an error that says `Could not start program p4` this can be for a couple reasons. One fix is to double check your uProject paths and workspace names are correct in the Switchboard settings. These should be different for the operator and render nodes. Another fix is to sync manually using P4V on the computer giving the error. Another fix could be to log out and then back in to P4V. 
 
 - One particlarly annoying issue that crops up is that the render node won't join the multi-user session. If this happens, click the stop and the disconnect icons next to *just* the render node in Switchboard. Then on the render node close and re-open the switchboard listener. Click connect and join for the render node back in Switchboard.
 
@@ -89,7 +89,7 @@ The following goes over how to create a new switchboard configuration.
 
 - If you get the error message `Operator already running cstat_project a9508bb6-992c-4268-9989-27c16639908b` make sure to close out the multi user server window.
 
-- If you get the error message `Node_0: Could not retrieve changelists for project. Are the Source Control Settings correctly configured?` This could happen because your worksapce names or file paths are incorrect in switchboard, double check these. Also, you can try opening a command prompt and type `p4 login` followed by you username and password.
+- If you get the error message `Could not retrieve changelists for project. Are the Source Control Settings correctly configured?` This could happen because your worksapce names or file paths are incorrect in switchboard, first double check these. Second, this happens when P4 isn't getting the right credentials for the Unreal project directory you're in. Go to the Unreal project directory in Explorer and run the `setconfig.bat` application if you're using the LSUBaseTemplate, or use `p4 set`, or use a `.p4config` file to set your p4 environment variables such as P4USER and P4CLIENT. Also, you can try opening a command prompt and type `p4 login` followed by you username and password.
 
 - If for some reason the nDisplay node doesn't join the Multi User session and changes don't propogate in real-time between machines auto-join may have been disabled switchboard json config file. Unless you specified a custom location these are in `D:\Program Files\UE_5.0\Engine\Plugins\VirtualProduction\Switchboard\Source\Switchboard\configs`. Around line #125 change `"autojoin_mu_server": false` to `"autojoin_mu_server": true`. Alternatively, you can try loading and running a different Switchboard config that works and then go back to your original config and try it again. This also appears to help.
 
