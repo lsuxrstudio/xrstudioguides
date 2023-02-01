@@ -110,6 +110,8 @@ The following goes over how to create a new switchboard configuration.
 
 - If you get a Warning in Switchboard that says `Node_0 already running unreal` check for "ghost sessions" using Task Manager. Close them down by right clicking them and choosing **End Task**. 
 
+- If Switchboard immediately crashes after launching rename your default `config` folder to something like `config1` so that it doesn't auto-load your last config anymore.  
+
 #### Resources
 
 [In-Camera VFX Quick Start](https://docs.unrealengine.com/5.0/en-US/in-camera-vfx-quick-start-for-unreal-engine/)
