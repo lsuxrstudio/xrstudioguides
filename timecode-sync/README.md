@@ -1,4 +1,4 @@
-### Timecode & Sync
+### Capture, Timecode & Sync
 
 <sub>[previous](../hdr5-output/README.md#user-content-hdr-output) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)</sub>
 
@@ -36,7 +36,7 @@ The black magic capture card that receives the camera signal in our capture PC t
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We have setup the **BlackMagic Decklink** card so that any of the **SDI** connectors can be inputs or outputs.  It recognizes that we are using channel 1 as an input and channel 2 as an output.
+We have setup the **BlackMagic Decklink** card so that any of the **SDI** connectors can be inputs or outputs.  It recognizes that we are using channel 1 as an input and channel 2 as an output. You have to click every single connector number in Desktop Video Setup and change their connector mapping to `SDI # In or Out`.
 
 ![show input and output setting in black magic deckink card](images/decklinkSettings.jpg)
 
