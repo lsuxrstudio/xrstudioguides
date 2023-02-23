@@ -10,6 +10,8 @@ The following goes over how to create a new switchboard configuration.
 
 ### Guide To Do's 
 - [ ] replace screenshot showing 127.0.0.1 with actual IP
+- [ ] add an extra step to click the build button in switchboard.
+- [ ] suggest building first on the operator to check for build errors before building on the render node.
 
 ---
 
@@ -111,6 +113,8 @@ The following goes over how to create a new switchboard configuration.
 - If you get a Warning in Switchboard that says `Node_0 already running unreal` check for "ghost sessions" using Task Manager. Close them down by right clicking them and choosing **End Task**. 
 
 - If Switchboard immediately crashes after launching rename your default `config` folder to something like `config1` so that it doesn't auto-load your last config anymore.  
+
+- If unreal freezes when launching on the render node try building the change list first on the render node in switchboard. Should probably add this as a step up above.
 
 #### Resources
 
