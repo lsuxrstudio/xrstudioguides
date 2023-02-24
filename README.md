@@ -59,8 +59,3 @@ The TLDR's are for students and faculty already trained on the system for a quic
 
 ### Links
 * [Indiemark lense encoder instructions](https://loledvirtual.com/documentation/docs/indiemarkusingencoder/)
-
----
-<details><summary>Dev Tips</summary>
-make git m="add commit message"
-</details>
