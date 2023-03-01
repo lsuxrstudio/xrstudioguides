@@ -12,7 +12,7 @@ How to create an Unreal project from scratch in Unreal 5.0.X for an in-camera vi
 - [ ] Remember to re-initialitze timecode and genlock and verify it's working via stat command.
 - [ ] add sync policy set to nvidia
 - [ ] add cvars from: https://docs.unrealengine.com/5.1/en-US/in-camera-vfx-production-test-sample-project-for-unreal-engine/
-
+- [ ] add dervied data cache setup
 ---
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
