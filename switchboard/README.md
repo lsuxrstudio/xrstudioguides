@@ -10,7 +10,7 @@ The following goes over how to create a new switchboard configuration.
 
 ### Guide To Do's 
 - [ ] replace screenshot showing 127.0.0.1 with actual IP
-- [ ] add an extra step to click the build button in switchboard.
+- [ ] add a step to launch the uproject on the render node to let shaders compile. can also add an extra step to click the build button in switchboard as a troubleshooting step.  
 - [ ] suggest building first on the operator to check for build errors before building on the render node.
 
 ---
