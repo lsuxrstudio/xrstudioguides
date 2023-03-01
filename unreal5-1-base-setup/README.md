@@ -12,7 +12,8 @@ How to create an Unreal project from scratch in Unreal 5.0.X for an in-camera vi
 - [ ] Remember to re-initialitze timecode and genlock and verify it's working via stat command.
 - [ ] add sync policy set to nvidia
 - [ ] add cvars from: https://docs.unrealengine.com/5.1/en-US/in-camera-vfx-production-test-sample-project-for-unreal-engine/
-- [ ] add dervied data cache setup
+- [ ] add dervied data cache setup. Add the following to **BaseEngine.ini** `[InstalledDerivedDataBackendGraph] Shared=(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, DeleteUnused=true, UnusedFileAge=10, FoldersToClean=10, MaxFileChecksPerSec=1, ConsiderSlowAt=70, PromptIfMissing=false, Path="X:\DerivedDataCache", EnvPathOverride=UE-SharedDataCachePath, EditorOverrideSetting=SharedDerivedDataCache)`. Replce the Path parameter with a mapped drive on the network.
+
 ---
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
