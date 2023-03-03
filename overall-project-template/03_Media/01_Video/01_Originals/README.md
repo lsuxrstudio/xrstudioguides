@@ -1,0 +1,1 @@
+In this place create a new folder for every day you shoot. It's a good idea to prefix yout days with a date, ie 20220502 for May 2, 2022. 
