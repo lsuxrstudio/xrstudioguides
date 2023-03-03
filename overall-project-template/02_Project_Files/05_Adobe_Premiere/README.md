@@ -1,1 +1,0 @@
-The readme is intentioanally blank. It's just here to preserve the folder strucutre in version control systems.

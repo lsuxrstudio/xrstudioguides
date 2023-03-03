@@ -1,2 +1,0 @@
-# Overall Project Template
-This is a folder hierarchy that can be used to both, keep your project organized and import directly (just bring in the top level "Media" folder) into DaVinci Resolve or Adobe Premiere. The "Production" and "Project Files" folders don't necessarily need to be brought into your NLE.
