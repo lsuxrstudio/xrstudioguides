@@ -1,0 +1,1 @@
+This is a place to create a new folder for every scene in your production.
