@@ -1,1 +1,1 @@
-The readme is intentioanally blank. It's just here to preserve the folder strucutre in version control systems.
+Here is where you actually dump the footage from your memory cards. Make sure to retain the original file strucutre of the memory card here. 

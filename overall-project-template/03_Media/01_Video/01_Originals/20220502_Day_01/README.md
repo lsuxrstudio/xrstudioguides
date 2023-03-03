@@ -1,1 +1,1 @@
-Create a new folder for each your cameras. You can label them "A_CAM" and "B_CAM" or "RED_KOMODO" and "ARRI_ALEXA_MINI". 
+Here, create a new folder for each your cameras. You can label them "A_CAM" and "B_CAM" or "RED_KOMODO" and "ARRI_ALEXA_MINI". 

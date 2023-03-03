@@ -1,1 +1,1 @@
-The readme is intentioanally blank. It's just here to preserve the folder strucutre in version control systems.
+Use something like Blackmagic Proxy Generator, Scartch, Adobe Media Encoder, or EditReady to make Proxies automaticaly and place them here. 
