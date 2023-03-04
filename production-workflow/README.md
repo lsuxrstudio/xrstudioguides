@@ -4,6 +4,8 @@ This guide goes over a production organization and workflow for ingesting media 
 
 ## Folder Structure
 
+1. Download the folder structure from [here](https://github.com/lsuxrstudio/production-template/zipball/main).
+
 ## Ingesting Footage
 
 ## Making Proxies
