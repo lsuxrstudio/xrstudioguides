@@ -14,6 +14,8 @@ This guide goes over a production organization and workflow for ingesting media 
 2. Unzip this folder 
 ![Alt text](images/explorer_t068DLPD3L.png)
 
+
+
 ## Ingesting Footage
 
 ## Making Proxies
