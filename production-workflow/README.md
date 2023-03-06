@@ -10,7 +10,7 @@ This guide goes over a production organization and workflow for ingesting media 
 
 ## Folder Structure
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BpPimhz_qJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% include youtube.html id="BpPimhz_qJ4" %}
 
 1. Download the folder structure from [https://github.com/lsuxrstudio/production-template](https://github.com/lsuxrstudio/production-template). Or use the direct download link [here](https://github.com/lsuxrstudio/production-template/zipball/main).
     
