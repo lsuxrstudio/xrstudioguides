@@ -10,7 +10,7 @@ This guide goes over a production organization and workflow for ingesting media 
 
 ## Folder Structure
 
-{% include youtube.html id="BpPimhz_qJ4" %}
+[![Alt text](images/folder-structure-yt.png)](https://www.youtube.com/watch?v=BpPimhz_qJ4)
 
 1. Download the folder structure from [https://github.com/lsuxrstudio/production-template](https://github.com/lsuxrstudio/production-template). Or use the direct download link [here](https://github.com/lsuxrstudio/production-template/zipball/main).
     
