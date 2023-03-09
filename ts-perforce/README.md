@@ -90,7 +90,7 @@ Sometimes you can't save a file in Unreal.
 
 ### Resolution
 1. First, try reconnecting source control in the bottom right hand corner of the window. 
-2. If that doesn't work, use the windows program "Reource Monitor" to search for the file in question using the "Associated Handle" search box. This tells you what program in using the file, often a ghost instance of Unreal, and sometimes one that may not even show up in Task Manager. You can then go to the processes tab and end task the one with the same PID.
+2. If that doesn't work, use the windows program "Resource Monitor" to search for the file in question using the "Associated Handle" search box. This tells you what program in using the file, often a ghost instance of Unreal, and sometimes one that may not even show up in Task Manager. You can then go to the processes tab and end task the one with the same PID.
 3. If you have more than 2 ghost sessions you can probably just look at CPU usage to see which one is on the active window. You could also use Microsoft's Process Explorer program to figure out the PID  of the active window.
 
 
