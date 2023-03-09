@@ -15,3 +15,5 @@ You don't actually have to use Perforce with Switchboard. Here are steps to use 
 If Perfoce is setup to with different folder names on the render node and operator node you can create a symlink in Powershell so that you don't have to switch change every new Switchboard config. For example:
 
 `New-Item -Path .\virtualproduction_xrlab-operator\ -ItemType SymbolicLink -Value .\virtualproduction_xrlab-render\`
+
+This command would be run in Powershell on the Render node. `CD` into your root Perforce directory where your existing worksapce is i.e., `virtualproduction_xrlab-render`. It create a new symbolic link called `virtualproduction_xrlab-operator` in the same directory.
