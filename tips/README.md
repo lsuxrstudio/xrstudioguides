@@ -1,7 +1,7 @@
 # Tips
 A place for some tips to wokring with virtual production with Unreal. 
 
-## When Perforce Down
+## When Perforce is Down
 You don't actually have to use Perforce with Switchboard. Here are steps to use if Perforce goes down using Windows robocopy.
 
 1. Map a Network drive to your Perforce directory on your operator node. 
