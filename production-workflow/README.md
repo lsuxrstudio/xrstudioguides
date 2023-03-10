@@ -14,15 +14,15 @@ This guide goes over a production organization and workflow for ingesting media 
 
 1. Download the folder structure from [https://github.com/lsuxrstudio/production-template](https://github.com/lsuxrstudio/production-template). Or use the direct download link [here](https://github.com/lsuxrstudio/production-template/zipball/main).
     
-    <img src=images/download-latest-release.png width=350>
+    <img src=images/download-latest-release.png width=500>
 
 2. Unzip this folder 
 
-    <img src=images/extract-all.png width=350>
+    <img src=images/extract-all.png width=500>
 
 3. Move the contents of this folder to Box
 
-    <img src=images/copy-paste-folders.png width=350>
+    <img src=images/copy-paste-folders.png width=500>
 
 4. To read more about the way this folder structure works read the contents of the README's from here: [https://github.com/lsuxrstudio/production-template](https://github.com/lsuxrstudio/production-template). 
 
