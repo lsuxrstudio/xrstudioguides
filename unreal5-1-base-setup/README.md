@@ -1,6 +1,160 @@
 # Unreal 5 Base Setup
 
+## Project Setup
 
+1. Create a new project in 
+2. Create the below folder structure in the Unreal Contenet Browser.
+
+### Folder Structure
+
+```
+Content/
+└── LSUBaseTemplateProject/
+    ├── Assets/
+    ├── Scenes/
+    │   └── SceneName1
+    └── Stage/
+        ├── SM_LSUXRStudio_CurvedWall
+        ├── NDC_LSUXRStudio
+        ├── LLP_LSUXRStudio
+        └── OCIO_LSUXRStudio
+```
+
+<!-- https://tree.nathanfriend.io/?s=(%27options!(%27fancy!true~fullPath!false~trailingSlash!true~rootDot!false)~5(%275%272Content%2F72LSUBaseTemplateProject32Assets36s3*6Name1.2Stage34SM0_CurvedWall8NDC08LLP08OCIO0%27)~version!%271%27)*%20%20.7*0_LSUXRStudio2-%203%2F8**25source!62Scene7%5Cn*8.4%0187654320.* -->
+
+> **Note**
+> 
+> Based on the complexity of the project you may choose to use a more detailed folder structure such as one of these.
+> 
+> <details>
+> 
+> **<summary>Basic Sublevel Folder Structure</summary>**
+> 
+> ```
+> Content/
+> └── LSUBaseTemplateProject/
+>     ├── Assets/
+>     ├── Scenes/
+>     │   └── SceneName1
+>     └── Stage/
+>         ├── LSUXRStudio_Stage
+>         ├── LEDMesh/
+>         │   └── SM_LSUXRStudio_CurvedWall
+>         └── Configs/
+>             ├── NDC_LSUXRStudio
+>             ├── LLP_LSUXRStudio
+>             └── OCIO_LSUXRStudio
+> ```
+> 
+> <!-- https://tree.nathanfriend.io/?s=(%27options!(%27fancy!true~fullPath!false~trailingSlash!true~rootDot!false)~5(%275%272Content%2F74LSUBaseTemplateProject32Assets32Scenes34SceneName1.2Stage340_Stage.4LEDMesh3*4SM_0_CurvedWall.4Configs3*4NDC6LLP6OCIO_0%27)~version!%271%27)*%20%20.7**0LSUXRStudio2-%203%2F.4*25source!6_0.*47%5Cn%017654320.* -->
+> 
+> </details>
+
+<details>
+
+**<summary>Intermediate Sublevel Folder Structure</summary>**
+
+```
+Content/
+└── LSUBaseTemplateProject/
+    ├── Assets/
+    ├── Scenes/
+    │   └── SceneName1/
+    │       └── SceneName1
+    ├── StageLevels/
+    │   └── SceneName1_LSUXRStudio
+    └── Stage/
+        ├── LSUXRStudio_Stage
+        ├── LEDMesh/
+        │   ├── SM_LSUXRStudio_CurvedWall
+        │   ├── M_LSUXRStudio_CurvedWall
+        │   └── T_LSUXRStudio_CurvedWall
+        └── Configs/
+            ├── NDC_LSUXRStudio
+            ├── LLP_LSUXRStudio
+            └── OCIO_LSUXRStudio
+```
+
+<!-- https://tree.nathanfriend.io/?s=(%27options!(%27fancy!true~fullPath!false~trailingSlash!true~rootDot!false)~8(%278%27Htent%2FG6LSUBaseTemplateProject52Assets59s5*45**4.27Levels.%204F.27560_7.6LEDMesh5JSM36M36T3Hfigs5JNDCF.JLLPF.JOCIOF%27)~version!%271%27)*%20%20.G**0LSUXRStudio2-%203F_CurvedWall.*49Name15%2F.6*27Stage8source!92SceneF_0G%5CnH2ConJ*6%01JHGF987654320.* -->
+
+</details>
+
+<details>
+
+**<summary>Advanced Sublevel Folder Structure</summary>**
+
+```
+Content/
+└── LSUBaseTemplateProject/
+    ├── Assets/
+    │   ├── Atlases/
+    │   ├── Decals/
+    │   ├── FX/
+    │   ├── Landscape/
+    │   ├── Materials/
+    │   ├── Props/
+    │   ├── Sky/
+    │   └── Textures/
+    ├── Scenes/
+    │   └── SceneName1/
+    │       ├── SceneName1_P
+    │       ├── Sublevels/
+    │       │   ├── SceneName1_Geo_A
+    │       │   ├── SceneName1_Lighting_A
+    │       │   ├── SceneName1_FX_A
+    │       │   ├── SceneName1_Anim_A
+    │       │   ├── SceneName1_Vis_A
+    │       │   └── SceneName1_Caustics_A
+    │       └── Snapshots/
+    │           ├── SNAP_SceneName1_LSUXRStudio_SetupA
+    │           └── SNAP_SceneName1_LSUXRStudio_SetupB
+    ├── Media/
+    │   ├── Bundles/
+    │   ├── Proxies/
+    │   ├── MediaOutputs/
+    │   ├── MediaProfiles/
+    │   └── MediaSources/
+    ├── Sequences/
+    │   ├── Edits/
+    │   └── SN1/
+    │       ├── Takes
+    │       ├── Shots
+    │       ├── Previz
+    │       ├── Techviz
+    │       ├── Edits
+    │       └── Sublevels
+    ├── StageLevels/
+    │   ├── SceneName1_LSUXRStudio
+    │   ├── SceneName2_LSUXRStudio
+    │   └── SceneName3_LSUXRStudio
+    └── Stage/
+        ├── LSUXRStudio_Stage
+        ├── LEDMesh/
+        │   ├── SM_LSUXRStudio_CurvedWall
+        │   ├── M_LSUXRStudio_CurvedWall
+        │   └── T_LSUXRStudio_CurvedWall
+        ├── Config/
+        │   └── NDC_LSUXRStudio
+        ├── LiveLinkPresets/
+        │   └── LLP_LSUXRStudio
+        ├── OCIO/
+        │   └── OCIO_LSUXRStudio
+        └── RemoteControl/
+            └── CP_LSUXRStudio
+```
+
+<!-- https://tree.nathanfriend.io/?s=(%27options!(%27fancy!true~fullPath!false~trailingSlash!true~rootDot!false)~source!(%27source!%279Content%2F8.LSUBaseTemplateProject%2FwAssetZAtlaseZDecalZFX5Landscape5MaterialZPropZSky5Textures%2FwSceneZ71%2FQ71_P%23%2F*41_GeoJLightingJFXJAnimJVisJCaustics_AQSnapshots%2FKAKBwY5BundleZProxieZYOutputZYProfileZYSources%2FwSequenceZEditZSN1%2FQTakesQShotsQPrevizQTechvizQEdits%23wStageLevels8%204108%204208%20430wStage*9%22_Stage*9LEDMeshQSMH.MH.TH9ConfigQNDC0*9LiveLinkPresetsQLLP0*9OCIOQOCIO0*9RemoteControlQCP0%27)~version!%271%27)*8666.690_%2246.75%2F*96%20%207SceneName8%5Cn9-%20H0_CurvedWall*J_A*41_K*6.SNAP_710_SetupQ*.YMediaZs5w86.%22LSUXRStudio%23QSublevels%01%23%22wZYQKJH9876540.* -->
+
+</details>
+
+3. Enable Plugins.
+
+## Creating Wall Geometry
+
+1. Create wall in DCC
+1. Import into project
+
+## 
 
 
 # Original Guide
