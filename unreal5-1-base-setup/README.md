@@ -45,7 +45,7 @@ Place them in the project folder under a new directory called `Plugins`.
 
 Open up **Edit | Plugins** and enable the **ICVFX** plugin. This plugin is a collection of other virtual production related plugins that are needed.
 
-Also double check that the following plugins are enabled: **LiveLink XR**, **LONET2 Plugin**, **OptiTrack - Live Link**, and **OptiTrack - Streaming Client**. They should be already enabled since they are included in the Plugins director.
+Also double check that the following plugins are enabled: **LONET2 Plugin**, **OptiTrack - Live Link**, and **OptiTrack - Streaming Client**. They should be already enabled since they are included in the Plugins director.
 
 You will need to restart the engine for this to take place.
 
