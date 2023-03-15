@@ -24,7 +24,7 @@ Content/
 
 > **Note**
 > 
-> Based on the complexity of the project you may choose to use a more detailed folder structure such as one of these.
+> Based on the complexity of the project you may choose to use a more detailed folder structure such as one of these. The idea here is that sublevels are used to seperate content. For instance, in the "Basic Sublevel Folder Structure" below **LSUXRStudio_Stage** is a sublevel of **SceneName1**. In the "Advanced Sublevel Folder Strucutre" **LSUXRStudio_Stage** *and* **SceneName1_P** are sublevels of **SceneName1_LSUXRStudio**.
 > 
 > <details>
 > 
