@@ -9,6 +9,7 @@ This guide goes over a production organization and workflow for ingesting media 
 * Blackmagic Proxy Generator 
 
 ## Folder Structure
+These steps go over downloading the folder structure for a video production.
 
 [<img src=images/folder-structure-yt.png width=500>](https://www.youtube.com/watch?v=BpPimhz_qJ4)
 
@@ -27,6 +28,8 @@ This guide goes over a production organization and workflow for ingesting media 
 4. To read more about the way this folder structure works read the contents of the README's from here: [https://github.com/lsuxrstudio/production-template](https://github.com/lsuxrstudio/production-template). 
 
 ## Ingesting Footage
+
+
 
 ## Making Proxies
 
