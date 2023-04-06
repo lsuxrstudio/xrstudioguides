@@ -114,6 +114,15 @@ The following goes over how to create a new switchboard configuration.
 
 - If unreal freezes when launching on the render node try building the change list first on the render node in switchboard. Should probably add this as a step up above.
 
+##### Symptoms
+Switchboard gives a socket error when trying to sync changes.
+
+##### Cause
+Switchboard listener isn't running
+
+##### Resolution
+Open up Switchboard Listener by double clicking its icon on the desktop.
+
 #### Resources
 
 [In-Camera VFX Quick Start](https://docs.unrealengine.com/5.0/en-US/in-camera-vfx-quick-start-for-unreal-engine/)
