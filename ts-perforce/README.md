@@ -1,6 +1,16 @@
 # Perforce Troubleshooting
 
 ### Symptoms
+Sometimes you add files to a changelist and want to remove them without affecting the files
+
+### Resolution
+- Open a command prompt
+- Use the following command `p4 revert -k -c default //...` if the files are on the default changlist
+- If they're on a numbered changlist you can use `p4 revert -k -c CHANGELIST# //...`
+
+---
+
+### Symptoms
 Unreal tells you it can't save a file.
 
 ### Resolution 1
@@ -60,24 +70,13 @@ Getting latest from p4 doesn't download all of the files.
 ### Resolution
 Open a command prompt and `cd` into your workspace directory and run `p4 sync`
 
-# Switchboard Troubleshooting
+---
 
 ### Symptoms
 You cannot save a level while in Unreal 
 
 ### Resolution
 Run **Task Manager** and look for stray **Unreal** instances that are still around.
-
----
-
-### Symptoms
-Switchboard gives a socket error when trying to sync changes.
-
-### Cause
-Switchboard listener isn't running
-
-### Resolution
-Open up Switchboard Listener by double clicking its icon on the desktop.
 
 ---
 
