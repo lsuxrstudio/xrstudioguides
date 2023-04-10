@@ -68,6 +68,7 @@ The following goes over how to migrate your project into the LSUBaseTemplate tha
 
 * If after migrating and launching your project and your ICVFX Camera doesn't connect itself to your Cine Camera Actor (your frustum doesn't move) then try copy/pasting your existing level contents into the template level instead of copy/pasting the nDisplay Config into into your level. 
 
+* If after migrating "Play in Editor" controls don't work, you may need to export control settings from your old project into your new project separately, under Project Settings, Engine, Input.
 ---
 
 | [previous](/README.md)| [home](/README.md) | [next](/README.md)|
