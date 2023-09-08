@@ -275,18 +275,27 @@ Now launch the game from **P4V** by double clicking an launching Unreal from the
 
 ##### Step 13.
 
-If all works well the source control will default to being connected.  Now if not just click on the arrow next to the <kbd>Source Control</kbd> button at the bottom right of the editor. Select **Perforce** and enter the **username** and **Workspace**. Press the <kbd>Accept Settings</kbd> button.
+If all works well the source control will default to being connected. You can also activate Source Control in the Content Browser. To do so, right-click any asset or folder. At the bottom of the context menu, in the Source Control section, click Connect to Source Control.
 
-![set up source control for UE5](images/SetUpSourceControl.png)
+Connect to Source Control
+
+![Connect to Source Control](images/ConnectToSource.png)
+
+This will open a log-in screen where you can select your source-control system and enter any appropriate settings and other information.
+
+Source Control Login
+
+![Source Control Login](images/SourceControlLogin.png)
+
+Enter the appropriate information, and click Accept Settings. After source control is activated, the display of the assets in the Content Browser will change to reflect their source-control status, and some source-control options will be included on the right-click context menu.
 
 
 
-##### Step 14. :small_blue_diamond: 
+##### Step 14.
 
 Now you will create two folders `Stage` and `Scenes`.  The stage folder will have all the elements we need for our XR stage.  The scenes folder will contain all the scenes we are going to use in this project.  Go back to the top **Content** folder and drag **Main** into the **Scenes** folder.  You will get a warning about moving this level (but since we have done nothing to it it is OK to ignore), press the <kbd>Yes</kbd> button.
 
-![mnove the main scene to Scenes folder](images/moveMainScene.png)
-
+![move the main scene to Scenes folder](images/AddMainFolder.png)
 
 
 ##### Step 15.
@@ -300,17 +309,16 @@ Now when you go to save, if you have not checked out the file you will be prompt
 
 Right-click on the **Content** folder and select **Fix Up Redirectors in Folder**.
 
-![alt_text](images/fixRedirects.png)
-
+![Alt text](images/FixUpFolders.png)
 
 
 ##### Step 17.
 
 Now we want to the source control to check out files as they are being edited.  So this way you don't have surprises after an hour or so working on a level that it is locked and can't be saved.
 
-Go to **Edit | Project Settings** and search for `source control`.  Turn **Automatically Checkout on Asset Modification** to `true`.
+Go to **Edit | Project Settings** and go to the Editor tab, go to the Source control and checked Prompt for checkout on change.
 
-![alt_text](images/autoCheckOut.png)
+![Alt text](images/PromptCheckout.png)
 
 
 
