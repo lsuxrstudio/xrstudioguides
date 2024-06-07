@@ -226,7 +226,7 @@ Double click and run the **SwitchboardListener** shortcut. Now you know if it wo
 
 
 
-##### Step 7.
+##### Step 7. **[You should ask perforce admin for this step]**
 
 OK, we need to quit Unreal and set up a **Perforce Depot** (Project).  Either add to an existing Depot or create a new one in the **Admin** interface.  Use a normal **Local** depot. I called mine `Templates` with a project folder called `LSUBaseTemplate`. 
 
@@ -244,7 +244,8 @@ Now we need to add a `.p4ignore` file.  You can download it here [.p4ignore](../
 
 ##### Step 9.
 
-Now we need to add this new depot to a new or existing workspace. Right lick on the **Workspaces** in **P4V**. Right click on the workspace and select **Edit Workspace 'name of workspace'**. Then a window pops up and select **Include Tree**. Then select <kbd>Get Latest</kbd> button.
+Now we need to add this new depot to a existing workspace. Right click on the **Workspaces** in **P4V**. Right click on the workspace and select **Edit Workspace 'name of workspace'**. Then a window pops up and select **Include Tree**. Then select <kbd>Get Latest</kbd> button. or you can make a new workspace and choose the depot stream that have made for your project.
+
 
 ![add depot to workspace](images/SetDepotToWorkspace.png)
 
