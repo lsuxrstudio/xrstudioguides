@@ -165,7 +165,7 @@ Content/
 
 ![line3](../images/line3.png)
 
-How to create an Unreal project from scratch in Unreal 5.0.X for an in-camera virual production using LSU's equipment in their XR lab in room 1001 at the DMC.
+How to create an Unreal project from scratch in Unreal 5.X.X for an in-camera virual production using LSU's equipment in their XR lab in room 1001 at the DMC.
 
 <br>
 
@@ -179,13 +179,13 @@ How to create an Unreal project from scratch in Unreal 5.0.X for an in-camera vi
 
 ##### Step 1.
 
-Run the **Epic Games Launcher** and run the latest version of Unreal. Selet the **Film / Video & Live Events** project category. Select a **Blank** template. Select a directory to save the project to and give the project a name. I named mine `My Project`.  Select a `Blank` **project**. I selected no **Starter Content** and we will use **Lumen** instead of **Ray Tracing** as no special hardware is required. Press the <kbd>Create</kbd> button. 
+Run the **Epic Games Launcher** and run the latest version of Unreal. Selet the **Film / Video & Live Events** project category. Select a **Blank** template. Select a directory to save the project to and give the project a name. I named mine `My Project`.  Select a `Blank` **project**. I selected **No** **Starter Content** and we will use **Lumen** instead of **Ray Tracing** as no special hardware is required. Press the <kbd>Create</kbd> button. 
 
 ![start game launger and create blank film template](images/CreateProject.png)
 
 ##### Step 2.
 
-We need to download two external plugins. **OptiTrack** for the **Live Link** support in **Motive** that handles camera tracking. For focus we are using **LOLED Indie Mark[]** encoders which require a server to be installed as well as a plugin for Unreal **[Lonet 2 - Live Link](https://loledvirtual.com/documentation/software-downloads/files)**.
+We need to download two external plugins. **[OptiTrack](https://optitrack.com/support/downloads/plugins.html)** for the **Live Link** support in **Motive** that handles camera tracking. For focus we are using **LOLED Indie Mark[]** encoders which require a server to be installed as well as a plugin for Unreal **[Lonet 2 - Live Link](https://loledvirtual.com/documentation/software-downloads/files)**.
 
 ![Download Lonet2](images/DownloadLONET.png)
 
